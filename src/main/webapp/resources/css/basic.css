@@ -1,0 +1,183 @@
+@CHARSET "utf-8";
+
+body {
+	background-color: white;
+}
+
+h1.pretty {
+	color: #ff0000;
+	text-align: center;
+}
+
+.navbar {
+	top: 0; /*Teljesen fent legyen*/
+	left: 0;
+	position: fixed; /*Mindig ott legyen felul*/
+	width: 100%; /*A kepernyo teljes szelessege*/
+	background-color: red;
+	background-image: -moz-linear-gradient(bottom, #ff0000, #000000);
+	/*Ettol lesz atmenet a szinekben Mozillahoz*/
+	background-image: -webkit-linear-gradient(bottom, #ff0000, #000000);
+	/*Ettol lesz atmenet a szinekben Mozillahoz*/
+	background-image: -o-linear-gradient(bottom, #ff0000, #000000);
+	/*Ettol lesz atmenet a szinekben Mozillahoz*/
+	background-image: -ms-linear-gradient(bottom, #ff0000, #000000);
+	/*Ettol lesz atmenet a szinekben Mozillahoz*/
+	min-width: 1000px
+}
+
+.navbarElement {
+	list-style-type: none; /*Pontok eltuntetese a felsorolasbol*/
+	left: 0px; /*Balra igazitas*/
+	color: #ffffff; /*Betu color*/
+	display: inline; /*Egy sorban legyenek*/
+	padding-right: 20px;
+	padding-left: 20px;
+	border-style: none;
+}
+
+.right {
+	float: right; /*Jobbra igazitas*/
+}
+
+.navbarElement>a {
+	color: #C0C0C0; /*Betu szine*/
+	font-weight: bold; /*Felkover betuk*/
+	text-decoration: none; /*Alahuzas eltuntetese*/
+}
+
+#content {
+	margin-top: 70px;
+	margin-bottom: 250px;
+	overflow: auto;
+}
+
+.semester {
+	text-align: center;
+	background: none repeat scroll 0 0 #EFECE6;
+	margin: 5px;
+}
+
+.semester>* {
+	display: inline-block;
+	margin: 15px 1px 15px 1px; /*top, right, bottom, left*/
+}
+
+.dependencyBtn {
+	color: black;
+	border-radius: 20px; /*Sarok lekerekites*/
+	border: 1px solid gray;
+	padding: 4px 8px;
+	font-size: 12px;
+}
+
+.dependencyBtn-standby {
+	background-color: #E6E6E6;
+	background-image: -moz-linear-gradient(top, #ffFFFF, #E6E6E6);
+	background-image: -webkit-linear-gradient(top, #ffFFFF, #E6E6E6);
+	background-image: -ms-linear-gradient(top, #FFFFFF, #E6E6E6);
+	background-image: -o-linear-gradient(top, #FFFFFF, #E6E6E6);
+	background-repeat: repeat-x;
+}
+
+#description {
+	position: fixed; /*Mindig ott legyen felul*/
+	bottom: 0;
+	float: right;
+	padding: 10px;
+	border: 1px solid gray;
+	background-color: white;
+	overflow: auto;
+	height: 200px;
+	width: 98%;
+}
+
+.dependencyBtn-forward99 { /*99 is for onlyRegistration dependencies*/
+	background-color: #4c4cff;
+}
+
+.dependencyBtn-forward-99 { /*-99 is for onlyRegistration forward dependencies*/
+	background-color: yellow;
+}
+
+.dependencyBtn-forward0 {
+	background-color: gray;
+}
+
+.dependencyBtn-forward1 {
+	background-color: #013a03;
+	color: white !important;
+}
+
+.dependencyBtn-forward2 {
+	background-color: #036105;
+}
+
+.dependencyBtn-forward3 {
+	background-color: #048707;
+}
+
+.dependencyBtn-forward4 {
+	background-color: #05ae09;
+}
+
+.dependencyBtn-forward5 {
+	background-color: #1ec822;
+}
+
+.dependencyBtn-forward6 {
+	background-color: #50d453;
+}
+
+.dependencyBtn-forward7 {
+	background-color: #82e084;
+}
+
+.dependencyBtn-forward8 {
+	background-color: #b4ecb5;
+}
+
+.dependencyBtn-forward-1 {
+	color: white !important;
+	background-color: #660000;
+}
+
+.dependencyBtn-forward-2 {
+	background-color: #990000;
+}
+
+.dependencyBtn-forward-3 {
+	background-color: #cc0000;
+}
+
+.dependencyBtn-forward-4 {
+	background-color: #ff0000;
+}
+
+.dependencyBtn-forward-5 {
+	background-color: #ff3232;
+}
+
+.dependencyBtn-forward-6 {
+	background-color: #ff6666;
+}
+
+.dependencyBtn-forward-7 {
+	background-color: #ff9999;
+}
+
+.dependencyBtn-forward-8 {
+	background-color: #ffcccc;
+}
+
+.forKeyki {
+	font-size: 40px;
+	color: pink;
+	margin: 5px;
+	border: 5px solid black;
+}
+
+.errorMsg {
+	font-size: 40px;
+	font-weight: bold;
+}

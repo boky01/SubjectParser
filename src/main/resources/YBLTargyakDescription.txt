@@ -1,0 +1,676 @@
+SGYMTUB2317XA
+Tárgyfelelős: Kulcsár Béla tanársegéd 2/1/0/V/3
+A katasztrófa fogalma és hazánkban lehetséges fajtái, civilizációs katasztrófák: súlyos ipari balesetek, nukleáris-baleset, természeti katasztrófák: hidrológiai katasztrófák, geológiai eredetű katasztrófák (fogalma, az ellenük való védekezés szabályozása, a szabályozás szakmai-műszaki tartalma).
+Irodalom: Szakál B. A katasztrófavédelem alapjai, főiskolai tansegédlet / Telekes G. Geológiai eredetű katasztrófák, szakkönyv / Major J. Vízügyi katasztrófák, szakkönyv / Szakál B. Vegyipari katasztrófák szakkönyv 
+SGYMKOM298XXX
+Tárgyfelelős: Dr. Bogárdi István 2/0/0/F/3
+Oktatási cél: A kockázat és megbízhatóság módszereinek elemzése az építőmérnöki és környezetmérnöki szakterületek gyakorlatához, az alapok elsajátítása. A kurzus követelménye: öt kiadott példa megoldása és házi dolgozatkénti beadása. 
+Tartalom: A kockázat- és megbízhatóság elemzés alapjai: definíciója, elemei, hatásvizsgálat és menedzsment. A kockázat és megbízhatóság valószínűségi vizsgálata és elemzése, második momentumok módszere, nem lineáris teljesítmény függvények, megbízhatósági rendszerek, hibafa, esetfa, dinamikus megbízhatóság, kockázat alapú tervezés, árvízi szabályozás tervezése. 
+Irodalom (ajánlott): Kapur, K.C. and Lamberson L.R. (1977): Reliability in Engineering Design, John Wiley and Sons Publishing Company, New York / Ang, A.H. and Tang, W.H. (1975): Probability Concepts in Engineering Planning and Design. Vol,I.,II. , John Wiley and Sons Publishing Company, New York. / Ganoulis, J. (1991): Risk and Reliability in Water Resources and Environmental Engineering, Springer Verlag. 
+SGYMKOM299XXX
+Tárgyfelelős: Dr. Bogárdi István 2/0/0/F/3
+Oktatási cél: A kockázat és megbízhatóság módszereinek alkalmazása az építőmérnöki és környezetmérnöki szakterületek gyakorlatában, a hallgatók projekt-készítésének és előadókészségének növelésével. A kurzus követelménye: féléves projekt készítése, annak elfogadtatása és előadása választott témakörben. 
+Tartalom: Fuzzy-halmazok: bevezetés, függvények Fuzzy-számokkal, Fuzzy-alapú kockázatok és megbízhatóság számítása, árvízi megelőzés és talajvízáramlási modellek, nitrát okozta rák kockázata, összetett Fuzzy-programozás és alkalmazása.  
+Irodalom (ajánlott): Kapur, K.C. and Lamberson L.R. (1977): Reliability in Engineering Design, John Wiley and Sons Publishing Company, New York / Ang, A.H. and Tang, W.H. (1975): Probability Concepts in Engineering Planning and Design. Vol,I.,II. , John Wiley and Sons Publishing Company, New York. / Ganoulis, J. (1991): Risk and Reliability in Water Resources and Environmental Engineering, Springer Verlag. 
+SGYMTUB2366XA
+Tárgyfelelős: Nagy Béla óraadó 4/2/0/V/7
+Tűzvédelmi alapfogalmak, a tűzveszélyesség jellemzői, tűzveszélyességi osztályok. tűzveszélyességi osztályba sorolás, veszélyességi övezet meghatározása. építmények tűzvédelmi jellemzői, tűzállósági fokozat. épületszerkezetek tűzvédelmi méretetése. tűzterhelés és kiürítés számítás. hő- és füstelvezetés, hasadó, hasadó-nyíló felületek. középmagas, magas épületek tűzvédelme, füstmentes lépcsőházak. Villamos berendezésekre vonatkozó tűzvédelmi szabályok. Gépészeti berendezések tűzvédelme, poros helyiségek tűzvédelme, speciális építmények létesítésének előírásai. 
+Irodalom: Nagy B. Létesítés és használat tűzvédelme, SZIE YMÉK jegyzet 2011. 
+SGYMTUB2447XA
+Tárgyfelelős: Nagy Béla óraadó 1/1/0/F/2
+A használat tűzvédelme: villámvédelem, tárolási módok, tartályok, éghető folyadékok és gázok tárolása, tűzveszélyes és robbanásveszélyes tevékenységek. Számítások a tűzvédelmi méretezés témaköreiből, építmények megtekintése, tűzvé-delmének értékelése, féléves tűzvédelmi tervezési feladatok. 
+Irodalom: Nagy B. Létesítés és használat tűzvédelme, SZIE YMÉK jegyzet 2011. 
+SGYMMET288XXX
+Tárgyfelelős: Dr. Ivits Iván főiskolai docens 0/2/0/F/2
+A hallgató ismerje meg a tartószerkezet-tervezés feladatainak gyakorlati megoldásához szükséges elveket és módszereket, az összetett tartószerkezetek tervezési elveit, a feladatok megoldásának gyakorlati módszereit. Sajátítsa el az egyszerű és az összetett tartószerkezetek tervezése során használt számítási és szerkesztési eljárásokat. Magasépítési tartószerkezetek tervezési elvei, tartószerkezeti váz kialakítása. Terhek és hatások számítása. Tégla főfalas épületek gerendás és monolit vasbeton födémmel. A vasbeton koszorú szerepe és kialakítása. Főállásokkal kialakított és üres fedélszékek tartószerkezeti viselkedésének vizsgálata és azok tervezése. Tetőtér-beépítések tartószerkezeti tervezése. Épületek vízszintes terhekre történő merevítésének szerkezetei. Épületek mozgásai alakváltozások, süllyedések és hőmérsékletkülönbségek hatására. Tartószerkezetek épületmozgásokra történő tervezése. Nagy fesztávolságú, szerelt épületek szállítási és szerelési problémái. Tartószerkezet-tervezési féléves terv készítése. 
+Irodalom: Dr. Ivits Iván főiskolai docens: Tartószerkezetek tervezése. 
+SGYMALT212XXX
+Tárgyfelelős: Dr. Szűcs László PhD egyetemi docens 1/0/2/F/3
+Oktatási cél és Tartalom: Az adatbázis-kezelés és a digitális térkép összekapcsolási lehetőségéből kifejlődött új tudományterület, a térinformatika. Az elméleti órákon a hallgatók megismerkednek a térinformációs rendszerek jellemzőivel, technológiai hátterével, az adatnyerési eljárásokkal és adatforrásokkal, a rendszerekben való műveleti lehetőségekkel. A geometriai adatnyerési eljárások a többinél bővebben kerülnek tárgyalásra, így a GPS-helymeghatározás, valamint a távérzékelés. Az elméleti anyag megértését számítógépes laboratóriumi gyakorlatok segítik elő. 
+Irodalom: KOVÁCS ZOLTÁN: A térinformatika alapjai, SZIE YMMFK, Budapest, 2005. / DETREKŐI ÁKOS – SZABÓ GYÖRGY: Bevezetés a térinformatikába, Nemzeti Tankönyvkiadó, Budapest, 2002. 
+SGYMTUB295XXX
+Tárgyfelelős: Dr. Szakál Béla PhD főiskolai tanár 1/1/0/F/3
+Oktatási cél: A tantárgy célja a tűzvédelem alapjainak bemutatása az építész-, építőmérnök és műszaki menedzser hallgatók számára,  hogy  megfelelő  elméleti  és  gyakorlati  alapokkal  rendelkezzenek  a  tűzvédelem építészeti és mérnöki tervezést, a kivitelezést és a beruházásokat érintő kérdéseiről. A tárgy bevezetést nyújt a tűzvédelemben dolgozó szakemberek feladatköreibe, az égéselméletbe, az anyagok és szerkezetek éghetőségébe, a tűzvédelmi szabályzatokba és azok alapelveibe, a létesítés és megelőző  tűzvédelem  szabályaiba és  eszközeibe, a mentő  tűzvédelem eszközeibe és módszereibe, a tűzvizsgálatba, továbbá a katasztrófavédelem feladataiba. 
+Irodalom: Országos Tűzvédelmi Szabályzat 2008. [9/2008. (II.22.) ÖTM-rendelettel közzétéve] / Balogh I.: Tűzkatasztrófák, Fimcoop, 1993. / Csepregi Cs.: Tűzjelző rendszerek. Florian Press Kiadó, 2001. / Sági J.: A tűzvizsgálat államigazgatási szabályok szerinti lefolytatása. Print-Ker. 1997. / Parlagi  G.:  A  tűzvédelmi  osztályozási  rendszer  új  európai  uniós  vizsgálati  módszerei.  ÉMI  Kht. / Tűzvédelmi Tudományos Osztály, In: Építési Piac, 2005. 2. sz. / Szakál B.: Polgári védelem, YMMF jegyzet. / Takács L.: Tűzszakaszok kialakítás és térbeli elválasztása, BME, 2009. / Zelenák M.: Tűzoltás-taktikai alapelvek. Tankönyvkiadó, 1990 J15-555. 
+SGYMASZ2021XA
+Tárgyfelelős: Dr. Bölcskei Attila PhD főiskolai tanár 1/2/0/F/4
+Oktatási cél: A térbeli formák és azok összefüggéseinek felismerése. Térszemlélet fejlesztése, konstruktív térszemlélet kialakítása. A mérnöki gyakorlatban előforduló problémák geometriai megfogalmazása és azok szerkesztő-rajzolással való kivitelezése. 
+Tartalom: Képalkotási módszerek. Axonometrikus ábrázolás elemei. Két képsíkos ábrázolás elemei. Térelemek, síklapú és egyszerű görbelapú testek ábrázolása. Képsík-transzformáció és alkalmazásai. Metszési feladatok; síklapok és poliéderek egyszerű áthatásai. Görbe vonalak (kör) ábrázolása, kúpszeletek. Gömb, henger és kúp egyszerű metszetei, áthatásai. A mérőszámos ábrázolás alapjai. 
+Irodalom: Kólya D.: Ábrázoló geometria, Kólya D.: Geometria III., Pethes E.: 222 ábrázoló geometriai feladat, Bancsik Zs.- Juhász I.- Lajos S.: Ábrázoló geometria szemléletesen (elektronikus jegyzet), www.asz.ymmf.hu/geometria (elektronikus jegyzet) 
+SGYMLEK2817XA
+Tárgyfelelős: Hajdók Ibolya nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2827XA
+Tárgyfelelős: Hajdók Ibolya nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2897XA
+Tárgyfelelős: Richard Mann angol nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2907XA
+Tárgyfelelős: Richard Mann angol nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2877XA
+Tárgyfelelős: Richard Mann angol nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2887XA
+Tárgyfelelős: Richard Mann angol nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMKOM241XXX
+Tárgyfelelős: Kecskés Gábor főiskolai tanársegéd 2/0/0/V/3
+Térfogatváltozó-roskadó-szerves-feltöltött talajok vizsgálata sík és mélyalapok alkalmazhatóságának feltételei. Bekövetkezett károk ismertetésével a károk elleni védekezés bemutatása. Építmények károsodásának vizsgálata. Alapozási megoldások bemutatása. 
+Irodalom: Szepesházi R: Geotechnika / Bartos-Králik: Geotechnika II., Geotechnikai III. / Rétháti L.: Altalaj eredetű épületkárok 
+SGYMKOM297XXX
+Tárgyfelelős: Bartók Miklós főiskolai adjunktus 2/0/0/F/3
+SGYMLEK289XXX
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMKOM2356XA
+Tárgyfelelős: Dr. Molnár Ildikó PhD adjunktus 3/0/0/V/3
+Az épületgépészet tárgya, feladatai, rendszerei. Épületek vízellátása, csatornázása, gázellátása és hő-ellátása. Csatlakozás külső hálózatokhoz. A hálózatok kialakításának szempontjai. Fűtés, szellőzés, klimatizáció kialakításának alapelvei. Igények közműellátással szemben és közműellátás adta kötöttségek megismertetése. 
+Irodalom: Épületgépészet I-II. Műszaki Könyvkiadó, Budapest / Dr. Menyhárt József: Épületgépészet Kézikönyv, Műszaki Könyvkiadó, Budapest 1978. / Épületgépészet a gyakorlatban – Kézikönyv épületgépészeti tervezéshez, kivitelezéshez, szerkesztő: Dr. Bánhidi László 
+SGYMMET2828XA
+Tárgyfelelős: Dr. Fischer János István főiskolai docens 2/0/0/F/2
+Oktatási cél: Európa 2000 éves szellemi hagyományának ismerete az értelmiségi ember tájékozódásának és a társadalom egészséges fejlődésének alapvető feltétele. Hallgatóink ismerjék meg társadalmi, kulturális, vallási örökségünk gyökereit, a Biblia felépítését, az egyes könyvek keletkezésének történelmi hátterét, a szövegek eredetét és áthagyományozását, a könyvek tartalmát és üzenetét. 
+Tartalom: A Biblia fogalma, könyveinek eredete és keletkezése, a kánon fogalma, a Biblia fordításai és szövegtanúi. Izrael népének ókori története és az Ószövetség könyveinek keletkezése, a könyvek felépítése, csoportosítása és tartalma. Az Újszövetség könyveinek keletkezése, a könyvek csoportosítása és tartalma. 
+SGYMLEK288XXX
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK281XXX
+Tárgyfelelős: Richard Mann angol nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMTUB238XXX
+Tárgyfelelős: Dr. Kerekes Zsuzsanna főiskolai docens 2/0/1/V/3
+Termodinamikai rendszerek, alapfüggvények, mennyiségek, hőmérsékleti jellemzők, a hőmérséklet mérése, A gázállapot, gáztörvények, Belső energia, entrópia, entalpia, a Gibbs féle potenciál. A kémiai folyamatok termodinamikai függvényei. A halmazállapot változások, a termodinamika főtételei. A tömegtranszport, a diffúzió törvényei. Hőtranszport, stacionárius hőveze-tés. A hősugárzás alaptörvényei. Hőátadás, teljes hőátmenet. 
+Irodalom: Beda L. Égés és oltáselmélet I. főiskolai jegyzet 
+SGYMTUB239XXX
+Tárgyfelelős: Dr. Beda László PhD főiskolai tanár 1/0/2/V/3
+Az égés és a tűz. Alapfogalmak, jellemző paraméterek. Az égés fizikai kémiája. A gázok égése. A gáz – levegő elegyek meggyulladása. Az előkevert lángok szerkezete, hőveszteségek. Égési sebesség és mérése. Diffúziós, lamináris és turbulens lángok. Természetes tüzek. A folyadékok, gyulladás, gyújtás, égés, lángterjedés. Elméleti modellek. Szilárd anyagok égése, önmelegedés, öngyulladás, gyújtás, stacioner égés, füstfejlődés, füstmozgás. Égés zárt térben, flashover. 
+Irodalom: Beda L. Égés és oltáselmélet II. főiskolai jegyzet 
+SGYMTUB240XXX
+Tárgyfelelős: Dr. Beda László PhD főiskolai tanár 2/2/0/V/5
+A tűz oltásának termodinamikája. Oltás vízzel: fáklyaláng, folyadékok és szilárd anyagok oltásának vízszükséglete. Oltás porral, oltás gázokkal Az oltóhatások mechanizmusai. A halonok (elmélet, gyakorlati problémák). A habbal oltás elméle-te, habok minősítése, fajtái. Műanyagok, textíliák és a fa égése, égéskésleltetése (égésük elméleti kérdései, éghetőségi jellemzőik, égéskésleltetés) 
+Irodalom: Beda L. Égés és oltáselmélet II. főiskolai jegyzet 
+SGYMKOM281XXX
+Építésföldtan: SGYMKOM281XXX
+Tárgyfelelos: Elek Barbara PhD egyetemi docens 2/0/0/F/2
+Mérnöki létesítmények és a földtani környezet kölcsönhatásai. A Föld övezetes felépítése. A földet alakító külso és belso erok. Kozetképzo folyamatok. Kozetosztályozás. Felszínmozgások okai és fajtái. A felszínmozgások elleni védekezés lehetoségei. Építésföldtani térképezés.
+Irodalom: Bartos Sándor - Králik Béla: Mélyépítés I. Építésföldtan-Talajmechanika.
+Mérnökgeológia: SGYMKOM282XXX
+Tárgyfelelos: prof. dr. Telekes Gábor PhD foiskolai tanár 2/0/0/F/2
+Mérnöki létesítmények és a földtani környezet kölcsönhatásai. A Föld szférikus felépítése. A földet alakító külso és belso erok. Felszínközeli mozgások. Kozetképzo folyamatok. Kozetosztályozás. Mérnökgeológiai térképezés.
+Irodalom: Bartos Sándor - Králik Béla: Mélyépítés I. Építésföldtan-Talajmechanika. / Hartai Éva: A változó Föld.  
+SGYMKOM284XXX
+Tárgyfelelős: Firgi Tibor adjunktus 2/0/0/F/3
+A mérnöki tudomány fejlődésének áttekintése, a történelem során létrehozott nagy mérnöki alkotások ismertetése. A ma alkalmazott korszerű építéstechnológiák kialkulásának áttekintése, a jelen és a közelmúlt közmű és mélyépítési létesítményein keresztül. Munkahelylátogatás. 
+Irodalom: Szakcikkek / az oktató által kiadott anyagok 
+SGYMASZ206XXX
+Tárgyfelelős: Dr. Nagy Gyula PhD főiskolai tanár 0/2/0/F/2
+Oktatási cél: A vizuális kommunikáció nyelvrendszerének alapvető ismerete. A térszemlélet, a téri tájékozódó, valamint a térkifejező és alakító képesség fejlesztése. 
+Tartalom: Egyszerű és összetett mértani alakzatok látszati képe, ezek térben elfoglalt és egymáshoz viszonyított helyzetének elemzése, szemlélet utáni ábrázolása. Vetületi képeivel megadott mértani alakzatok rekonstrukciója. Függőleges és vízszintes helyzetű kör látszati képe, forgásfelületek ábrázolása. Különböző tárgyak szerkezetét és térbeli kapcsolódásokat elemző rajzok készítése. A térhatások érzékeltetése eltérő tónusfokozatokkal. 
+Irodalom: Baticz Levente: Rajzolási ismeretek (Nemzeti tankönyvkiadó, Budapest) 
+SGYMMAG281XXX
+Tárgyfelelős: Prof. dr. Klein Rudolf DSc egyetemi tanár 2/0/0/F/3
+Oktatási cél: Funkció és forma egymásra hatása a szerkezetek függvényében. Az építészet alapvető szerkezeteinek és formáinak megismerése és az európai építészetre olya nagy hatást gyakorló antik görög és római formakincs megtanulása és begyakorlása rajzfeladatokon keresztül. Felmérés és szabadkézi rajztanulás és makett készítés elsajátítása. 
+Tartalom: Építészettörténet - Ókor. Bevezetés az építészetbe, az építészeti hatáskeltés elemei. A nomád népek "építészete", 
+építészet építészek nélkül: a különböző építőanyagok, táji, éghajlati viszonyok hatása a Föld különböző részein az ösztönös építészetre. Az ókori kelet építészete: ízelítő a különböző kultúrák történetéből, vallásából, földrajzi adottságaiból, képző- és iparművészeti eredményeiből. Mezopotámia, Egyiptom és az Égeikum ókori építészete. Az ókori nyugat építészete: görögök, rómaiak, az ókeresztény és a korai bizánci építészet. 
+Irodalom: MAJOR MÁTÉ: Építészettörténet I-II-III. Építésügyi Kiadó, Budapest, 1954-60. / SZENTKIRÁLYI ZOLTÁN – DÉTSHY MIHÁLY: Az építészet rövid története I-II. Műszaki Könyvkiadó, Budapest, 1994. / WILFRIED KOCH: Építészeti stílusok. Officina Nova Könyvek – Magyar Könyvklub, Budapest, 1997. / ISTVÁNFI GYULA: Az építészet története – Őskor. Népi építészet. Nemzeti Tankönyvkiadó, Budapest, 1997. / HAJNÓCZY J. GYULA: Az építészet története – Ókor I-II. Nemzeti Tankönyvkiadó, Budapest, 1991. / SZILY IMRE BALÁZS: Magasépítés segédlet. YMMF, Budapest, 1992. (173) / SZILY IMRE BALÁZS: Segédleti munkalapok. YMMF, Budapest, 1992. (75) 
+SGYMMEN207XXX
+Tárgyfelelős: Dr. Hajdu Miklós PhD főiskolai tanár 1/2/0/F/3
+Oktatási cél: Az építőipari beruházási folyamatban szereplő résztvevők együttműködési területeinek megismerése. Az egyes résztvevők hatósági, ügyviteli, műszaki feladatainak elsajátítása a minőség biztosítása, pénzügyi felügyelet, garanciális kötelezettségek vállalására való tekintettel. 
+Tartalom: Az építési beruházási folyamatok ismertetése, résztvevők és azok feladatainak elemzése. Pályáztatási rendszerek a tervezés és kivitelezés során az ajánlatkérés alapjául szolgáló dokumentációk összeállítása, pályázatok értékelési módjai. Kivitelezési folyamatot megelőző és befejező ügyviteli feladatok. A vállalási ár és a műszaki tartalom folyamatos követésének gyakorlati lehetőségei. A minőségbiztosítás és finanszírozás kérdései. Kitekintés az európai országok beruházási gyakorlatára. Hasonlóságok és eltérések elemzése. 
+Irodalom: ANDOR BÉLA ET AL.: Építési műszaki ellenőrök kézikönyve. Terc Kft., Budapest, 2001. 
+SGYMMEN2046XA
+Tárgyfelelős: Dr. Hajdu Miklós PhD főiskolai tanár 1/2/0/V/4
+Oktatási cél: Az időbeli szervezési módszerek ismeretében az építkezések megvalósítási terveinek elkészítésében a legmegfelelőbb tervezési technikát tudja alkalmazni a hallgató. A megvalósulási terv készítésénél a minőségre és a biztonságtechnikai előírásokra biztosítékot adjon a terv. 
+Tartalom: A hallgatók megismerkednek a korszerű időbeli szervezési technikákkal, a CPM, MPM és szalagszerű szervezési módszerek alkalmazási lehetőségeivel. Vizsgálják, hogy az időbeli szervezés milyen módon hat az erőforrás ütemtervekre a gazdaságossági vizsgálatok függvényében, milyen módon hat a szervezetek pénzügyi ütemezése a megvalósíthatóságra. Ismeretet szereznek a legfontosabb építési technológiákról. 
+Irodalom: Dr. Hajdu Miklós PhD főiskolai tanár PhD-Klafszky Emil: Hálós tervezési technikák az építés tervezésében és irányításában; Műegyetemi Kiadó, Bp. 1994 
+SGYMALT2012XA
+Tárgyfelelős: Dr. Takács Márton PhD főiskolai tanár 2/0/2/V/4
+Oktatási cél: Az alapvető építőanyagok tulajdonságainak és vizsgálati módszereinek megismerése. A beton összetevőinek, tervezésének, készítésének és vizsgálatának részletes és gyakorlati tárgyalása.  
+Tartalom: Az építőanyagok fizikai, mechanikai, kémiai és időállósági tulajdonságai általában, majd anyagonként részletezve. A tulajdonságok megismeréséhez szükséges alapvető kémiai ismeretek. A korrózió és a korrózió elleni védelem elektrokémiai alapjai. Az anyagok és termékek vizsgálatának elvei, vizsgálati eredmények értékelése, különös tekintettel a statisztikai módszerekre, valamint az anyagok és termékek minősítése. A hangsúly a tulajdonságok megismerésén van, a felhasználó szemszögéből nézve és a felhasználót segítve. Az egyes anyagok és termékek tárolásának és szállításának, állagmegőrzésének feltételei, valamint az átvétel követelményei. A termékek legjellemzőbb tulajdonságainak megismerése oktatófilmek, vizsgálatok, mérések, feladatok végzése kiscsoportos gyakorlati foglalkozásokon történik, a gyakorlati termekben, vagy az anyagvizsgáló laboratóriumban. A kötőanyagok, adalékanyagok, betonadalékszerek és kiegészítőanyagok, a betonok összetételének meghatározása és készítése, a betonok környezeti hatásoknak való megfeleltetése a fentieken túl részletesen tárgyalt témakörök. 
+Irodalom: BÁLINT JULIANNA: Építőanyagok I., SZIE YMMFK, Budapest, 2005. / BÁLINT JULIANNA: Építőanyagok I. Gyakorlati segédlet és munkafüzet, SZIE YMMFK, Budapest, 2006. 
+SGYMALT2023XA
+Tárgyfelelős: Dr. Kászonyi Gábor PhD főiskolai tanár 1/0/2/V/4
+Oktatási cél és Tartalom: A természetes és mesterséges kövek, a fa, az acél, a kerámiák, a hő- és vízszigetelő anyagok, az üveg és a műanyagok a részletesen tárgyalt témakörök. Az építőanyagok és építési termékek fizikai, mechanikai, kémiai és időállósági tulajdonságai anyagonként részletezve. A építési termékek előállítási módszerei, esetleges további feldolgozásuk és alakításuk, azért, hogy az egyes tulajdonságok befolyásolása, javítása, illetve figyelembevétele a beépítés és karbantartás során világos és érthető legyen. A hangsúly a tulajdonságok megismerésén van, a felhasználó szemszögéből nézve és a felhasználót segítve. Az egyes termékek jellegzetes képviselői és a legismertebb márkanevek. A termékek legjellemzőbb tulajdonságainak megismerése, termékbemutatók, oktatófilmek, vizsgálatok, mérések, feladatok végzése kiscsoportos gyakorlati foglalkozásokon történik, a gyakorlati termekben, vagy az anyagvizsgáló laboratóriumban. 
+Irodalom: BÁLINT JULIANNA: Építőanyagok II., SZIE YMMFK, Budapest, 2005. / BÁLINT JULIANNA: Építőanyagok II. Gyakorlati segédlet és munkafüzet, SZIE YMMFK, Budapest, 2007. 
+SGYMALT281XXX
+Tárgyfelelős: Dr. Bálint Julianna PhD főiskolai tanár 1/0/1/F/2
+Oktatási cél: A korszerű és legújabb építőipari anyagok és termékek, valamint a hozzájuk kapcsolódó beépítési technológiák és felhasználási sajátosságok megismerés.  
+Tartalom: Korszerű anyagok, alkalmazási technológiák és vizsgálati módszerek a betontechnológia, a felületképzés, a fémek és a kerámiák területén. A tantárgyat a tanszéki munkatársakon kívül meghívott előadók oktatják, akik a szakma elismert, nagy oktatási tapasztalatú képviselői, közismert, élenjáró építőanyaggyártó-forgalmazó cégek munkatársai, vagy az adott témakör szakértői. A témakörök évente módosulnak, az adott félév oktatóit és témaköreit a tanszéki honlapon ismertetjük. 
+Irodalom: Előadások anyaga, kiadott termékismertetők, segédanyagok 
+SGYMASZ282XXX
+Tárgyfelelős: Katona János főiskolai adjunktus 2/0/0/F/3
+Oktatási cél: Építőmérnöki gyakorlatban elterjedt egzakt ábrázolási módszerek megismertetése és alkalmazása. Önálló alkotó, tervszerű, pontos és igényes mérnöki munkára nevelés. 
+Tartalom: A mérőszámos ábrázolás alapjai, egyenesek, síkok és kölcsönös helyzeteik. Méretes feladatok. Terepfelületek ábrázolása és nevezetes pontjai, vonalai. Plató és különféle utak építése terepen. Csőhálózatok tervezése. Felületek kifejtése; modellezés. Egyéb vetítési módszerek. 
+Irodalom: Kólya D.: Ábrázoló geometria, Kólya D.: Geometria III., Bancsik Zs.- Juhász I.- Lajos S.: Ábrázoló geometria szemléletesen (elektronikus jegyzet) 
+SGYMMET282XXX
+Tárgyfelelős: Dr. Ijjas György Sándor főiskolai docens 2/0/0/F/3
+Lokális és globális viselkedés. Többszintes épületek statikai viselkedése. „Pontos” és közelítő módszerek. Az épület nyírásközéppontja. A helyettesítő tartó előállítása. Összegzési tételek. Stabilitásvizsgálat koncentrált tetőteherre és födémenként egyenletesen megoszló teherre. Dinamikai vizsgálat: az épület legkisebb sajátfrekvenciája. Szilárdsági vizsgálat. Az épület elcsavarodása és maximális tetőponti eltolódása. Az épület biztonsági tényezője. Hatékony merevítőrendszer kialakítása. 
+Irodalom: Zalka Károly: Épületek komplex statikai vizsgálata. ISBN 978-963-269-089-6. Budapest, 2008. / Kollár Lajos – Zalka 
+Károly: A mérnöki stabilitáselmélet különleges problémái (7. fejezet: Épületek merevítése.) Szerkesztette Kollár Lajos. Akadémiai Kiadó, Budapest, 1991, 464–525 oldal. Második kiadás: 2006. 532-571 old. / Kollár Lajos – Nédli Péter: Tartószerkezetek tervezése. 5.3 fejezet: épületek merevítése. Műegyetemi Kiadó, 2002, 69-86. oldal. / Freund Péter: Segédletek a mechanika és tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008. 
+SGYMMEN281XXX
+Tárgyfelelős: Dr. Walz Géza PhD egyetemi tanár 2/0/0/F/3
+Oktatási cél: Megismertetni a hallgatókkal a munkával kapcsolatos tényezők embercentrikus szemléletét, a munkavédelmi előírásokat. 
+Tartalom: Az ember és környezet hatása, megterhelések, igénybevételek, pszichológiai elfáradás, monotónia. Az egészséges és biztonságos munkahely kialakítása, pl. a képernyős munkavégzés. Színdinamika, a bútorokkal szemben támasztott követelmények. A munkavédelmi szabályok, kockázatértékelés, a gépek biztonságtechnikája, a munkavédelmi oktatás. 
+Irodalom: vonatkozó jogszabályok 
+SGYMMET2838XA
+Tárgyfelelős: Dr. Fischer János István főiskolai docens 2/0/0/F/2
+Oktatási cél: A személyes ember életét rendező szempontok és elvek, a társadalom szerkezetét alakító és működését szervező szabályok az európai kultúra 2000 éves hagyományában gyökereznek. Hallgatóink ismerjék meg az erkölcsi gondolkodás fogalmát, alapelveit, hagyományos irányzatait és mai megfogalmazásait. Merítsenek gondolatokat és indítékokat saját szempontjaik elmélyítéséhez, viselkedésük és gondolkodásuk továbbformálásához. 
+Tartalom: Az erkölcs fogalma, étosz, etikett és erkölcsi nevelés. Az erkölcsi gondolkodás filozófiai alapjai. Az erkölcs és a szabadság viszonya, a személyes ember erkölcsi alapállásai. Az etika történeti változásai és állandó mozzanatai. Erkölcsi alapvetés szükségessége a XXI. század kihívásaival szemben. 
+SGYMKOM215XXX
+Tárgyfelelős: Prof. em. Dr. Sámsondi Kiss György főiskolai tanár 2/0/0/F/1
+Az Európai Unió létrejötte, felépítése, szervezetrendszere. Az EU szabályrendszere és döntéshozatali eljárásai. Az EU főbb szakpolitikái: fenntartható fejlődés, környezetvédelem, regionalizmus, mezőgazdaság, közlekedés, tudomány és kutatás. 
+Irodalom: Horváth Zoltán: Kézikönyv az Európai Unióról; Kengyel Ákos (szerk.): Az Európai Unió közös politikái 
+SGYMLEK291XXX
+Tárgyfelelős: Benjamin John Norris angol nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMMET206XXX
+Tárgyfelelős: Dr. Szalai József András PhD főiskolai adjunktus 2/2/0/V/5
+Az acél szerkezeti anyagok mechanikai jellemzői és azok kiválasztása. Csavaros és hegesztett kapcsolatok méretezése. Acélszerkezetek méretezése elemi és összetett igénybevételekre. Csarnokszerkezetek, acélvázas épületek. Acélszerkezetek korrózió- és tűzvédelme. A fa szerkezeti anyag jellemzői és mechanikai tulajdonságai. Fa tartószerkezetek méretezése elemi igénybevételekre. Fakötések és kapcsolatok. Faanyagú kisegítő szerkezetek (zsaluzatok, állványok). A faanyag védelme károsítók és tűz ellen. 
+Irodalom: Molnár István – Szűcs Sándor – Szabó Lászlóné: Tartószerkezetek II. Fa- és acélszerkezetek. Tankönyvkiadó, Budapest. (J15-554) / Ijjas György – Szabó Lászlóné: Tartószerkezeti példatár II. kötet. Fa és acélszerkezetek. YMÉMF, Budapest. (260) / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008 
+SGYMMET2316XA
+Tárgyfelelős: Dr. Szabó Lászlóné főiskolai docens 2/3/0/V/5
+Szerkezeti elemek stabilitásvesztési jelenségei. A szerkezeti csomópontok, kapcsolatok kialakításának hagyományos és korszerű megoldásai. Gyártás és szereléstechnológia. A szerkezetek védelme faanyagrongáló, korrodáló hatások ellen. A tűzvédelem eszközei. Központosan nyomott rudak, elcsavarodó kihajlás. Hajlított tartók tervezése, kifordulás, horpadás. Rácsos tartók, merevítések. Acélszerkezet-gyártás, hegesztéstechnológia. Szegezett, szeglemezes és ragasztott fatartók. Molnár I. – Szűcs S. – Szabó L.: Tartószerkezetek II. Fa- és acélszerkezetek. Tankönyvkiadó, Budapest. (J15-554) / Ijjas György – Szabó Lászlóné: Tartószerkezeti példatár II. kötet. Fa és acélszerkezetek. YMÉMF, Budapest. (260) / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008. 
+SGYMLEK2857XA
+Tárgyfelelős: Hajdók Ibolya nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2867XA
+Tárgyfelelős: Hajdók Ibolya nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2858XA
+Tárgyfelelős: Dr. Lengyel András nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2868XA
+Tárgyfelelős: Dr. Lengyel András nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2837XA
+Tárgyfelelős: Hajdók Ibolya nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2847XA
+Tárgyfelelős: Hajdók Ibolya nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2838XA
+Tárgyfelelős: Dr. Lengyel András nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2848XA
+Tárgyfelelős: Dr. Lengyel András nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMALT207XXX
+Tárgyfelelős: Dr. Kovács Zoltán PhD főiskolai tanár 1/0/2/F/3
+Oktatási cél és Tartalom: A tantárgy keretében a hallgatók megismerkednek a helymeghatározás tudományával, a geodéziával. A nehézségi erőtér és a Föld alakjának megismerését követően az egyes geodéziai (szögtartó) vetületeket tárgyaljuk. Az ezt követő témakörök sorrendben: A teodolit felépítése, leolvasó berendezések, vízszintes szögmérés, magassági szögmérés, a geodézia alapfeladatai, alappont-meghatározási eljárások és számítások, elektronikus és optikai tachiméterek, részletmérési eljárások. Az elméleti anyag megértését sok műszerismereti, méréstechnikai és számítási gyakorlat segíti elő. 
+Irodalom: BATIZ ZOLTÁNNÉ – TOKODY ANDRÁS: Geodézia, Nemzeti Tankönyvkiadó, Budapest, 2005. / KOVÁCS ZOLTÁN – TOKODY ANDRÁS: Geodéziai alapismeretek példatár, SZIE YMMFK, Budapest, 2004. 
+SGYMALT208XXX
+Tárgyfelelős: Dr. Kovács Zoltán PhD főiskolai tanár 1/0/2/V/3
+Oktatási cél és Tartalom: A tantárgy folytatása a Geodézia I. tárgynak. Főleg a magasság fogalma és annak mérése kerülnek előtérbe, úgymint a szintezőműszerek fajtái és felépítésük, a műszerhibák és azok ki-igazítása, a magassági alappontok fajtái, a vonalszintezés, a területszintezés, a hossz- és keresztszelvény szintezés, a trigonometrikus magasságmérés, épületen belüli szintezési eljárások. Ezt követően az építőipari kitűzési eljárásokkal, végül a földmérés hatósági vonatkozásaival, a földhivatalok tevékenységével és az ingatlanrendezés elemeivel ismerkedhetünk meg. 
+Irodalom: BATIZ ZOLTÁNNÉ – TOKODY ANDRÁS: Geodézia, Nemzeti Tankönyvkiadó, Budapest, 2005. / KOVÁCS ZOLTÁN – TOKODY ANDRÁS: Geodéziai alapismeretek példatár, SZIE YMMFK, Budapest, 2004. 
+SGYMALT928XXX
+Tárgyfelelős: Dr. Szűcs László PhD egyetemi docens 0/0/0/F/3
+Oktatási cél és tartalom: A tantárgy a Geodézia I. és Geodézia II. tárgyakban oktatott ismeretanyag készségszintté fejlesztését hivatott elősegíteni. A hallgatók kis csoportokban egy viszonylag nagy (4–5 hektár) terület tervezési térképét készítik el. Ehhez alappont-meghatározási tervet készítenek, majd az alappontok észlelési és számítási feladatait (lehetőség szerint egyénileg) végzik el. Az alappontokra támaszkodva részletmérést végeznek, majd ennek alapján szintvonalas térképet szerkesztenek grafikus és digitális formában. További feladatként jelentkezik egy négyszög-alakú épület kitűzése mind vízszintes, mind pedig magassági értelemben, és zsinórállásának megépítése. 
+Irodalom: TOKODY ANDRÁS: Elektronikus geodéziai műszerekkel a mérőgyakorlaton, Főiskolai jegyzet, 2008. 
+SGYMKOM204XXX
+Tárgyfelelős: Keszeyné dr. Say Emma PhD egyetemi docens 1/0/3/V/5
+A talaj tulajdonságainak megismerése, osztályozása, minősítése, emberi beavatkozások következtében fellépő hatásokra való viselkedése. A talajok fizikai és szilárdságtani tulajdonságai különös tekintettel az erőhatásokra, melyek befolyásolják a talaj és építmény állékonyságát. Talajvíz megjelenési formái és szintjei, talaj-, talajvíz korróziót okozó kémiai hatásai. A számítógépes méretezéshez használatos talajmodellek. 
+Irodalom: Dr. Bartos – Dr. Králik: Mélyépítés I., Szepesházi R.: Geotechnika; Szepesházi R.: Geotechnikai példatár I. 
+SGYMKOM2054XA
+Tárgyfelelős: prof. dr. Telekes Gábor PhD főiskolai tanár 1/2/0/V/4
+Előadások anyaga: Földművek geometriai kialakítása, tervezései előmunkálatok, földművek állékonysága, töltések és bevágások kialakításának gyakorlati szempontjai, támfalak földművek víztelenítése, földművek építése, földművek építése veszélyes területen. Vasalt talaj, geotextíliák. Földműépítés gépei, gépláncok. A gyakorlati órák anyaga: Gyakorlati órákon feszültségek szétterjedésével, állékonyságvizsgálatokkal, dúcolatokkal és víztelenítési és földműépítési technológiákkal ismerkednek a hallgatók a feladatokon keresztül. Féléves földműtervezési feladat elkészítése. 
+Irodalom: Szepesházi R.:Geotechnika, Bartos-Králik: Geotechnika II. / Szepesházi R. Geotechnikai példatár I-II. / Szepesházi R.: Geotechnikai tervezés az Eurocode 7 és a kapcsolódó geotechnikai szabványok alapján 
+SGYMKOM206XXX
+Tárgyfelelős: prof. dr. Telekes Gábor PhD főiskolai tanár 1/2/0/V/4
+Feszültségek változása a végtelen féltérben a külső erőhatásokra. Alakváltozási kérdések, abszolút és relatív süllyedések. Sík és mélyalapozások fajtái, méretezési kérdések teherbírás és alakváltozás vonatkozásában. Talajerősítés, talajjavítás, gépalapok. Alapozási hibák. 
+Irodalom: Dr. Bartos – Dr. Králik: Mélyépítés III. (Alapozás) / Szepesházi R: Geotechnikai példatár I. – II. / Szepesházi R.: Geotechnikai tervezés az Eurocode 7 és a kapcsolódó geotechnikai szabványok alapján 
+SGYMKOM2346XA
+Tárgyfelelős: Keszeyné dr. Say Emma PhD egyetemi docens 2/2/0/V/4
+Különleges alapozási módok, alapozási hibák, korszerű technológiák bemutatása esettanulmányokon keresztül. Új anyagok és építéstechnológiák az alapozás terén. TDK tevékenység ismertetése, témaválasztás, dolgozatok előkészítése. Munkahely látogatások. 
+Irodalom: Szakcikkek / Szepesházi r.: Geotechnikai tervezés az EUROCODE 7 és a kapcsolódó geotechnikai szabványok alapján 
+SGYMKOM2376XA
+Tárgyfelelős: Kecskés Gábor főiskolai tanársegéd 0/0/0/F/3
+A geotechnikai, környezetvédelmi, építőmérnöki tervezési és szakértési feladatok talaj - és talajvízvizsgálati terepi munkáinak megismerése, oktatók és gyakorlott laboránsok vezetésével a helyszíni vizsgálatok metodikájának elsajátítása, a közvetlen és közvetett talajfeltárások technikai (gépi) megvalósításában való részvétel, az EUROCODE alapú geotechnikai tervezésben elfogadott szondázási módszerek gyakorlása, a mérési eredmények szabványos feldolgozása számítógép segítségével, irodai és speciális geotechnikai szoftverek alkalmazásával. 
+Irodalom: Szepesházi R.: Geotechnika, Dr. Bartos – Dr. Králik: Mélyépítés I. 
+SGYMKOM235XXX
+Tárgyfelelős: prof. dr. Telekes Gábor PhD főiskolai tanár 2/0/2/V/4
+Sík és mélyalapok mint vasbeton szerkezetek centrikus és külpontos terhelések esetén; Több támaszú folytatólagos rugalmasan alátámasztott gerenda, lemez igénybevétele; Pillérek vasalása; Húzott, nyomott hajlított igénybevételnek kitett mélyalapok megtámasztó szerkezetek méretezése; A méretezés biztonsága. 
+Irodalom: Mechanika, Tartók statikája, Vasbeton szerkezetek (főiskolai jegyzetek) / Szakcikkek 
+SGYMMEN286XXX
+Tárgyfelelős: Kovács Péterné meghívott előadó 0/4/0/F/2
+Oktatási cél: A tízujjas vakírás elsajátítása a készségszintű billentyűkezelés technikájának kialakításával. 
+Tartalom: A gépíráshoz szükséges helyes test-, kar- és kéztartás elsajátítása. Az alapsor betűi (ASDF JKLÉ), valamint leckénként két új betű kapcsolása az alapsor betűihez, a betűnkénti feltételes reflex kialakítását segítő szó- és mondatgyakorlatokkal. Ismétlő szógyakorlatok, mondatgyakorlatok gépelése az addig elsajátított betűk felhasználásával a betűtudás megszilárdítása érdekében. Shift, Caps Lock billentyűk használata, számok, írásjelek kapcsolása, összefüggő szövegek másolása a teljes betűkészlet alapján.  
+Irodalom: GYETVAINÉ NEVELŐS ERZSÉBET – HOLLÓSI BÉLÁNÉ – SEIDLER GIZELLA: Információkezelés I. B+V Lap- és Könyvkiadó Kft., Budapest. 
+SGYMMEN287XXX
+Tárgyfelelős: Gyimóthy Gábor meghívott előadó 1/0/0/F/1
+Oktatási cél: A személyiség értékeinek fölfedezése – a grafológia eszközeinek segítségével – a hatékonyabb munkavégzés, a kiegyensúlyozottabb szociális- és társkapcsolatok kialakításáért.  
+Tartalom: A grafológia diagnosztikai eszközei, módszerei. Az intellektuális képességek, szellemi beállítódás. A kapcsolatok és a munkához való viszony. Képességek és erőforrások vizsgálata. Pályaválasztás, pályamódosítás, munkaerő kiválasztás. Az érzelmek és az ösztönök. Párkapcsolatok. Krízishelyzetek felismerése és kezelése. A rajzvizsgálat és grafológia kapcsolata. Írászavar és személyiségzavar.  
+Irodalom: Az előadások egyaránt tartalmaznak elméleti, gyakorlati és önismereti anyagot. 
+SGYMTUB2828XA
+Tárgyfelelős: Dr. Kátai-Urbán Lajos külső óraadó meghívott előadó 0/2/0/F/2
+Látogatás a BM OKF veszélyhelyzet kezelő központjában, az Iparbiztonsági Főosztályon, a METRÓ tömeg-óvóhelyen, a Tűzoltó Múzeumban, az FTP-n, a repülőtéri tűzoltóságon, a Fővárosi Polgári Védelmi Igazgatóságon. 
+SGYMKOM203XXX
+Tárgyfelelős: Dr. Molnár Ildikó PhD adjunktus 2/0/1/V/3
+Hidrosztatikai alapfogalmak, víznyomás számítása, nyomásábrák. Áramlástani alapfogalmak, alaptörvények. Bernoulli-egyenlet és alkalmazásának lehetőségei. Nyomás alatti és szabad felszínű áramlások. Áramló és rohanó vízmozgás. Csővezetékek és nyílt árkok méretezése. A szivattyúzás alapfogalmai. A szivárgó vízmozgás alapfogalmai. 
+Irodalom: SZOLNOKY CSABA: Hidrológia és áramlástan. Nemzeti Tankönyvkiadó, Budapest. / DIMA ANDRÁS: Hidrológia és áramlástan példatár. Nemzeti Tankönyvkiadó, Budapest. 
+SGYMKOM2011XA
+Tárgyfelelős: Dr. Dombay Gábor PhD főiskolai tanár 2/0/0/V/3
+A víz tulajdonságai (fizikai, kémiai, biológiai), előfordulása a természetben. A hidrológiai körfolyamat, a víz földi körforgásának alapelemei. Párolgás, lecsapódás, csapadékok törvényszerűségei. Az összegyülekezési és lefolyási folyamat jellemzői. Természetes vizek, vízfolyások és állóvizek vizsgálata. Hidrometria. 
+Irodalom: SZOLNOKY CSABA: Hidrológia és áramlástan. Nemzeti Tankönyvkiadó, Budapest. / DIMA ANDRÁS: Hidrológia és áramlástan példatár. Nemzeti Tankönyvkiadó, Budapest. / DULOVICS DEZSŐNÉ ÉS SZERZŐTÁRSAI: Csatornamű rendszerek, csatornázás (3. Csatornák terhelése, hidrológiai alapok). Munkafüzet. VCSOSZSZ, Budapest. 
+SGYMKOM2408XA
+Tárgyfelelős: Elek Barbara PhD egyetemi docens 2/0/0/V/3
+A hulladékgazdálkodás általános kérdései (célja és fontosabb alapelvei, prioritási sorrendje, stratégiája). A hulladék fogalma, osztályozása, gyűjtése, kezelési módszerei. Hulladékhasznosítás, hulladékégetés. Hulladéktárolók tervezése, építése, üzemeltetése és rekultivációja. 
+Irodalom: Barótfi I. (szerk.), 2003. Környezettechnika kézikönyv. Környezetvédelmi és Vízügyi Minisztérium, 2003. / Hulladékgazdálkodási szakmai füzetek. 
+SGYMKOM2466XA
+Tárgyfelelős: Dr. Major János PhD főiskolai tanár 0/0/0/F/3
+SGYMLEK283XXX
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK284XXX
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK285XXX
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMKOM285XXX
+Tárgyfelelős: Dr. Juhász Endre CSc c. egyetemi tanár 1/0/0/F/1
+A szennyvíziszap mint energiahordozó, szerepe hazánk energiaellátásában. A szennyvíziszap mint talajerő javító anyag. A szennyvíziszap mint hulladék. A szennyvíziszap kezelése, sűrítés, kondicionálás, stabilizálás, víztelenítés. Természetes és mesterséges eljárások tervezése és méretezése. A szennyvíziszap elhelyezése és hasznosítása. 
+Irodalom: JUHÁSZ ENDRE ET. AL.: Környezettechnika kézikönyv. Szerkesztette: Barótfi István. Környezet-technikai Szolgáltató Kft. Budapest. / DULOVICS DEZSŐ – JUHÁSZ ENDRE: Településekről származó szennyvizek tisztító telepei. Iszapkezelés. Tervezési útmutató. KvVM, Budapest. 
+SGYMMEN203XXX
+Tárgyfelelős: Dr. Bíró Sándor CSc egyetemi tanár 2/0/0/F/2
+Oktatási cél: Megismertetni a hallgatókkal az alkotmányjog, a polgári jog és a társasági jog alapjait, az államigazgatási eljárás és az építésügyi igazgatás fontosabb szabályait. 
+Tartalom: A jogszabályok rendszere és a jogforrási hierarchia. Alkotmányos jogok és kötelezettségek. A polgári jog fogalma, rendszere, alapelvei. Az állam, a magán és a jogi személyek jog- és cselekvőképessége. A tulajdonjog általános szabályai. Közös tulajdon, használati jogok. A birtok, birtokvédelem. Betéti társaság, korlátolt felelősségű társaság, részvénytársaság fogalma, létrehozása, működési szabályai. A közigazgatási szervezetrendszer felépítése. Az építésügyi igazgatás fogalma, funkciói és eszközrendszere. Az építési munkák hatósági engedélyezése. 
+Irodalom: vonatkozó jogszabályok 
+SGYMMEN204XXX
+Tárgyfelelős: Dr. Bíró Sándor CSc egyetemi tanár 2/0/0/F/2
+Oktatási cél: Megismertetni a hallgatókkal a polgári jogi szerződésekre vonatkozó rendelkezéseket, továbbá a fontosabb fogyasztóvédelmi és versenyjogi szabályokat. 
+Tartalom: A szerződéskötés általános szabályai. A szolgáltatás fajtái. A szerződés fogalma, tartalma, létrejötte. A szerződés érvénytelensége. A szerződés megerősítése és biztosítása. A szerződés teljesítése. A szerződés módosítása. A szerződés megszűnése és megszűntetése. Felelősség szerződésen kívüli károkért. Az adásvételi szerződés. A vállalkozási szerződés fő szabályai. Az építési szerződés. Az építtető, a tervező, a felelős műszaki vezető, a műszaki ellenőr és kivitelező felelőssége. Fogyasztók jogai, a fogyasztóvédelmi eljárások szabályai. Versenyjogi tilalmak és a versenytárgyalási eljárás. 
+Irodalom: vonatkozó jogszabályok 
+SGYMTUB2848XA
+Tárgyfelelős: Dr. Szakál Béla PhD főiskolai tanár 0/2/0/F/2
+A PHAST micro, a Relex, a SAVE II. szoftverek gyakorlati alkalmazása a biztonsági dokumentációkban. 
+Irodalom: Beda L. Szakál B. Tűz- és katasztrófavédelmi modellezés 
+SGYMTET288XXX
+Tárgyfelelős: Dr. Lukovich Tamás DLA főiskolai tanár 1/1/0/F/2
+SGYMKOM286XXX
+Tárgyfelelős: Prof. em. Dulovics Dezsőné dr. főiskolai tanár 2/0/0/F/3
+Integrált közműrendszerek és fejlesztésük lehetőségei, irányai. Regionális közművesítés. A közműfenntartás és -rekonstrukció különleges módszerei. Közművek kitakarás nélküli felújítása, rekonstrukciója és építése. Különleges közművesítési feladatok. Esettanulmányok. 
+Irodalom: DULOVICS DEZSŐNÉ: Közmű- és mélyépítés II. YMMF, Budapest, 1999. (9909/II.) / Mérnöki kézikönyv III. (5. fejezet) 
+Szerkesztette: Palotás László. Műszaki Könyvkiadó, Budapest, 1981/1984. 
+SGYMMET281XXX
+Tárgyfelelős: Dr. Szalai József András PhD főiskolai adjunktus 2/0/0/F/3
+Falazatok típusai, szilárdsági jellemzői. Falazatok tervezési elvei. Téglafalazású és kőszerkezetű falak. Vegyes falazatok. Vasalatlan és vasalt falazatok. Falazatok merevítése. Teherhordó kőszerkezetek tervezése és ellenőrzése. Műanyag- és üvegszerkezetek. 
+Irodalom: Mérnöki kézikönyv. Szerkesztette: Palotás László. Műszaki Könyvkiadó, Budapest, 1981;1984. / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008. 
+SGYMKOM2418XA
+Tárgyfelelős: Firgi Tibor adjunktus 2/1/0/F/4
+Az utóbbi évtizedekben egyre nagyobb jelentőségűek a környezetvédelmi, környezetgazdálkodási célú mérnöki feladatok (műszaki védelemmel kiépített hulladéklerakók, kármentesítések stb.), ill. az építőmérnök munkája során, a szokványos mélyépítési feladatok megoldása közben sem hagyhatja figyelmen kívül a természeti környezetben óhatatlanul létrehozott változások hatását (visszaduzzasztás, talajdegradáció stb.). Így napjainkban szükségessé vált az oktatott geotechnikai ismeretek speciális kiegészítése. 
+Irodalom: Kovács G. – Telekes G.: Felszín alatti közeg (kőzetek-vizek) kármentesítésének tervezése. / Szabó I.: Hulladékelhelyezés. / Szakcikkek / Vonatkozó MSZ és MSZ EN (EC) szabványok 
+SGYMKOM2398XA
+Tárgyfelelős: Elek Barbara PhD egyetemi docens 2/0/0/V/3
+A környezeti hatásvizsgálatok célja, készítésének szükségessége. A környezeti hatásvizsgálatok szabályozása. A hatásvizsgálatok eljárásai és módszerei. A levegő-, talaj- és vízszennyezés hatásai és csökkentésük lehetőségeinek integrált vizsgálata. A hulladékgazdálkodás, a talajvédelem, a zaj- és rezgésvédelem rendszerei. Élővilág- és tájvédelem szerepe a környezeti hatásvizsgálatban. Esettanulmányok. 
+Irodalom: Magyar E., Szilágyi P., Tombácz E., 2000. Hatásvizsgálat, felülvizsgálat. Közgazdasági és jogi kiadványok sorozat. / 314/2005. (XII. 25.) Korm. rendelet 
+SGYMKOM2021XA
+Tárgyfelelős: Elek Barbara PhD egyetemi docens 2/0/0/F/2
+Környezetvédelem fogalma és célja. A környezetvédelem társadalmi-gazdasági jelentősége, a környezetvédelem jogi vonatkozásai. Károsanyag kibocsátás lokális-, regionális-, kontinentális- és globális folyamatainak feltárása. A földtani közeg -, a talaj - , a felszíni - és felszín alatti víz -, a zaj- és rezgés-, valamint a levegőminőség-védelem alapfogalmai, az emisszió, a transzmisszió és az imisszió kapcsolata. Hulladékgazdálkodás fogalma, rendszere. Táj -, élővilág - és épített környezet védelme. Környezetvédelmi hatásvizsgálat, felülvizsgálat, teljesítményértékelés és tényfeltárás szerepe a mérnöki gyakorlatban. 
+Irodalom: Barótfi I. (szerk.), 2003. Környezettechnika kézikönyv. 
+SGYMMEN2012XA
+Tárgyfelelős: Dr. habil Simig László PhD főiskolai tanár 2/0/0/F/3
+Oktatási cél: A hallgatóknak a gazdasági élet jelenségei és összefüggései közötti eligazodásához szükséges alapismeretek nyújtása. 
+Tartalom: A nemzetgazdaság működésének gyakorlati kérdései: Gazdasági körforgás, gazdasági növekedés, kojunktúra, infláció, fiskális és monetáris politika, a szociális piacgazdaság néhány problémája. A külgazdasági kapcsolatok alapjai. Kötelező Irodalom: KERÉKGYÁRTÓ GYÖRGY: MAKROÖKONÓMIA 
+SGYMMEN2023XA
+Tárgyfelelős: Dr. habil Simig László PhD főiskolai tanár 2/0/0/F/3
+Oktatási cél: Bevezetés a mikroökonómiába, a hallgatók gazdasági szemléletének kialakítása. A későbbiekben sorra kerülő gazdasági jellegű tárgyak elsajátításának megalapozása. 
+Tartalom: Közgazdaságtani bevezetés. Fogyasztói magatartás és kereslet. Termelői magatartás és kínálat. A piac és működése. Termelési tényezők piacai. Piaci elégtelenségek. Az állam szerepe a mikroszférában. Kötelező Irodalom: Kerékgyártó György: Mikroökonómia 
+SGYMKOM213XXX
+Tárgyfelelős: Keszeyné dr. Say Emma PhD egyetemi docens 1/2/0/V/3
+Közlekedésépítési alapfogalmak ismertetése, közúthálózatok jellemzői, alapelemei, tervezési alapelvei. Közlekedésdinamikai alapfogalmak. Csomópontok tervezése, folyópálya-szakaszok mintakeresztszelvényei. Útépítési technológiák. Útépítési tanulmánytervek részei és kidolgozásuk. Vízszintes és magassági vonalvezetés összehangolása. 
+Irodalom: Mári László: Közlekedésépítés III., kiadott előadásjegyzetek és szakcikkek 
+SGYMKOM2326XA
+Tárgyfelelős: Keszeyné dr. Say Emma PhD egyetemi docens 2/0/0/V/3
+Vasútépítési alapfogalmak ismertetése, kötöttpályás közlekedési hálózatok jellemzői, alapelemei, tervezési alapelvei. Vágyányszerkezetek típusai, elemek jellemzői és típusai. Állomások ás folyópályaszalaszok. Városi vasutak, különleges vasutak. Részletes útépítési tervek részei, tervezési alapadatok és alapelvek. A vízszintes és függőleges vonalvezetés különleges elemei, átmeneti ívek, függőleges lekerekítések, túlemelés-átmenet szerkesztése. Keresztszelvények tervezése, földtömegszámítás.  
+Irodalom: Szandtner Gábor: Vasútépítés / Mári László: Közlekedésépítés III. / Kiadott előadásjegyzetek és szakcikkek 
+SGYMKOM2446XA
+Tárgyfelelős: Macsinka Klára adjunktus 2/1/0/F/3
+A városi közlekedés jellemzői, alapelemei, különleges kérdései. Városi közlekedési hálózatok rendszerei, egymásrahatásuk, öszszefüggéseik. Városi forgalom jellemzői. A közterületek felosztása. Forgalomszabályozás, forgalomcsillapítás, forgalomtechnika. Csomópontok típusai, tervezési alapelveik. Kerékpáros és gyalogosközlekedés. Forgalombiztonság. Parkolás-szabályozás. Közösségi közlekedés. Intelligens közlekedési rendszerek. Fenntartható közlekedés. Városi közlekedési hálózat felmérése és értékelése, csomóponti forgalomszámlálás, csomópont tervezése. 
+Irodalom: Kiadott előadásjegyzetek és segédletek; Szakcikkek 
+SGYMKOM254XXX
+Tárgyfelelős: Macsinka Klára adjunktus 1/1/0/V/3
+A közlekedési üzem szerepe a különböző közlekedési ágazatok esetén. Az útgazdálkodás rendszere, a közutak fajtái, a közutak kezelői, útügyi hatóságok. Útüzemeltetés, útfenntartás, útkorszerűsítés. Az útburkolatok jellemző típushibái, a hibák oka, javításuk lehetősége. Hajlékony útpályaszerkezetek méretezése és megerősítése. Útállapotfelmérés, útburkolatok rekonstrukciójának tervezése. A közösségi közlekedés, a vízi és légiközlekedés üzemtana. 
+Irodalom: Kiadott előadásjegyzetek; segédanyagok, szakcikkek 
+SGYMMEN284XXX
+Tárgyfelelős: Tóti Magda meghívott előadó 2/0/0/F/2
+Oktatási cél: A jelentkezőket olyan gépkocsivezetőkké képezni, akik képesek önállóan, kezdő szinten, biztonságosan, hatékonyan és kultúrátlan közlekedni. 
+Tartalom: Szabályok helyes alkalmazásának az elsajátítása. A közúti közlekedésben rejlő veszélyek felismerése és helyes megítélése. A jármű feletti uralom birtokában a folyamatos és biztonságos közúti közlekedés. Az esetlegesen kialakuló veszélyhelyzetre a megfelelő módon való reagálás elsajátítása. A közlekedési partnerek, – különösen a fokozottan veszélyezettek – biztonságának szem előtt tartása. A jármű külön jogszabályban előírt ellenőrzése, a közlekedésbiztonságot veszélyeztető műszaki hiba felismerése és a továbbhaladás lehetőségéről való helyes döntés. A KRESZ szabályozza a közlekedési partnerek közötti együttműködést, valamint a tanúsítandó fontosabb magatartási szabályokat. A közlekedési szabályok időközben módosulhatnak, illetve ismételten értelmezésre szorulhatnak, ezért fel kell kelteni a hallgatókban az igényt a folyamatos önképzésre is. 
+Irodalom: Autóvezetők tankönyve: „B” kategóriás járművezetői vizsgához 2010. / Ipolyi-Keller Imre: A járművezetői vizsga TESZT kérdéseinek gyűjteménye 2010. 
+SGYMKOM2043XA
+Tárgyfelelős: Dr. Dombay Gábor PhD főiskolai tanár 2/2/0/F/4
+Bevezetés a közművesítésbe. A vízellátó rendszerek feladata, elemei, tervezésének menete. Víztermelés, ivóvíztisztítás. A tárolás és tároló térfogatok meghatározása. Csővezeték hálózatok méretei. A hálózat áramlási és nyomásviszonyai, vizsgálatuk, méretezésük. Szivattyúüzem. Csőanyagok, szerelvények, idomok, kisműtárgyak. Vezetéképítés. A csatornázás célja, rendszerei, részei. Az elvezető hálózatokat terhelő mértékadó hozamok. Zárt csatornák, nyílt árkok, hidraulikai méretezése. Csatornák anyagai, műtárgyai, építésük. A szennyvíztisztítás célja, módszerei. Iszapkezelés. 
+Irodalom: KOVÁCS KÁLMÁNNÉ: Utak, közművek II. Tankönyvkiadó, Budapest. / DULOVICS DEZSŐNÉ: Közműépités III. (Csatornázás). Nemzeti Tankönyvkiadó, Budapest. 
+SGYMKOM211XXX
+Tárgyfelelős: Dr. Molnár Ildikó PhD adjunktus 1/2/0/V/3
+A tárgy oktatásában az energiagazdálkodás leglényegesebb területeit tárgyaljuk. Foglalkozunk a Föld energiakészleteivel és a kimeríthetetlen megújuló energiaforrások hatékony felhasználásával. 
+Témakörök: Energiaközművek – Gázellátás, Távhőellátás, Megújuló energiák 
+Irodalom: Czikó Miklós – Kiss Gábor: Gázellátás / Czikó Miklós: Közműépítés V. (Távhőellátás) / ISOPLUS: Távfűtő rendszerek, Gyártmánykatalógus / Dr. Sembery Péter – Dr. Tóth László: Hagyományos és megújuló energiák 
+SGYMKOM249XXX
+Tárgyfelelős: Dr. Dombay Gábor PhD főiskolai tanár 1/2/0/V/4
+Elméleti és gyakorlati ismereteket biztosít a vízellátás területén előforduló tervezési, kivitelezési és üzemeletetési feladatok ellátásához. 
+Témakörök: Vízellátó rendszerek felépítése, optimális kialakítása. Elosztóhálózatok méretezése mérnöki modellezéssel. Modelltípusok, üzemszimulációk. Üzemállapotok és vizsgálatuk. Szivattyúválasztás, üzemoptimalizálás. Regionális rendszerek. Elosztóhálózatok szerkezeti elemei, csomópontok kialakítása. Vízminőség-változási folyamatok az elosztóhálózatban. 
+Irodalom: Tolnai Béla (szerk.): Vízellátás. General Press Kiadó, 2008. / Öllős Géza: Víztisztítás - üzemeltetés. Egri nyomda Kft. 1998. 
+SGYMKOM250XXX
+Tárgyfelelős: Prof. em. Dulovics Dezsőné dr. főiskolai tanár 2/2/0/V/5
+Nemzeti Szennyvízprogram. Új igények jelentkezése a csatornázásban, a használt vizek újra felhasználásának igénye. A települési hidrológiai körfolyamat szennyezőanyag transzportáló hatása. A csapadék helyben tartása, javított elválasztott rendszer, csapadékvíz tisztítása, kényszeráramoltatású rendszerek a szennyvízelvezetésben. Szagproblémák és megoldásuk. Új anyagok és technológiák a csatornázásban. Egyedi szennyvízelhelyezés 
+Irodalom: DULOVICS DEZSŐNÉ: Közműépítés III. (Csatornázás). Nemzeti Tankönyvkiadó, Budapest. / DULOVICS DEZSŐNÉ – KRÁLIK BÉLA – SZABÓ TAMÁS: Közmű- és mélyépítés. YMMF, Budapest, 1999. (9909) / DULOVICS DEZSŐNÉ: Csapadékvízgazdálkodás a környezetterhelés csökkentésének egyik eszköze. HÍRCSATORNA, 2003 november-december, pp15–21. / DULOVICS DEZSŐNÉ ÉS SZERZŐTÁRSAI: Települések csatornázása és vízrendezése. Zsebkönyv. Szerkesztette: Markó Iván. Műszaki Könyvkiadó, Budapest, 1986. 
+SGYMKOM2477XA
+Tárgyfelelős: Prof. em. Dulovics Dezsőné dr. főiskolai tanár 2/1/0/V/4
+A tantárgy záróvizsga tárgy. Elméleti és gyakorlati ismereteket biztosít a vízi- és energiaközművek terén az üzemeltetési feladatok ellátásához. 
+Témakörök: Integrált közműrendszerek üzemeltetési kérdései. A közművek meghibásodásának okai, felderítésük és elhárításuk. Közműleltár és közműnyilvántartás, állapotértékelés és minősítés. Közműrendszerek üzemeltetésének speciális kérdései. Karbantartás, javítás és rekonstrukció eljárásai. 
+Irodalom: Dulovics Dezsőné, Králik Béla, Szabó Tamás: Közmű- és mélyépítés II. YMMF Budapest, 1999. / Öllős Géza: Víztisztítás-üzemeltetés, Egri Nyomda Kft, Eger 1998. / Öllős Géza: Szennyvíztisztító telepek üzemeltetése I-II. Akadémiai Kiadó, Budapest, 1994-1995. 
+SGYMKOM2498XA
+Tárgyfelelős: Dr. Major János PhD főiskolai tanár 2/2/0/F/4
+A tantárgy záróvizsga tárgy. Elméleti és gyakorlati ismereteket biztosít a vízi- és energiaközművek terén az építési feladatok ellátásához. 
+Témakörök: Közművek elrendezése, hagyományos, integrált rendszerek, közműalagutak és folyosók. A meglévő közműhálózat felmérése a tervezéshez. A közműépítés műszaki előkészítés lépései, jogszabályi háttér. A közműépítésben résztvevők általános feladatai. 
+Irodalom: Szakcikkek 
+SGYMLEK290XXX
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMMAG201XXX
+Tárgyfelelős: Benárd Aurél DLA egyetemi docens 2/0/0/V/3
+Oktatási cél: Az épületeket érő hatások ismertetése és bemutatása különböző épületszerkezeteken, hatáskövetelmény rendszerek. Építésmódok megismerése. Az épülettervek és építészeti ábrázolás megismerése. 
+Tartalom: Az épületszerkezetek fogalma, csoportosítása, hatás-követelmény rendszer. Hagyományos építési módok és technológiák. Műszaki rajz és ábrázolás megismerése különböző léptékű tervrajzok készítésével. Tégla-, kő-, beton-, fém-, fa-, üveg- és műanyag szerkezetek. Az épületfizika alapjai. Alapozások, falak, nyílásáthidalók. 
+Irodalom: BAJZA JÓZSEF – MADÁCSI SÁNDOR – MATOLCSY KÁROLY – MIKLOVICZ LÁSZLÓ – TÓTH LÁSZLÓ: Magasépítéstan. Műszaki Könyvkiadó, Budapest, 2004. / OSZTROLUCZKY MIKLÓS: Épületfizika I. YMMF, Budapest, 1997. (9706) / CSOTT RÓBERT – MESTERHÁZY BEÁTA: Épületfizika II. Akusztika (elméleti rész). SZIE YMMFK, Budapest, 2000. (2000-08) / SAJTÓS GÁBOR: Építészeti tervek elkészítése. YMMF, Budapest, 1994. (J-67/94) 
+SGYMMAG202XXX
+Tárgyfelelős: Dr. Makovényi Ferenc PhD főiskolai tanár 1/2/0/F/3
+Oktatási cél: A lakó- és közösségi épületek teherhordozó szerkezeteinek és egyes térelhatároló szerkezeteinek és szakipari munkáinak megismertetése. Jellemző épületszerkezeti megoldások gyakorlati alkalmazása. 
+Tartalom: Külső falak és pincefalak szerkezettípusai és szerkezeti részleteik. Födémszerkezetek, erkélyek, loggiák szerkezettípusai és szerkezeti részleteik. Talajvíz és talajnedvesség elleni szigetelések. Lépcsők, magastető-szerkezetek és magastetőburkolatok. Kémények, szellőzők. Lapostetők. 
+Irodalom: GÁBOR LÁSZLÓ: Épületszerkezettan I-IV. Nemzeti Tankönyvkiadó, Budapest, 1960. / TÓTH LÁSZLÓ: Fedélszerkezetek III. SZIE YMMFK, Budapest, 2000. (2000-04, 2001-02) / OSZTROLUCZKY MIKLÓS: Épületszerkezetek ábragyűjtemény. SZIE YMMFK, Budapest, 2000. (2000-03)/ TÓTH TIBOR GÁBOR: Korszerű homlokzatburkolatok. SZIE YMMFK, Budapest, 2001. (2001-11) / D. MÜLLER MÁRIA: Szerelt homlokzatburkolatok. YMMF, Budapest. (206) / GAÁL GYÖRGY: Tetőfedések ábragyűjtemény. SZIE YMMFK, Budapest, 2000. (2000-07)/ OSZTROLUCZKY MIKLÓS: PVC lemez vízszigetelések. YMMF, Budapest, 1999. (9901) 
+SGYMMAG231XXX
+Tárgyfelelős: Dr. Makovényi Ferenc PhD főiskolai tanár 2/2/0/V/4
+Oktatási cél: Az egyes anyagrészek közötti összefüggések felismerése, kritikai látásmód elsajátítása, rendszerezés. Az ökologikus építés alapjainak elsajátítása. 
+Tartalom: Nyílászáró szerkezetek, asztalos és lakatosmunka. Nyílászáró szerkezetek kialakítása és részletei. Hideg és melegpadlóburkolatok. Vázas és öntöttfalas, paneles épületek. A környezetvédelem módszerei, eszközei. Az egészséges lakó- és munkakörnyezet kialakítása. Zöld szerkezetek. Építési hibák, épületgépészeti elemek. 
+Irodalom: GÁBOR LÁSZLÓ: Épületszerkezettan I-IV. Tankönyvkiadó, Budapest, 1960. / PÁSZTOR EDIT: Nyílászáró szerkezetek. SZIE YMMFK, Budapest, 2001. (2001-09) / OSZTROLUCZKY MIKLÓS: Padlóburkolatok. SZIE YMMFK, Budapest, 2000. (2000-02) / IVITS IVÁN: Épületvázak tervezése. SZIE YMMFK, Budapest, 2003. (2003-01) / OSZTROLUCZKY MIKLÓS: Tetőszigetelések. YMMF, Budapest, 1998. (9809) / BAJZA JÓZSEF: Építészeti technikatörténet. Főiskolai jegyzet. YMMF, Budapest, 1999. (J-78/1999) 
+SGYMMET236XXX
+Tárgyfelelős: Dr. Szalai József András PhD főiskolai adjunktus 1/3/0/F/5
+Többszintes acélszerkezetű épületek szerkezeti rendszerei. Acélvázak kialakítása. Különleges terhek és hatások, teherkombinációk. Acél és öszvér födémszerkezetek. Kapcsolatok kialakítása és méretezése. Vázszerkezetek merevítése, stabilitása. Daruzott és daruzatlan ipari csarnokok szerkezeti rendszerei, sajátságos terhei, méretezése. Vékonyfalú szerkezetek alkalmazása, méretezése.  
+Irodalom: Magasépítési acélszerkezetek. Műszaki Könyvkiadó, Budapest, 1982. / Mérnöki kézikönyv. Szerkesztette: Palotás László. Műszaki Könyvkiadó, Budapest, 1981/1984. / Csellár Ödön – Halász Ottó – Réti Vilmos: Vékony falú acélszerkezetek. Műszaki Könyvkiadó, Budapest, 1965. / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963269-047-6. Budapest, 2008   
+SGYMMET2327XA
+Tárgyfelelős: Hernád Attila mérnöktanár 1/2/0/V/4
+Vasbeton épületek speciális terhei, szélhatás, földrengés, teherkombinációk. A méretezés elvei. Többszintes épületek szerkezeti kialakítása. Vázas épületek, síklemez födémrendszerű épületek, falvázrendszerek. Magasépületek merevítése, szerkezeti modellezése. Feszített födémrendszerek. Vasbeton ipari csarnokok szerkezeti rendszerei. Daruzott és daruzatlan ipari csarnokok terhei és méretezése. 
+Irodalom: Mérnöki kézikönyv. Szerkesztette: Palotás László. Műszaki Könyvkiadó, Budapest, 1981/1984. / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008. 
+SGYMMAT201XXX
+Tárgyfelelős: Dr. Soós Zsolt PhD főiskolai tanár 3/3/0/V/6
+Tartalom: Halmazalgebra, Síkbeli és térbeli alakzatok főbb jellemzői, aranymetszés, elemi függvények jellemzése; Kamatszámítás, gazdasági számítások. Számsorozatok, függvénytani alapfogalmak, valós függvény határértéke, folytonossága; Valós függvény differenciálása (derivált függvény, differenciálási szabályok); a differenciálszámítás alkalmazása: függvénydiszkusszió, Valós függvény integrálása: primitív függvény, határozatlan integrál és meghatározási módszerei, határozott integrál és kiszámítása. 
+Integrálszámítás alkalmazásai: terület-, térfogat. Többváltozós függvények vizsgálata, szélsőértékszámítás, mérnöki alkalmazása. Felületek, másodrendű görbék vizsgálata matematikai programcsomag használatával. 
+Irodalom: Kovács-Takács-Takács: Analízis, Tankönyvkiadó (1986) / Obádovics-Szarka: Felsőbb matematika, Scolar Kiadó, Budapest (1999) 
+SGYMMAT202XXX
+Tárgyfelelős: Dr. Soós Zsolt PhD főiskolai tanár 3/4/0/V/7
+Tartalom: Differenciálszámítás alkalmazásai: Taylor polinom, görbület, L’Hospital szabály. Integrálszámítás alkalmazásai: ívhossz-, felszín-, súlypont- és inerciaszámítás. Improprius integrál, közelítő integrálás. Első- és másodrendű differenciálegyenletek megoldása, mérnöki alkalmazásai. Lineáris algebra elemei: lineáris tér, bázis, vektor koordinátái. Mátrixszámítás: mátrixműveletek, determináns, inverz mátrix, sajátérték, sajátvektor. Lineáris egyenletrendszer megoldása. Véletlen események, eseménytér, valószínűség fogalma és axiómái, valószínűségi változók és jellemzőik, nevezetes eloszlások, nagy számok törvényei, Csebisev egyenlőtlenség. Nemlineáris egyenlet és egyenletrendszerek numerikus megoldása: húrmódszer, Newton módszer; Függvényközelítés, Lagrange interpoláció, lineáris regresszió, a legkisebb négyzetek módszere. Gyakorlati feladatok néhány modellje. 
+Irodalom: Kovács-Takács-Takács: Analízis, Tankönyvkiadó (1986); Obádovics-Szarka: Felsőbb matematika, Scolar Kiadó, Budapest (1999) ; Páldi V. (szerk) Matematika III, Tankönyvkiadó, Budapest 1988; Szabó Ilona: Valószínűség-számítás, Kodolányi J. Főiskola, Székesfehérvár, 2005; Reimann-Tóth: Valószínűségszámítás és matematikai statisztika, (Matematika a műszaki főiskolák számára), Nemzeti Tankönyvkiadó, Budapest (1991) ; Solt: Valószinűségszámítás, (Bólyai könyvek), Műszaki Könyvkiadó, Budapest (1993) 
+SGYMMET201XXX
+Tárgyfelelős: Dr. Garai József PhD egyetemi docens 3/2/0/V/5
+Merev testre ható síkbeli erőrendszer vizsgálata, eredője, egyensúlyozása. A támaszok fajtái, a mechanikai modellalkotás, a statikai váz fogalma, síkbeli tartók osztályozása. Statikailag ha-tározott, egyszerű, síkbeli rácsos tartók vizsgálata, rúderőik meghatározása. A terhek hatására a tartó keresztmetszetein ébredő igénybevétel meghatározása statikailag határozott, síkbeli tartókon. Kéttámaszú, Gerber-, háromcsuklós, törttengelyű tartók. Az igénybevételi ábrák kapcsolatai. Síkidomok súlypontjának, statikai- és tehetetlenségi nyomatékának meghatározása. Merev testek helyzeti állékonyságának vizsgálata. 
+Irodalom: Bárczi I.: Mechanika I. Statika, statikai szempontból határozott tartók. Tankönyvkiadó, J15-537. Budapest / Fazakas Zs. és Holzmann I.: Mechanika példatár I. Tankönyvkiadó, J15-562. Budapest / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008 
+SGYMMET202XXX
+Tárgyfelelős: Dr. Garai József PhD egyetemi docens 2/3/0/V/5
+A szilárdságtan alapfogalmai. Feszültségek és alakváltozások. Rugalmas-képlékeny anyag. Terhek és hatások. Központos húzás, zömök rudak központos nyomása. Karcsú rudak központos nyomása. Tiszta nyírás. Csavarás. Síkbeli feszültség állapot, főfeszültségek, Mohr-féle feszültségi kör. Egyenes, tiszta hajlítás. Ferde hajlítás. Hajlítás és hajlításból származó nyírás (összetett hajlítás). Képlékeny hajlítás. Hajlított tartók alakváltozása. Az alakváltozások meg-határozása munkatételekkel. Gerendák feszültségei; ellenőrzés, méretezés. Hajlított tartó általános vizsgálata és méretezése. Külpontos húzás, a keresztmetszet magidoma. Euler-féle rugalmas kihajlás. Külpontos nyomás (zömök és karcsú rudak). Teherbírási vonal. 
+Irodalom: Bárczi Istán – Falu Gyula – Zalka Károly: Mechanika II. Szilárdságtan. Nemzeti Tankönyvkiadó, Budapest, (J15-545) / Szabó Lászlóné – Fazekas Zsolt – Zalka Károly: Mechanika példatár II. Szilárdságtan. Szerkesztő: Szabó Lászlóné. Nemzeti Tankönyvkiadó, Budapest, 1990-1998. (J15-563) / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008 
+SGYMMET203XXX
+Tárgyfelelős: Dr. Garai József PhD egyetemi docens 3/2/0/V/5
+Statikailag határozott és határozatlan tartók. Erőmódszer, elmozdulásmódszer és nyomatékosztás- (Cross-) módszer. Többtámaszú tartók, rúdcsillag és fix csomópontú keret. Szimmetrikus tartószerkezetek. Süllyedő alátámasztású többtámaszú tartók, kilendülő rúdcsillag, kilendülő földszintes keret. Zárt keretek és csövek. Folyadéktárolók. Többtámaszú tartók képlékeny vizsgálata. Többtámaszú tartók szélső igénybevételei. Munkaegyenletek és felcserélhetőségi tételek. Igénybevételi hatásábrák és legnagyobb igénybevételi ábrák két- és többtámaszú egyenes tengelyű tartókon. Rácsos tartók rúderő-hatásábrái és legnagyobb rúderő ábrái. Elmozdulási hatásábrák. Rezgéstani alapfogalmak. 
+Irodalom: Zalka Károly: Mechanika III. Tartók statikája I. ISBN 978-963-06-9855-9. Budapest, 2010 / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008 
+SGYMMET2818XA
+Tárgyfelelős: Szilvási Ferencné főiskolai docens főiskolai docens 2/0/0/F/2
+A tartószerkezetek vizsgálatának általános szabályai, a szerkezetvizsgálatok fajtái. A tartószerkezetek minősítése. A szerkezetmegerősítések általános szabályai és módszerei. A különböző anyagú (vasbeton, falazott, acél vagy fa) tartószerkezetek megerősítési módszerei. Egyes tartószerkezeti elemek megerősítése lőttbetonnal, ragasztott acél-, vagy szénszálas szalagokkal. Panelos lakóépületek felújítási problémái. 
+Irodalom: Dulácska Endre: Épületek tartószerkezeteinek diagnosztikája és rekonstrukciója jegyzet a BME Építészmérnöki Kar Szilárdságtani és Tartószerkezeti Tanszék kiadásában / TSZ 01-2010 Épületek megépült teherhordó szerkezeteinek erőtani vizsgálata és tervezési elvei a Magyar Mérnöki Kamara Tartószerkezeti Tagozata kiadásában / MSZ EN 1998-3:2005 Eurocode 8: Tartószerkezetek földrengésállóságának tervezése. 3. rész: Épületek értékelése és megerősítése 
+SGYMTUB2488XA
+Tárgyfelelős: Dócs László külső óraadó 0/2/0/F/1
+Tartalom: A hallgatók megismertetése az elsősegélynyújtás és a veszélyhelyzet pszichológia alapvető kérdéseivel. A mentés és az elsősegélynyújtás története, alapjai. Életveszélyes sérülések, a halál jelei. A légzés és a keringés élettana. Az újraélesztés biológiai alapjai és lehetősége. A vázrendszer sérülései: törések és ficamok. A sérült beteg mozgatása és mentése. Vérzések és ellátásuk. Égési sérülések. Mérgezések. Belső sérülések. Idegrendszeri sérülések A schock. Az alkalmazott pszichológia. Általános lélektani ismeretek.  
+Irodalom: Elsősegélynyújtás tankönyv 
+SGYMMET2011XA
+Tárgyfelelős: Dr. Garai József PhD egyetemi docens 1/2/0/F/4
+Az építési fizika alapjai, tárgya, vizsgálati módszerei és felosztása. Fizikai mennyiségek és mértékegységek. A fizikai egyenletek jellege, skaláris és vektoriális mennyiségek. Erőtan; a testek tehetetlensége, az erő gyorsító hatása, a hatás-ellenhatás elve. Az anyagok sűrűsége és fajsúlya. A testek súrlódása, a nyugalmi súrlódás jellemzői. A tervezés alapjai és a tartószerkezeteket érő hatások. Az anyag, a teher és a szerkezet geometriai modellezése. Szerkezetek biztonsága és tartóssága. Használhatósági és teherbírási határállapotok. Szabványos méretezési módszerek. Tömegsúlyok, önsúlyterhek és esetleges terhek. Hasznos-, hó- és szélterhek. Hőmérsékleti hatások. Tűzterhek. Építési állapot terhei. Rendkívüli terhek: földrengés, robbanás, ütközés. Közúti és vasúti hidak tervezésének méretezési alapjai. 
+Irodalom: Bárczi István – Falu Gyula – Zalka Károly: Mechanika II. Szilárdságtan. Nemzeti Tankönyvkiadó, Budapest. (J15-545) / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008 
+SGYMKOM282XXX
+Tárgyfelelős: prof. dr. Telekes Gábor PhD főiskolai tanár 2/0/0/F/2
+Mérnöki létesítmények és a földtani környezet kölcsönhatásai. A Föld szférikus felépítése. A földet alakító külső és belső erők. Felszínközeli mozgások. Kőzetképző folyamatok. Kőzetosztályozás. Mérnökgeológiai térképezés. 
+Irodalom: Bartos Sándor - Králik Béla: Mélyépítés I. Építésföldtan-Talajmechanika. / Hartai Éva: A változó Föld. 
+SGYMALT202XXX
+Tárgyfelelős: Dr. Bálint Julianna PhD főiskolai tanár 2/0/0/F/3
+Oktatási cél és Tartalom: A minőséggel kapcsolatos fogalmak, a minőségirányítási rendszerek jellegzetességei. Az ISO 9001 szabvány követelményeinek építőipari értelmezése. A minőségirányítási rendszer kiépítésének módszerei, feladatai, a minőségirányítási kézikönyv felépítése és kialakítása, kapcsolata a többi dokumentummal. A teljes körű minőségirányítás, (TQM) alapelvei, és elemei. Az építési projektek minőségirányításának elemei, különös tekintettel a minőségtervre és az ellenőrzési tervre. Az európai építőipari szabályozás és jogharmonizáció minőségügyi kérdései: az önkéntes szabványrendszer jellegzetességei, az alkalmazásából adódó feladatok és következmények, a megfelelőségigazolásokkal kapcsolatos ismeretek, a vonatkozó hazai szabályozás. 
+Irodalom: BÁLINT JULIANNA: Minőség - Tanuljuk, tanítsuk, valósítsuk meg, és fejlesszük tovább. TERC Kft., Budapest, 2006. 
+SGYMTUB2016XA
+Tárgyfelelős: Dr. Szakál Béla PhD főiskolai tanár 2/0/0/F/1
+A munkavédelem fogalma, feladatai, eszközrendszere. A munkavédelem szabályozása. A fizikai munkakörnyezet szerepe. A munkabiztonság, közérzet, baleset-elhárítás, baleset-elemzés, kivizsgálás, bejelentés. A gépek és berendezések biztonságtechnikája. Munkaegészség-ügy. Tűzoltó létesítmények, felszerelések, járművek biztonsági kérdései. A gyakorlatok és bevetések biztonsága. A veszélyforrások felismerése Biztonsági felülvizsgálatok. Munkavédelmi oktatás, dokumentálás. A létesítés és használat tűzvédelme, mentő tűzvédelem. 
+Irodalom: KISS DÉNES: Munkavédelem. Műegyetem Kiadó, Budapest, 1994. 
+SGYMASZ2011XA
+Tárgyfelelős: Dr. Nagy Gyula PhD főiskolai tanár 1/2/0/F/4
+Tartalom: A tantárgy keretében a hallgatók alkalmazási szintű informatikai ismereteket szereznek. Elsajátítják a legfontosabb táblázat- és adatbázis-kezelő rendszerek használatát, továbbá megismerkednek a korszerű dokumentumkészítési, prezentációkészítési és computer grafikai technikákkal. A gyakorlati oktatás számítógépes laborokban folyik. 
+Irodalom: Katona János főiskolai adjunktus: Bevezetés a táblázatkezelésbe mérnökjelölt hallgatók számára. SZIE YMÉK jegyzet, 2008; Mészáros Gergely: Bevezetés az adatbáziskezelésbe mérnökjelölt hallgatók számára. SZIE YMÉK jegyzet, 2007; a tanszék honlapján található segédanyagok; a szoftverek súgói és felhasználói kézikönyvei. 
+SGYMASZ202XXX
+Tárgyfelelős: Dr. Nagy Gyula PhD főiskolai tanár 0/0/3/F/4
+Tartalom: A számítógéppel segített tervezés (CAD rendszerek) alapjai. A CAD-programok használatához szükséges geometriai alapfogalmak ismertetése, a számítógépes grafika elvi és gyakorlati tárgyalása. Az alkalmazott CAD szoftver felhasználói felülete, alapvető műveletek. Műszaki síkrajzok készítése, méretezés. Háromdimenziós testmodellezés. Alapvető építészeti alkalmazási lehetőségek áttekintése. 
+Irodalom: A szoftver felhasználói kézikönyvei, valamint a tanszék honlapján található segédanyagok. 
+SGYMKOM2315XA
+Tárgyfelelős: Keszeyné dr. Say Emma PhD egyetemi docens 1/2/0/F/3
+Mélyépítési műtárgyak különböző szempontok szerinti csoportosítása. A felszín alatti műtárgyak építése felszínről nyitott munkagödörben és kitakarás nélkül. Terhek és hatások. Kitakarás nélküli építési módszerek és technológiák ismertetése. Sajtolás, folyamatos zárt építési módszerek, valamint földalatti vezetékek felkutatása és felmérése. 
+Irodalom: Petrasovits G. – Fazakas Gy. – Kovácsházy F.: Vasbeton földalatti műtárgyak tervezése és kivitelezése. Akadémiai Kiadó, Bp, 1992. / Vonatkozó MSZ és MSZ EN (EC) szabványok 
+SGYMKOM2336XA
+Tárgyfelelős: prof. dr. Telekes Gábor PhD főiskolai tanár 2/2/0/V/5
+Földalatti építményekre, alagutakra ható terhelések alapján, méretezési kérdések, földalatti műtárgyak építése, szerkezet, védelme. Szellőztetési és szigetelési kérdések. 
+Irodalom: Petrasovits G. – Fazakas Gy. – Kovácsházy F.: Vasbeton földalatti műtárgyak tervezése és kivitelezése / Ábrahám 
+Kálmán: Metró kézikönyv / Széchy Károly: Alagútépítéstan. 
+SGYMMET234XXX
+Tárgyfelelős: Kis László óraadó 2/3/0/V/5
+A hidak története és osztályozása. Szerkezeti anyagok, funkció, szerkezeti szempontok. Alépítmény: hídfők, pilonok és lehorgonyzások. Közúti és vasúti hídszerkezetek, szerkezeti kialakítás, csomópontok tervezése. Hidak felszerkezetének számítási alapelvei, a vasbeton keresztmetszet feszítése, a vonatkozó szabványok előírásai. Acélszerkezetű hidak. Hidak és műtárgyak kivitelezési és fenntartási kérdései. Hidak rekonstrukciója. Hidak esztétikája. Építési helyszíni látogatás. 
+Irodalom: Jankó László: Vasbeton hídszerkezetek. Műegyetemi Nyomda, Budapest, 1998. / Mérnöki kézikönyv. Szerkesztette: Palotás László. Műszaki Könyvkiadó, Budapest, 1981/1984. / Bölcskei Elemér: Beton-, vasbeton és feszítettbeton-hídak. Tankönyvkiadó, Budapest, 1968. / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008. 
+SGYMKOM233XXX
+Tárgyfelelős: Bartók Miklós főiskolai adjunktus 1/2/0/V/4
+A vízellátás műtárgyai, tárolók, medencék, víztornyok, gépházak. Hálózati kisműtárgyak, keresztezések, aknák, nyomóvezetékek kitámasztásai. A csatornázás műtárgyai, aknák, víz-nyelők, tárolók, keresztezések, tehermentesítő és mérőműtárgyak. A szennyvíztisztítás medence és torony jellegű műtárgyai. Energiaközművek kisműtárgyai, aknák, védőcsatornák, keresztezések, fix megfogások. Közműalagutak. 
+Irodalom: BARTOS SÁNDOR – BÁNDY IVÁN: Műtárgyépítés. Nemzeti Tankönyvkiadó, Budapest. / DULOVICS DEZSŐNÉ – KRÁLIK BÉLA – SZABÓ TAMÁS: Közmű- és mélyépítés. YMMF, Budapest, 1997. (9907) 
+SGYMLEK2818XA
+Tárgyfelelős: Dr. Lengyel András nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2828XA
+Tárgyfelelős: Dr. Lengyel András nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2898XA
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2908XA
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2878XA
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK2888XA
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/2/0/F/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMKOM288XXX
+Tárgyfelelős: Dr. Major János PhD főiskolai tanár 2/0/0/F/3
+Oktatási cél: A tárgy célja az olyan állandó jellegű vízrendezési létesítmények megismertetése, amelyek tervezésénél a statikai, hidrológiai, valamint vízgazdálkodási célok szabta követelményeken kívül az ökologikus gondolkodás elemeinek alkalmazására is szükség lesz. 
+Tartalom: A vízrendezési célok és feladatok ismertetése. Vízmosások, patakok, folyók jellemzői. A vízfolyásrendezésnél alkalmazott klasszikus anyagok és környezeti hatásaik. A vízfolyásrendezés megvalósítási lehetőségei a környezeti hatások minimális szinten tartásával, gyakorlati példákkal. A vízfolyások revitalizációjának lehetőségei bel- és külterületen. Vízfolyás rendezés tervezése és megvalósítása természetes anyagokból. A vízfolyásrendezés kivitelezési munkáinak szervezési lehetőségei a környezet és az élővilág maximális megóvásával. 
+SGYMMAG286XXX
+Tárgyfelelős: Pandula András főiskolai adjunktus 0/6/0/F/5
+Oktatási cél: Projekt alapú oktatás és műhelymunka keretében a passzív ház tervezési és kivitelezési elveinek elsajátítása és alkalmazása épületfelújítások során. A workshop célja továbbá a hallgatók szakmai együttműködési képességének feljesztése, a mérnöki illetve nemzetközi kooperatív munkához szükséges kompetenciáinak fejlesztése.  
+Tartalom: A 3 hetes intenzív program az EU LLP-Erasmus program keretében Reimsben kerül megvalósításra Franciaország, Dánia, Litvánia, Észtország és Magyarország együttműködésével, 60 diák részvételével. A workshop során csapatmunka formájában egy 5 emeletes előlre gyártott nagyblokkos épület energiatudatos, ”passzív ház” elveinek megfelelő felújítását kell megtervezni. Projekt alapú oktatás és műhelymunka az alábbi témaköröket foglalja magába: Zöld & fenntartható építési módszerek és anyagok, tervezési-építési elvek / Épületenergetikai (szimulációs programok, hőhídak modellezése, energia-számítások) és CO2kibocsátási érték számítás / Szolar fűtési rendszerek / Alternatív szellőztetési rendszerek, hőcserélők / Hőszivattyús fűtési rendszerek / Épületszerkezeti tervezés / Költségelemzés Ajánlott Irodalom: www.passzivhaz-akademia.hu 
+SGYMTUB2858XA
+Tárgyfelelős: Dr. Kátai-Urbán Lajos külső óraadó 1/1/0/F/2
+A tömegpusztító fegyverek, hagyományos támadófegyverek pusztító hatásai. A Genfi Egyezmény, a polgári védelem feladatai jelenleg hatályos hazai szabályozása, lakosságvédelmi feladatok, a mentő-ideiglenes helyreállító tevékenység, annak logisztikai biztosítási feladatai, a létfenntartáshoz szükséges anyagi javak védelme, a polgári védelem szervezete.  
+Irodalom: Szakál B. Polgári védelem, SZIE YMÉK jegyzet, 2007. 
+SGYMTUB2498XA
+0/15/0/F/15
+SGYMKOM2428XA
+0/15/0/F/15
+A hallgató a szakiránynak megfelelő szakirányos diplomamunkát készít, amely lehet vagy tanulmány, vagy kivitelezési terv, vagy ezek kombinációja. Diplomamunka keretében a hallgató bármely, a geotecnika, ill. mélyépítés témakörébe tartozó témát feldolgozhat. A tanulmányoknál önálló rendszerezést, a téma tananyagot meghaladó szintű feldolgozását várjuk el a hallgatóktól, a kivitelezési tervet készítők az érvényes szabványoknak és műszaki előírásoknak megfelelő a tervezési gyakorlatban szokásos kivitelezési terveket készítenek. A tantárgy keretében ehhez a munkához megfelelő szakmai segítséget kapnak a hallgatók. 
+Irodalom: Bartos S.-Králik B. Mélyépítés I-III. / Vonatkozó MSZ és MSZ EN (EC) szabványok / Szakcikkek 
+SGYMMET2348XA
+0/15/0/F/15
+A diplomamunka tartószerkezeti témakörben elsősorban magasépítésbe sorolt létesítmények megtervezése. A hallgató a – lehetőség szerint – általa választott konzulens irányításával, segítségével, szakmai tanácsaival készíti el faladatát. A feladat: a mindenkor érvényben lévő szabványok maradéktalan betartásával készített részletes statikai számítás, a tartószerkezeti elemek kiviteli szintű feldolgozása, a tartószerkezet minden elemére, valamint a létesítmény egészére kiterjedő műszaki leírás. 
+SGYMKOM2508XA
+0/15/0/F/15
+SGYMKOM2387XA
+Tárgyfelelős: Keszeyné dr. Say Emma PhD egyetemi docens 0/6/0/F/5
+A tantárgy keretében a mérnöki tervezés alapelvét sajátítja el a hallgató. Megtanítjuk a terület helyszíni bejárásának szempontjait. Foglalkozunk a helyszíni és tervtári adatgyűjtés módszertanával, az összegyűjtött adatok elemzésével, értékelésével. Megismertetjük a hallgatót a modellalkotás alapjaival és a szakiránynak megfelelő korszerű mérnöki szoftverek alkalmazásával. Kitérünk az EU és MSz Szabványok összehasonlítására. A hallgató a projekt keretében elvégzi az adatgyűjtést, modellalkotást, a szükséges számításokat és mindezek alapján műszaki leírást készít. 
+Irodalom: Szakcikkek 
+SGYMKOM2487XA
+Tárgyfelelős: Dr. Dombay Gábor PhD főiskolai tanár 0/6/0/F/5
+A tantárgy keretében a mérnöki tervezés alapelvét sajátítja el a hallgató. Megtanítjuk a terület helyszíni bejárásának szempontjait. Foglalkozunk a helyszíni és tervtári adatgyűjtés módszertanával, az összegyűjtött adatok elemzésével, értékelésével. Megismertetjük a hallgatót a modellalkotás alapjaival és a szakiránynak megfelelő korszerű mérnöki szoftverek alkalmazásával. Kitérünk az EU és MSz Szabványok összehasonlítására. A hallgató a projekt keretében elvégzi az adatgyűjtést, modellalkotást, a szükséges számításokat és mindezek alapján műszaki leírást készít. 
+Irodalom: Szakcikkek 
+SGYMMET2338XA
+Tárgyfelelős: Dr. Szalai József András PhD főiskolai adjunktus 0/5/0/F/7
+A véges elemek módszerének alapelvei. Szerkezettípusok számítási modelljének kialakítása: keret, lemez, tárcsa, héj, összetett szerkezetek. Megtámasztások és kapcsolatok modellezése. A fő tartószerkezeti elemek számítógéppel történő méretezése. A szerkezet globális viselkedésének számítógépes ellenőrzése. A szerkezeti elemek kiviteli tervének gépi feldolgozása. Az Axis Vm és AutoCad tervezőprogramok használata a statikai tervezés és a kiviteli tervek elkészítése során. Szerkesztőprogram(ok) ismertetése. 
+SGYMTUB2396XA
+Tárgyfelelős: Dr. Kerekes Zsuzsanna főiskolai docens 0/0/6/F/6
+Szilárd anyagok tűzveszélyességének megítélése, műanyagok éghetőségének meghatározása. textíliák lángterjedési sebességének mérése, termikus analízis, növényi olajok öngyulladási hajlamának vizsgálata, sertészsír önmelegedésének vizsgálata, habkiadósság és habállandóság vizsgálata, a habtörés vizsgálata, veszélyes anyagok kimutatása katasztrófavédelmi szerveknél rendszeresített eszközökkel, veszélyes anyagok mentesí-tése katasztrófavédelmi szerveknél rendszeresített eszközökkel. 
+Irodalom: Mórotzné-Beda L.: laboratóriumi gyakorlatok, főiskolai jegyzet. 
+SGYMKOM2366XA
+Tárgyfelelős: Firgi Tibor adjunktus 0/2/0/F/2
+A geotechnikusi tevékenység folyamatának megismerése. Kísérletek, mérések, vizsgálatok a talajadatokra vonatkozóan laboratóriumban és terepen. A mért eredmények feldolgozása, értékelése, a talajra vonatkozó kvalitatív és kvantitatív jellemzők meghatározása. Talajvizsgálati jelentés formai és tartalmi követelményeinek megismerése.  
+Irodalom: Bartos S.-Králik B. Mélyépítés I-III. / Vonatkozó MSZ és MSZ EN (EC) szabványok 
+SGYMKOM2456XA
+Tárgyfelelős: Dr. Major János PhD főiskolai tanár 0/2/0/F/2
+SGYMMAG229XXX
+Tárgyfelelős:  0/0/0/A/0
+SGYMASZ285XXX
+Tárgyfelelős: Katona János főiskolai adjunktus 0/0/2/F/2
+Tartalom: Egy építészeti CAD rendszer alapjainak elsajátítása. A szoftver használatához szükséges térgeometriai alapfogalmak ismertetése. A szoftver bővített felhasználói felülete. Virtuális épületmodell. Alapvető modellező eszközök és tárgyak. Szerkesztési technikák. Szilárdtestműveletek, tervezési extrák, egyedi tárgyak készítése. Metszetek, homlokzatok, részletrajzok, méretezés, dokumentáció, prezentáció. Látványtervek és animációk készítése. 
+Irodalom: A szoftver felhasználói kézikönyvei, valamint a tanszék honlapján található segédanyagok. 
+SGYMASZ284XXX
+Tárgyfelelős: Katona János főiskolai adjunktus 0/0/2/F/2
+Tartalom: A hallgatók megismerkednek az épületinformációs modellel (BIM) egy erre épülő CAD alapú szoftver használatán keresztül. Épület alaprajzi és térbeli számítógépes modelljének egymással párhuzamos készítése, ötvözve egy információs adatbázissal (anyagszükséglet, költségek, ütemezés részletezéssel), egy projekt kezdetétől egészen az engedélyezési és látványtervek elkészítéséig. Részletes épületmodell kialakítása vázlatos tömegmodellből. Tervdokumentáció. 
+Irodalom: Autodesk Revit Architecture felhasználói kézikönyv 
+SGYMKOM289XXX
+Tárgyfelelős: Dr. Dulovics Dezső PhD c. egyetemi tanár 2/0/0/F/3
+A szennyvíztisztító telepek tervezésének, megvalósításának és üzemeltetésének alapfogalmai. Vízminőségi és környezetvédelmi követelmények. Technológiai és hidraulikai tervezés, méretezés. Szennyvíztisztító telep kapcsolata a csatornahálózattal és a befogadóval.  
+Irodalom: DULOVICS DEZSŐ: Szennyvíztisztító telepek. Műegyetemi Kiadó, Budapest. 
+SGYMALT232XXX
+Tárgyfelelős: Dr. Bálint Julianna PhD főiskolai tanár 3/0/0/F/4
+Oktatási cél és Tartalom: Az épületeket érő nedvességhatások, a vízszigetelő anyagok fajtái, tulajdonságai, a téli nyári hővédelem. A talajszint alatti szigetelések, a lapostető, terasztető, zöldtető szigetelések A szigetelések fajtái, készítésének lépései. A szigetelés átvétele. A leggyakrabban előforduló hibák elemzése.  A betonokkal kapcsolatos új szemlélet. Az európai betonszabvány főbb vonásai. A betonok alkotóanyagai, betonadalékszerek, alkalmazásuk és hatásmechanizmusuk. A friss és megszilárdult beton tulajdonságai. A betonok összetételének meghatározása. A betonkészítés technológiája: az alkotóanyagok előkészítése, mérése, keverés, szállítás, bedolgozás, utókezelés, kizsaluzás. A transzportbetonnal kapcsolatos tudnivalók. Különleges betonok készítése, különös tekintettel a vízzáró, fagyálló, és tömegbetonokra. Betonozás hideg és meleg időjárás esetén. Az előforduló hibák, károsodások és javításuk. Minőségi követelmények és vizsgálatuk, fontosabb szabványok ismertetése. 
+Irodalom: Az előadások anyaga, és a honlapon megtalálható rövidített előadás anyag. 
+SGYMMEN210XXX
+Tárgyfelelős: Dr. Madarász Imre PhD egyetemi docens 2/0/0/V/2
+Oktatási cél: Tájékozottság a társadalmi folyamatokban. 
+Tartalom: Bevezetés (a szociológia kutatási területe, kialakulása, alapfogalmai, rövid története, részterületei). A szociológia módszertana (kutatási eszközök, módszerek). Társadalmi szerkezet, rétegződés, egyenlőtlenségek. Életmód, az élet minősége, normák, értékek, attitűdök. Demográfia, egészségügy. Oktatás-képzés, kultúra, kommunikáció és a média. A munka, és a gazdasági élet. Társadalmi mobilitás, vándorlás. Közlekedés. Lakás, lakáspolitika. Város és falu. Urbanizáció és globalizáció. Városok, városhalmazok. Budapest problémái, helyzete Európában. 
+Irodalom: ANTHONY GIDDENS: Szociológia. Osiris Kiadó, Budapest, 2003. 
+SGYMKOM290XXX
+Tárgyfelelős: Dr. Imre Emőke PhD tanszéki mérnök 2/0/0/F/3
+A tantárgy az építőiparban fellelhető dinamikai kérdéseket tárgyalja, a rezgéstani alapfogalmak ismertetése után tárgyalásra kerülnek a taljok speciális dinamikus paraméterei (pl: dinamikus ágyazási tényezők, stb.) Ezek vizsgálata, mérése, meghatározása. A hallgatóknak bemutatjuk a dinamikus triaxiális berendezést, amelyből az országban csupán néhány darab lelhető fel. A következő blokkban a földrengések, gépalapozások specialitásait ismertetjük, dinamikai méretezés alapelveit, az aláhangoltságföléhangoltság kérdéseit. A gépalapozások kivitelezése során felmerülő speciális problémákat. A negyedik blokkban az ipari zaj és rezgésmrések tárgykörét tárgyaljuk műszerbemutatókkal a mérések végrehajtásával és azok kivitelezésével. 
+Irodalom: Szakcikkek / az oktató által kiadott anyagok 
+SGYMKOM291XXX
+Tárgyfelelős: Kecskés Gábor főiskolai tanársegéd 2/0/0/F/3
+Talajjavítás injektálással, égetéssel, bitumennel, cementtel mechanikus úton, korszerű techológiákkal. Talajcsere. Geoműanyagok. EC7 alapú hazai szabályozás. A gyakorlati órák anyaga: irodalmi anyag gyűjtésével egyénenként a talajjavítás és megerősítés eseteinek ismertetése. 
+Irodalom: Órák anyaga / szakcikkek / kapcsolódó termékismertetők 
+SGYMKOM292XXX
+Tárgyfelelős: Firgi Tibor adjunktus 2/0/0/F/3
+A felszín alatti vizek osztályozása. Kapilláris jelenségek. Geohidrológiai alapismeretek. A talajvízjárás periodicitása és előrejelzése. A talajban lévő és áramló víz hatása, a hatások előrejelzése, figyelembe vétele a geotechnikai tervezésben. Talajvíz okozta károk.  
+Irodalom: Bartos – Králik: Mélyépítés I. (Építésföldtan-talajmechanika) / Rétháti László: Talajvíz a mélyépítésben 
+SGYMMET231XXX
+Tárgyfelelős: Dr. Garai József PhD egyetemi docens 2/2/0/V/5
+Felületszerkezetek (lemezek, falak és héjszerkezetek). Egyszerű szerkezeti kialakítású lemezek, tárcsák és héjak igénybevételeinek meghatározása. Épületek globális viselkedése; térbeli erőjáték. Vízszintes terhek a szélből, építési pontatlanságból és földrengésből. Épületmerevítés keretekkel, keretekkel és végfallal, egy- és kétirányú falrendszerrel. A merevítőelemekre jutó erőhányadok meghatározása. Eltolódások és elfordulások kiszámítása. Stabilitás. Legkisebb sajátfrekvencia. A földrengésvizsgálat alapjai. Hatékony épületmerevítés; az épület „biztonsági tényezője”. 
+Irodalom: Zalka Károly: Tartók Statikája 2 ISBN 978-963-269-166-4. Budapest, 2010. / Freund Péter: Segédletek a Mechanika és Tartószerkezetek c. tárgyhoz. ISBN 978-963-269-047-6. Budapest, 2008 
+SGYMTUB2376XA
+Tárgyfelelős: Nagy Béla óraadó 2/1/0/V/3
+Tartószerkezetek tűzvédelme. Európai irányelvek. A tartószerkezetekkel szembeni éghetőségi követelmények és minimális állékonysági idő. Anyagválasztás, Eurocode szerinti számítások, kísérleti vizsgálatok, táblázatok a szerkezetek megítélésére. A tűzhatások bemutatása, azok modelljei, a hazai tűzvédelmi szabályozás szerkezeti logikája és követelményei. A főbb szerkezeti anyagok magas hőmérsékleti jellemzői, egyszerűbb szerkezetek számításai tűzhatásra, a tűzvédelmi konstruálás és a kísérleti igazolás lehetőségei. Összetett szerkezeti rendszerek példáin mutatjuk be a tűzvédelmi szempontok érvénye-sítési lehetőségét a tervezési folyamatban és a hatósági egyeztetéseknél. 
+Irodalom: Horváth L., Kulcsár B., Lublóy É., Sas V., Vígh L.G. [2010] Tartószerkezetek méretezése tűzhatásra. MMK / Kollár L. [2002] Tartószerkezetek tervezése: modellalkotás, közelítő számítások. Műegyetemi Kiadó. / Kulcsár B. [2009] Tartószerkezetek tűzvédelme. Segédlet. SZIE-YMÉK Tűzvédelmi és Biztonságtechn. Intézet 
+SGYMTUB2355XA
+Tárgyfelelős: Kulcsár Béla tanársegéd 0/3/0/F/3
+Járműszerkezetek, járműmechanika: fékezés, kormányzás, stabilitás, teljesítmények, szivattyúismeret: volumetrikus és örvényszivattyúk működése, felépítése, alkalmazásai. Gyakorlat: számítások a mechanika téma-köréből, az egyes eszközök megismerése 
+Irodalom: Kovács I. Technikai ismeretek mérőgyakorlat, tansegédlet 
+SGYMTET201XXX
+Tárgyfelelős: Dr. Csorba Zoltán PhD ny. főiskolai tanár 3/0/0/F/4
+Oktatási cél: A település és városépítési alapfogalmak megismertetése 
+Tartalom: Települési alapismeretek: a település tudomány, a település fogalma, település és társadalom, gazdaság, épített és természetes környezet, tulajdonviszonyok-gazdálkodás. A város, a település mint komplex rendszer. A település morfológiai elemzése, építészeti karakter vizsgálata. Települési funkciók, településszerkezet, közterület funkciója, fajtái, lakó, ipari és egyéb területek telekhasználata és beépítése. Településfejlesztési stratégiák, külföldi és magyarországi példák. A településtervezés feladata, tervezési tervfajták készítése és alkalmazásuk. Magyar települések értékvédelme, az integrált örökségvédelem fogalma és alkalmazása. 
+Irodalom: TÓTH ZOLTÁN: A települések világa. Ponte Press Kiadó, Pécs, 1997. / LEWIS MUMFORD: A város a történelemben. Gondolat, Budapest, 1985. / LEONARDO BENEVOLO: A város Európa történetében. Atlantisz, Budapest, 1994. / NAGY BÉLA: A település, az épített világ. B+V Könyv- és Lapkiadó Kft. 2005., / MEGGYESI TAMÁS: A 20. század urbanisztikájának útvesztői. TERC Kereskedelmi és Szolgáltató. KFT. 2005., / MEGGYESI TAMÁS: Városépítészeti alaktan. TERC Kereskedelmi és Szolgáltató. KFT. 2009. 
+SGYMTES201XXX
+Tárgyfelelős: Fejes Edit testnevelőtanár 0/1/0/A/0
+A tárgy oktatási céljának és tartalmának részletes leírása a Testnevelési Csoport honlapján található. 
+SGYMTES202XXX
+Tárgyfelelős: Fejes Edit testnevelőtanár 0/1/0/A/0
+A tárgy oktatási céljának és tartalmának részletes leírása a Testnevelési Csoport honlapján található. 
+SGYMTES203XXX
+Tárgyfelelős: Fejes Edit testnevelőtanár 0/1/0/A/0
+A tárgy oktatási céljának és tartalmának részletes leírása a Testnevelési Csoport honlapján található. 
+SGYMALT2317XA
+Tárgyfelelős: Dr. Szűcs László PhD egyetemi docens 0/0/3/F/3
+Oktatási cél és Tartalom: Jelen mérőgyakorlat a Térinformatika alapjai c. tantárgyban tanultak begyakorlására ad lehetőséget. A hallgatók egy kijelölt lakóterület digitális térképének elkészítése után (amely történhet szkennelés, navigációs GPS, mérőállomás segítségével) attribútum adatok gyűjtésébe kezdenek. Az adatbázis és digitális térkép összekapcsolása után a létrejött térbeli információs rendszerrel modellezési eljárásokat, szűréseket végeznek. Végül különböző tematikus térképeket hoznak létre, és nyomtatnak ki. 
+Irodalom: Honlapról letölthető segédanyagok 
+SGYMTUB2427XA
+Tárgyfelelős: Dr. Kerekes Zsuzsanna főiskolai docens 1/1/0/F/2
+Tűzbiztonsági kritériumok, épületek tűzbiztonságának megítélése. A tűz károsító tényezőinek időbeli változása. A kiürítési időhatár. A zónamodellek elmélete. A cellamodellek elmélete. Sztochasztikus modellek elmélete. Tűzbiz-tonság értékelő sémák. A tűzbiztonság prioritásai. Gazdasági elemzési módszerek. A tűzvédelem és a biztosítás. Az emberi élet, menekülés a tűzből. Számítógépes tűzterjedés modellek. 
+Irodalom: Beda L: Tűzkockázat elemzés, SZIE YMÉK jegyzet 2011. 
+SGYMTUB2818XA
+Tárgyfelelős: Dr. Szakál Béla PhD főiskolai tanár 0/2/0/F/2
+A tűzmodellezés fejlődése. Zónamodellek: FAST, HAZARD I. Cellamodellek: FDS. Példák bemutatása az egyes modellek használatával 
+Irodalom: Beda L. Szakál B. Tűz- és katasztrófavédelmi modellezés, jegyzet 
+SGYMTUB2838XA
+Tárgyfelelős: Dr. Beda László PhD főiskolai tanár 0/2/0/F/2
+Tűzesetekről készített esettanulmányok bemutatása, megbeszélése.  
+Irodalom: a tűzoltóságok által készített esettanulmányok 
+SGYMTUB2437XA
+Tárgyfelelős: Dr. Beda László PhD főiskolai tanár 1/3/0/F/4
+A tűzoltóságok készenléti szolgálata feladatainak szervezése tervezése, a tűzoltáshoz szükséges erők és eszközök tervezése (számítási feladatok), a tűzoltáshoz kapcsolódó szakfeladatok számításai (oltóvíz, hab oltópor stb.). A tűzoltást segítő tervek (rst, tt), a tervezés szabályai, gyakorlat terv, helyszín – és taktikai vázlatrajzok készítése, Beavatkozás ipari környezetben és mezőgazdasági létesítményekben 
+Irodalom: Dombi J. Tűzoltás kárelhárítás SZIE YMÉK jegyzet 2011. 
+SGYMTUB2407XA
+Tárgyfelelős: Kulcsár Béla tanársegéd 3/0/0/V/3
+A beépített tűzvédelmi berendezések tervezésének, létesítésének szabályozása, a tervezés alapjai, a kockázatok felmérése, a tűzjelzés lehetőségei és elvei a tűzjellemzők alapján, tűzjelző érzékelők fajtái, felépítésük, működé-sük, tűzjelző berendezések, vízzel, habbal és gázzal oltó berendezések 
+Irodalom: Mohai Á. Tűzvédelmi berendezések tervezése SZIE YMÉK jegyzet 2011. 
+SGYMTUB2468XA
+Tárgyfelelős: Kulcsár Béla tanársegéd 0/3/0/F/3
+Tűzjelző berendezések, vízzel oltó beépített berendezések habbal oltó beépített berendezések, gázzal oltó beépí-tett berendezések, különleges tűzoltó berendezések tervezésének elméleti szempontjai és gyakorlati lépései. Termékismertetések, tűzjelző berendezés komplett tervezése, hidraulikai ellenőrző számítások, csővezetékek méretezése. 
+Irodalom: Mohai Á. Tűzvédelmi berendezések tervezése SZIE YMÉK jegyzet 2011. 
+SGYMTUB2345XA
+Tárgyfelelős: Kulcsár Béla tanársegéd 3/0/0/F/3
+Mechanikai alapfogalmak: erő, energia, veszteségek, hatásfok, hőerőgépek, belső égésű motorok működése, felépítése. Elektrosztatikus alapjelenségek, alaptörvények. A sztatikus feltöltődés kialakulása, kisülési jelenségek. Összetett egyen-áramú áramkörök. A mágneses erőtér előállítása, leírása. Az indukció. Váltakozó áramú áramkörök. A háromfázisú áram előállítása. Alapkapcsolások. Generátorok, dinamók és motorok szerkezete, működése. Motorok jelleggörbéi. A villamos gépek kiválasztása. Vezetékek és azok terhelhetősége, érintésvédelem. 
+Irodalom: Nagy B.: Elektrotechnika tansegédlet 
+SGYMTUB2478XA
+Tárgyfelelős: Dr. Erdős Antal külső óraadó 1/1/0/F/3
+Az igazgatás fogalma, tárgya, az államigazgatási eljárás fogalma és jogi szabályozása, annak tartalmi elemei. A szabály-sértési eljárás szabályozása, tartalmi elemei. Szabálysértési intézkedések és büntetések. A tűzvédelem jogi szabályozá-sa. A tűzvédelmi hatósági tevékenység szabályozása és tartalmi elemei. A szakhatósági és a szakértői tevékenység. 
+Irodalom: Közigazgatási alapvizsga (BM Kiadó). / Államigazgatási eljárásjog (Rendőrtiszti Főiskola jegyzete) / Duruc József: Tűzvédelmi igazgatás, tansegédlet / Magyari Zoltán: Magyar Közigazgatás /A tűz elleni védekezésről, a műszaki mentésről, valamint a tűzoltóságról szóló 1996. évi XXXI. törvény és végrehajtási rendeletei. / A létesítéshez és a használathoz kapcsolódó hatályos szabványok 
+SGYMTUB2325XA
+Tárgyfelelős: Dr. Kerekes Zsuzsanna főiskolai docens 1/2/0/V/3
+Tartalom: Atomon belüli fizikai és energetikai jelenségek, anyag atomi, molekuláris, és halmaz szerkezete, kémiai reakciók fajtái és mechanizmusa, reakció kinetika, szervetlen vegyületek és legjellemzőbb előállítási technológiájuk, szerves vegyületek és ipari alapreakciók (nitrálás, szulfonálás, polimerizáció stb.), számítási gyakorlatok koncentrációszámításra. Baleseti és munkavédelmi rendszabályok a laboratóriumban, a laboratóriumi munka dokumentálása, felkészülés a labor-gyakorlatra, a mérések megbízhatósága, a mérési eredmények hibája, tömegmérés, folyadékok térfogatának mérés, sűrű-ségmérés, hőmérsékletmérés, viszkozitás mérés, oldatkészítés, az oldatok tulajdonságai, 
+Irodalom: Dr Mórotzné Cecei Katalin: Kémia és anyagismeret (tűzvédelmi szakos hallgatók számára) Ybl Miklós Főiskola jegyzet, Beda László, Mórotzné Cecei Katalin: Számítási gyakorlatok tűzvédelmi szakos hallgatók számára Ybl. főiskolai jegyzet, 1990 Kémia és fizika tankönyvek középiskolák számára, Beda, Kerekes Zs. Tűzvédelmi labora-tóriumi gyakorlatok, tansegédlet 
+SGYMTUB2417XA
+Tárgyfelelős: Dr. Beda László PhD főiskolai tanár 1/1/0/V/2
+A helyszíni szemle, a meghallgatások, a nyomok rögzítése. Az éghető rendszerek elemzése, a tűz helye és keletkezésének ideje. A tűzre jellemző és nem jellemző nyomok. Verziók a tűz keletkezésére. A tűz keletkezési okok rendszere, nemzetközi jellemzés. A szándékos tűzokozás és az öngyulladások. Elektromos áram, technológiai hibák, tűzveszélyes munkavégzésből származó tüzek. A szakértői munka elemei.  
+Irodalom: Beda L: Tűzvizsgálattan SZIE YMÉK jegyzet 
+SGYMMEN2034XA
+Tárgyfelelős: Dr. habil Simig László PhD főiskolai tanár 2/2/0/F/4
+Oktatási cél: A hallgatók megismertetése a vállalati gazdálkodás főb területeivel, a szervezeti működés és vezetés alapjaival. 
+Tartalom: A vállalkozás céljai, működési környezete, vagyona. Eszközgazdálkodás. Vállalati költségek. Befektetés és finanszírozás. Beruházás-gazdaságossági számítások alapjai. Üzleti tervezés. Vezetési funkciók. Csoportmunka. Szervezeti formák. Vezetési stílusok, módszerek. Vállalati kultúra. Kötelező Irodalom: Katits Etelka: Gazdálkodási ismeretek (kijelölt fejezetek) / Kadocsa György: Menedzsment mérnöki alapismeretek (kijelölt fejezetek) 
+SGYMMET205XXX
+Tárgyfelelős: Dr. Szalai József András PhD főiskolai adjunktus 2/2/0/V/5
+A vasbeton szerkezetek kialakulásának története, anyagai és mechanikai jellemzői. A vasbeton-keresztmetszet feszültségi állapotai. Központosan húzott és nyomott szerkezeti elemek méretezése. Hajlított vasbeton szerkezeti elemek méretezése az I., II., és III. feszültségi állapotban. Vasbeton rúd méretezése hajlításból származó nyírásra. Vasbeton rudak vasalásának szerkesztési elvei és a vasvezetés tervezése. 
+Irodalom: Dr. Kollár László: Vasbetonszerkezetek I. (Vasbeton-szilárdságtan az EC 2 szerint) Műegyetemi Kiadó 2006. / Deák György – Draskóczy András – Dulácska Endre – Kollár László – Visnovitz György: Vasbeton-szerkezetek. Tervezés az Eurocode alapján. Springer Media Magyarország Kft. Szakkiadó 2007. 
+SGYMMET232XXX
+Tárgyfelelős: Hernád Attila mérnöktanár 1/2/0/V/4
+Vasbeton szerkezetek merevségvizsgálata (alakváltozás számítása) és a repedéstágasság meghatározása. Csavarvonal kengyelezésű oszlop és kibetonozott acélcső méretezése. Rövidkonzol vizsgálata. Külpontosan nyomott falak és oszlopok méretezése, a teherbírási vonal használata. Kétirányban teherhordó vasbeton lemez tervezése. Monolit, előre gyártott és feszített vasbeton szerkezetek számítási és szerkesztési elvei. Vasbeton épületvázak merevítése. 
+Irodalom: Dr. Kollár László: Vasbetonszerkezetek I. (Vasbeton-szilárdságtan az EC 2 szerint) Műegyetemi Kiadó 2006. / Deák György – Draskóczy András – Dulácska Endre – Kollár László – Visnovitz György: Vasbeton-szerkezetek. Tervezés az Eurocode alapján. Springer Media Magyarország Kft. Szakkiadó 2007. 
+SGYMMET289XXX
+Tárgyfelelős: Jaksits Ilona főiskolai docens 2/0/0/F/3
+A hallgató ismerje meg szerkezetek számítógépes statikai vizsgálatára kifejlesztett végeselemes program felépítését és működését, és alkalmazza a programot gyakorlati feladatokra. Az AXIS VM program felépítése. A feladatok geometriai és terhelési adatainak megadása rúd- és felületszerkezeteken. Gerenda- és keretmodell. Lemez-, tárcsa- és héjmodell. Nagyméretű szerkezetek. Az eredmények értékelése. Ellenőrzés közelítő módszerek segítségével. 
+Irodalom: Kollár L.– Zalka K.: Épültek merevítése. 7. fejezet a A mérnöki stabilitáselmélet különleges problémái c. könyvben. (Szerkesztő: Kollár L.) Akadémia Kiadó, Budapest, 1991. / AXIS VM végeselem programrendszer. Felhasználói kézikönyv. Budapest, 2001. 
+SGYMTUB2335XA
+Tárgyfelelős: Dr. Kerekes Zsuzsanna főiskolai docens 1/3/0/F/4
+A veszélyes anyagok fogalma, csoportosítása, a kémiai biztonság, a veszélyes anyagok szállításának biztonsága, a veszélyes anyagokkal kapcsolatos súlyos balesetek elleni védekezés jogi szabályozása, veszélyes vegyipari műveletek és technológiák, sugárzó anyagok, radioaktív bomlások és nukleáris reakciók.  
+Irodalom: Szakál B. Veszélyes anyagok és ipari katasztrófák I. SZIE YMÉK jegyzet, 2007. / Szakál B, Vass Gy. Tatár A.: Vegyipari katasztrófák, SZIE YMÉK jegyzet, 2006. 
+SGYMTUB2457XA
+Tárgyfelelős: Dr. Szakál Béla PhD főiskolai tanár 1/2/0/V/4
+A veszélyes anyagok kimutatása helyszíni és laboratóriumi eszközökkel, a kimutatás szervezése és értékelése, a veszélyes anyagok dekontaminálása (vegyi- és sugár-mentesítés), annak technikai eszközrendszere és technológiája, lakosságvéde-lem, nukleáris baleset-elhárítás, a közúti kárelhárítás szervezése, egyéni- és kollektív védelem eszközei és módszerei, védelmi tervezés. 
+Irodalom: Szakál B. Veszélyes anyagok és kárelhárításuk III. SZIE YMÉK jegyzet, 2007. Szakál B, Vass Gy. Tatár A.: Vegyipari katasztrófák, szakkönyv 
+SGYMTUB2386XA
+Tárgyfelelős: Nagy Béla óraadó 1/2/0/V/4
+A veszélyes anyagok fogalma, csoportosítása, a kémiai biztonság, a veszélyes anyagok szállításának biztonsága, a veszélyes anyagokkal kapcsolatos súlyos balesetek elleni védekezés jogi szabályozása, veszélyes vegyipari műveletek és technológiák, sugárzó anyagok, radioaktív bomlások és nukleáris reakciók. A veszélyes anyagokkal kapcsolatos súlyos balesetek elleni védekezés műszaki normái, veszélyforrás-elemzések, következményszámítások, egyéni és társadalmi kockázatok meghatározá-sa, számítási gyakorlatok, nukleárisbaleset-elhárítás 
+Irodalom: Szakál B. Veszélyes anyagok és ipari katasztrófák II. SZIE YMÉK jegyzet, 2007. / Szakál B, Vass Gy. Tatár A.: Vegyipari katasztrófák, SZIE YMÉK jegyzet, 2006.  34 
+SGYMKOM248XXX
+Tárgyfelelős: Dr. Dulovics Dezső PhD c. egyetemi tanár 1/1/0/V/3
+Elsődleges és másodlagos szennyeződések. A vízkezelés célja, módszerei, folyamatai. Gereb, szűrés, ülepítés, derítés, fertőtlenítés, lágyítás, gázmentesítés. A szennyvizek elhelyezésének követelményei, a szennyvíztisztítás célja és módszerei. Természetes és mesterséges tisztítás. Mechanikai, biológiai és kémiai tisztítási módszerek. Tápanyag eltávolítás. A szennyvíziszap jellemzése és elhelyezési módszerei. Iszapkondicionálás és stabilizálás. Iszapvíztelenítés. 
+Irodalom: DULOVICS DEZSŐ: Szennyvíztisztító telepek. Műegyetemi Kiadó, Budapest. / ÖLLŐS GÉZA: Csatornázás, szennyvíztisztítás II. Szennyvíztisztítás. Aqua Kiadó, Budapest, 1991. 
+SGYMKOM2033XA
+Tárgyfelelős: Dr. Major János PhD főiskolai tanár 2/1/0/V/3
+A vízépítés fogalma, feladata. Sík, domb, hegyvidéki vízrendezés. Folyó- és tószabályozás. Árvízvédekezés. Duzzasztóművek, vízfolyások lépcsőzése. Vízerő-hasznosítás, völgyzáró gátak, kikötők és partfalak. A vízgazdálkodás fogalma, feladata. Települések hidrológiája és a vízelvezetés térségi rendszere. Vízminőség védelem és szabályozás. Mezőgazdasági vízhasznosítás, öntözés. Belvízvédelem. Hévíz-gazdálkodás és fürdők.  
+Irodalom: HAMVAS FERENC: Vízépítés. Műegyetemi Kiadó, Budapest. / WISNOVSZKY IVÁN: Alkalmazott meteorológia és települési hidrológia. YMMF, Budapest, 1998. (9808) / MAJOR JÁNOS: Katasztrófavédelem II. Árvíz- és belvízvédelem. Szakkönyv. SZIE YMMFK, Budapest, 2004. (2004) 
+SGYMKOM2435XA
+Tárgyfelelős: Dr. Orbán Veronika főiskolai docens 2/0/1/F/3
+Felszíni és felszín alatti vizek jellemzése, tulajdonságaik. Halobitás, trofitás, szaprobitás, toxicitás paraméterei, meghatározásuk módszerei. Bioindikátor szervezetek. A vizek minősítése. Hazánk vízminőségi állapota. Szennyvizek tulajdonságai, jellemzésük. Vízkezelés, szennyvíztisztítás, iszapkezelés technológiájának jellemzése, kémiai, biológiai jellemzőkkel. 
+Irodalom: ÖLLŐS GÉZA: Víztisztítás-üzemeltetés. Egri Nyomda Kft., Eger, 1998. / ÖLLŐS GÉZA: Szennyvíztisztító telepek üzemeltetése I.-II. Akadémiai Kiadó, Budapest, 1994-1995. 
+SGYMLEK292XXX
+Tárgyfelelős: Rudolf Radenhausen német nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található. 
+SGYMLEK286XXX
+Tárgyfelelős: Richard Mann angol nyelvtanár 0/0/2/V/2
+A tárgy oktatási céljának és tartalmának részletes leírása a Nyelvi Lektorátus honlapján található.

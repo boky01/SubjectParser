@@ -1,0 +1,196 @@
+KOTELEZO
+SGYMASZ2021XA;Ábrázoló geometria;1;2;0;F;4;1
+SGYMASZ206XXX;Építészeti rajz;0;2;0;F;2;1
+SGYMMAT201XXX;Matematika I.;3;3;0;V;6;1
+SGYMMAT202XXX;Matematika II.;3;4;0;V;7;2
+SGYMMET201XXX;Mechanika I. (Statika);3;2;0;V;5;1
+SGYMMET202XXX;Mechanika II. (Szilárdságtan);2;3;0;V;5;2
+SGYMMET203XXX;Mechanika III. (Tartók statikája);3;2;0;V;5;3
+SGYMMET2011XA;Mérnökfizika és a méretezés alapjai;1;2;0;F;4;1
+SGYMASZ2011XA;Műszaki informatika I.;1;2;0;F;4;1
+SGYMASZ202XXX;Műszaki informatika II. (CAD I.);0;0;3;F;4;2
+SGYMKOM215XXX;EU-dimenziók;2;0;0;F;1;7
+SGYMMEN203XXX;Jogi ismeretek I.;2;0;0;F;2;4
+SGYMMEN204XXX;Jogi ismeretek II.;2;0;0;F;2;5
+SGYMMEN2012XA;Közgazdaságtan I. (Makroökonómia);2;0;0;F;3;2
+SGYMMEN2023XA;Közgazdaságtan II. (Mikroökonómia);2;0;0;F;3;3
+SGYMALT202XXX;Minőségirányítás;2;0;0;F;3;7
+SGYMTUB2016XA;Munka- és tűzvédelem;2;0;0;F;1;6
+SGYMMEN2034XA;Vállalkozások menedzsmentje;2;2;0;F;4;4
+SGYMALT212XXX;A térinformatika alapjai;1;0;2;F;3;4
+SGYMKOM281XXX;Építésföldtan vagy Mérnökgeológia;2;0;0;F;2;2
+SGYMMEN207XXX;Építésszervezés I.;1;2;0;F;3;5
+SGYMMEN2046XA;Építésszervezés II.;1;2;0;V;4;6
+SGYMALT2012XA;Építőanyagok és kémia;2;0;2;V;4;2
+SGYMALT2023XA;Építőanyagok és termékek;1;0;2;V;4;3
+SGYMMET206XXX;Fa- és acélszerkezetek I.;2;2;0;V;5;5
+SGYMALT207XXX;Geodézia I.;1;0;2;F;3;3
+SGYMALT208XXX;Geodézia II.;1;0;2;V;3;4
+SGYMALT928XXX;Geodézia mérőgyakorlat;0;0;0;F;3;4
+SGYMKOM204XXX;Geotechnika I. (Talajmechanika);1;0;3;V;5;3
+SGYMKOM2054XA;Geotechnika II. (Földművek);1;2;0;V;4;4
+SGYMKOM206XXX;Geotechnika III. (Alapozás I.);1;2;0;V;4;5
+SGYMKOM203XXX;Hidraulika;2;0;1;V;3;2
+SGYMKOM2011XA;Hidrológia;2;0;0;V;3;1
+SGYMKOM2021XA;Környezetmérnöki alapismeretek;2;0;0;F;2;1
+SGYMKOM2043XA;Közművek I. (Vízi közművek);2;2;0;F;4;3
+SGYMKOM211XXX;Közművek II. (Energiaközművek I.);1;2;0;V;3;4
+SGYMMAG201XXX;Magasépítés I.;2;0;0;V;3;2
+SGYMMAG202XXX;Magasépítés II.;1;2;0;F;3;3
+SGYMMAG231XXX;Magasépítés III.;2;2;0;V;4;4
+SGYMMET205XXX;Vasbeton szerkezetek I.;2;2;0;V;5;4
+SGYMKOM2033XA;Vízépítés, vízgazdálkodás;2;1;0;V;3;3
+GEOTECHNIKAI
+SGYMTUB2317XA;A katasztrófavédelem alapjai;2;1;0;V;3;7
+SGYMKOM241XXX;Alapozás kedvezőtlen altalajon;2;0;0;V;3;7
+SGYMKOM2356XA;Az épületgépészet alapjai;3;0;0;V;3;6
+SGYMKOM2346XA;Geotechnika IV. (Alapozás II.);2;2;0;V;4;6
+SGYMKOM2376XA;Geotechnika mérőgyakorlat (geotechnika szakirány);0;0;0;F;3;6
+SGYMKOM235XXX;Geotechnika V. (Mélyépítési vasbeton szerkezetek);2;0;2;V;4;7
+SGYMKOM2408XA;Hulladékgazdálkodás vagy Környezeti hatásvizsgálatok;2;0;0;V;3;8
+SGYMKOM2418XA;Környezeti geotechnika;2;1;0;F;4;8
+SGYMKOM213XXX;Közlekedésépítés I. (Útépítés);1;2;0;V;3;5
+SGYMKOM2326XA;Közlekedésépítés II. (Vasútépítés);2;0;0;V;3;6
+SGYMKOM2315XA;Műtárgyépítés I.;1;2;0;F;3;5
+SGYMKOM2336XA;Műtárgyépítés II. (Alagútépítés);2;2;0;V;5;6
+SGYMKOM2428XA;Szakirányú diplomamunka (geotechnika szakirány);0;15;0;F;15;8
+SGYMKOM2387XA;Szakirányú komplex projekt (geotechnikai tervezés);0;6;0;F;5;7
+SGYMKOM2366XA;Szakirányú mérőgyakorlat (geotechnika szakirány);0;2;0;F;2;6
+SGYMALT232XXX;Szigetelés- és betontechnológia;3;0;0;F;4;7
+SGYMMET231XXX;Tartók statikája II.;2;2;0;V;5;5
+SGYMTET201XXX;Település- és városépítés;3;0;0;F;4;6
+SGYMALT2317XA;Térinformatika mérőgyakorlat;0;0;3;F;3;7
+SGYMMET232XXX;Vasbeton szerkezetek II.;1;2;0;V;4;5
+TELEPULESI
+SGYMTUB2317XA;A katasztrófavédelem alapjai;2;1;0;V;3;7
+SGYMKOM2356XA;Az épületgépészet alapjai;3;0;0;V;3;6
+SGYMKOM2408XA;Hulladékgazdálkodás vagy Környezeti hatásvizsgálatok;2;0;0;V;3;8
+SGYMKOM2466XA;Infrastruktúra mérőgyakorlat (települési szakirány);0;0;0;F;3;6
+SGYMKOM213XXX;Közlekedésépítés I. (Útépítés);1;2;0;V;3;5
+SGYMKOM2326XA;Közlekedésépítés II. (Vasútépítés);2;0;0;V;3;6
+SGYMKOM2446XA;Közlekedésépítés III. (Városi közlekedés);2;1;0;F;3;6
+SGYMKOM254XXX;Közlekedésépítés IV. (Üzemtan);1;1;0;V;3;7
+SGYMKOM249XXX;Közművek III. (Vízellátás);1;2;0;V;4;5
+SGYMKOM250XXX;Közművek IV. (Csatornázás);2;2;0;V;5;6
+SGYMKOM2477XA;Közművek V. (Üzemtan);2;1;0;V;4;7
+SGYMKOM2498XA;Közművek VI. (Közműépítés);2;2;0;F;4;8
+SGYMKOM2315XA;Műtárgyépítés I.;1;2;0;F;3;5
+SGYMKOM233XXX;Műtárgyépítés IV. (Közművek);1;2;0;V;4;7
+SGYMKOM2508XA;Szakirányú diplomamunka (települési szakirány);0;15;0;F;15;8
+SGYMKOM2487XA;Szakirányú komplex projekt (Infrastruktúratervezés);0;6;0;F;5;7
+SGYMKOM2456XA;Szakirányú mérőgyakorlat (települési szakirány);0;2;0;F;2;6
+SGYMTET201XXX;Település- és városépítés;3;0;0;F;4;6
+SGYMALT2317XA;Térinformatika mérőgyakorlat;0;0;3;F;3;7
+SGYMKOM248XXX;Víz- és szennyvíztisztítás;1;1;0;V;3;5
+SGYMKOM2435XA;Vízkémia biológia;2;0;1;F;3;5
+MAGASEPITESI
+SGYMTUB2317XA;A katasztrófavédelem alapjai;2;1;0;V;3;7
+SGYMKOM2356XA;Az épületgépészet alapjai;3;0;0;V;3;6
+SGYMMET2316XA;Fa- és acélszerkezetek II.;2;3;0;V;5;6
+SGYMKOM235XXX;Geotechnika V. (Mélyépítési vasbeton szerkezetek);2;0;2;V;4;7
+SGYMKOM2408XA;Hulladékgazdálkodás vagy Környezeti hatásvizsgálatok;2;0;0;V;3;8
+SGYMMET281XXX;Kő-,falazott és egyéb szerkezetek;2;0;0;F;3;6
+SGYMKOM213XXX;Közlekedésépítés I. (Útépítés);1;2;0;V;3;5
+SGYMKOM2326XA;Közlekedésépítés II. (Vasútépítés);2;0;0;V;3;6
+SGYMMET236XXX;Magasépítési acélszerkezetek;1;3;0;F;5;7
+SGYMMET2327XA;Magasépítési vasbeton szerkezetek;1;2;0;V;4;7
+SGYMKOM2315XA;Műtárgyépítés I.;1;2;0;F;3;5
+SGYMMET234XXX;Műtárgyépítés III. (Vasbeton hidak tervezése és építése);2;3;0;V;5;6
+SGYMMET2348XA;Szakirányú diplomamunka (magasépítési szakirány);0;15;0;F;15;8
+SGYMMET2338XA;Szakirányú komplex projekt (magasépítési szakirány);0;5;0;F;7;8
+SGYMALT232XXX;Szigetelés- és betontechnológia;3;0;0;F;4;7
+SGYMMET231XXX;Tartók statikája II.;2;2;0;V;5;5
+SGYMTET201XXX;Település- és városépítés;3;0;0;F;4;6
+SGYMMET232XXX;Vasbeton szerkezetek II.;1;2;0;V;4;5
+TUZVEDELMI
+SGYMTUB2366XA;A létesítés és használat tűzvédelme I. (ÉP);4;2;0;V;7;6
+SGYMTUB2447XA;A létesítés és használat tűzvédelme III.;1;1;0;F;2;7
+SGYMTUB238XXX;Égés- és oltáselmélet I.;2;0;1;V;3;5
+SGYMTUB239XXX;Égés- és oltáselmélet II.;1;0;2;V;3;6
+SGYMTUB240XXX;Égés- és oltáselmélet III.;2;2;0;V;5;7
+SGYMTUB2488XA;Mentésegészségügy;0;2;0;F;1;8
+SGYMTUB2498XA;Szakirányú diplomamunka (ÉP tűz- és katasztrófavédelmi szakirány);0;15;0;F;15;8
+SGYMTUB2396XA;Szakirányú mérőgyakorlat (ÉP tűz- és katasztrófavédelmi szakirány);0;0;6;F;6;6
+SGYMTUB2376XA;Tartószerkezetek tűzvédelme (A létesítés és használat tűzvédelme II.);2;1;0;V;3;6
+SGYMTUB2355XA;Technikai ismeretek mérőgyakorlat;0;3;0;F;3;5
+SGYMTUB2427XA;Tűzkockázat-elemzés;1;1;0;F;2;7
+SGYMTUB2437XA;Tűzoltás,kárelhárítás;1;3;0;F;4;7
+SGYMTUB2407XA;Tűzvédelmi berendezések tervezése I.;3;0;0;V;3;7
+SGYMTUB2468XA;Tűzvédelmi berendezések tervezése II. (ÉP);0;3;0;F;3;8
+SGYMTUB2345XA;Tűzvédelmi fizika;3;0;0;F;3;5
+SGYMTUB2478XA;Tűzvédelmi igazgatás;1;1;0;F;3;8
+SGYMTUB2325XA;Tűzvédelmi kémia (ÉP);1;2;0;V;3;5
+SGYMTUB2417XA;Tűzvizsgálattan;1;1;0;F;2;7
+SGYMTUB2335XA;Veszélyes anyagok és ipari katasztrófák I. (ÉP);1;3;0;F;4;5
+SGYMTUB2457XA;Veszélyes anyagok és ipari katasztrófák III. (ÉP);1;2;0;V;4;7
+SGYMTUB2386XA;Veszélyes anyagok és kárelhárításuk II.;1;2;0;V;4;6
+VALASZTHATO
+SGYMKOM298XXX;A kockázat- és megbízh.-elemzés építőm. alkalm. I.;2;0;0;F;3;0
+SGYMKOM299XXX;A kockázat- és megbízh.-elemzés építőm. alkalm. II.;2;0;0;F;3;0
+SGYMMET288XXX;A tartószerkezetek tervezésének speciális esetei;0;2;0;F;2;0
+SGYMTUB295XXX;A tűzvédelem alapjai;1;1;0;F;3;0
+SGYMKOM297XXX;Alkalmazott hidraulika;2;0;0;F;3;0
+SGYMMET287XXX;Államvizsga-előkészítő (magasépítési szakirány);0;1;0;F;1;0
+SGYMLEK2817XA;Angol általános nyelv 1.;0;2;0;F;2;0
+SGYMLEK2827XA;Angol általános nyelv 2.;0;2;0;F;2;0
+SGYMLEK2897XA;Angol építőipari szaknyelv 1. (középhaladó);0;2;0;F;2;0
+SGYMLEK2907XA;Angol építőipari szaknyelv 2. (középhaladó);0;2;0;F;2;0
+SGYMLEK2877XA;Angol társalgás felsőfokon 1.;0;2;0;F;2;0
+SGYMLEK2887XA;Angol üzleti nyelv (középhaladó);0;2;0;F;2;0
+SGYMLEK289XXX;Architektur und Ingenieurskunst in Krisenzeiten;0;0;2;V;2;0
+SGYMMET2828XA;Bevezetés a Bibliába;2;0;0;F;2;0
+SGYMLEK294XXX;Deutsche Baukunst im internationalen Vergleich;0;0;2;V;2;0
+SGYMLEK288XXX;Deutsches Design und Deutsche Technik;0;0;2;V;2;0
+SGYMLEK281XXX;Discover Ancient Civilizations;0;0;2;V;2;0
+SGYMKOM284XXX;Építéstörténet;2;0;0;F;3;0
+SGYMMAG281XXX;Építészettörténet;2;0;0;F;3;0
+SGYMALT281XXX;Építőanyagok III.;1;0;1;F;2;0
+SGYMASZ282XXX;Építők geometriája;2;0;0;F;3;0
+SGYMMET282XXX;Épületek komplex statikai vizsgálata;2;0;0;F;3;0
+SGYMTAN201XXX;Erasmus-félév;0;0;0;A;0;0
+SGYMMEN281XXX;Ergonómia;2;0;0;F;3;0
+SGYMMET2838XA;Etika és etikák;2;0;0;F;2;0
+SGYMLEK291XXX;Exploring the Architecture and Cultures of India;0;0;2;V;2;0
+SGYMLEK2857XA;Felkészítő angol B2 nyelvvizsgára 1.;0;2;0;F;2;0
+SGYMLEK2867XA;Felkészítő angol B2 nyelvvizsgára 2.;0;2;0;F;2;0
+SGYMLEK2858XA;Felkészítő német B2 nyelvvizsgára 1.;0;2;0;F;2;0
+SGYMLEK2868XA;Felkészítő német B2 nyelvvizsgára 2.;0;2;0;F;2;0
+SGYMLEK2837XA;Felzárkóztató angol B2 nyelvvizsgára 1.;0;2;0;F;2;0
+SGYMLEK2847XA;Felzárkóztató angol B2 nyelvvizsgára 2.;0;2;0;F;2;0
+SGYMLEK2838XA;Felzárkóztató német B2 nyelvvizsgára 1.;0;2;0;F;2;0
+SGYMLEK2848XA;Felzárkóztató német B2 nyelvvizsgára 2.;0;2;0;F;2;0
+SGYMMEN286XXX;Gépírás számítógépen;0;4;0;F;2;0
+SGYMMEN287XXX;Grafológia;1;0;0;F;1;0
+SGYMTUB2828XA;Gyakorlati katasztrófavédelem;0;2;0;F;2;0
+SGYMLEK293XXX;Houses,Homes or Piles of Stones;0;0;2;V;2;0
+SGYMLEK283XXX;Ingenierskunst und Architecktur I.;0;0;2;V;2;0
+SGYMLEK284XXX;Ingenierskunst und Architecktur II.;0;0;2;V;2;0
+SGYMLEK285XXX;Ingenierskunst und Architecktur III.;0;0;2;V;2;0
+SGYMKOM285XXX;Iszapkezelés;1;0;0;F;1;0
+SGYMTUB2848XA;Katasztrófavédelmi terjedési modellezés;0;2;0;F;2;0
+SGYMTET288XXX;Kommunikáció az urbanisztikában;1;1;0;F;2;0
+SGYMKOM286XXX;Komplex közművesítés;2;0;0;F;3;0
+SGYMMEN284XXX;Közlekedési ismeretek;2;0;0;F;2;0
+SGYMLEK290XXX;Leben,um zu bauen,oder bauen,um zu leben?;0;0;2;V;2;0
+SGYMMET2818XA;Meglévő szerkezetek vizsgálata;2;0;0;F;2;0
+SGYMLEK2818XA;Német általános nyelv 1.;0;2;0;F;2;0
+SGYMLEK2828XA;Német általános nyelv 2.;0;2;0;F;2;0
+SGYMLEK2898XA;Német építőipari szaknyelv 1. (középhaladó);0;2;0;F;2;0
+SGYMLEK2908XA;Német építőipari szaknyelv 2. (középhaladó);0;2;0;F;2;0
+SGYMLEK2878XA;Német társalgás felsőfokon 1.;0;2;0;F;2;0
+SGYMLEK2888XA;Német üzleti nyelv (középhaladó);0;2;0;F;2;0
+SGYMKOM288XXX;Ökologikus vízfolyásrendezés;2;0;0;F;3;0
+SGYMMAG286XXX;Passzív Ház nemzetközi intenzív workshop;0;6;0;F;5;0
+SGYMTUB2858XA;Polgári védelem;1;1;0;F;2;0
+SGYMASZ285XXX;Számítógépes épületábrázolás;0;0;2;F;2;0
+SGYMASZ284XXX;Számítógépes épületmodellezés;0;0;2;F;2;0
+SGYMKOM289XXX;Szennyvíztisztító telepek;2;0;0;F;3;0
+SGYMMEN210XXX;Szociológia;2;0;0;V;2;0
+SGYMKOM290XXX;Talajdinamika;2;0;0;F;3;0
+SGYMKOM291XXX;Talajjavítás,talajerősítés;2;0;0;F;3;0
+SGYMKOM292XXX;Talajvíz a mélyépítésben;2;0;0;F;3;0
+SGYMTUB2818XA;Tűzmodellezés;0;2;0;F;2;0
+SGYMTUB2838XA;Tűzoltás esettanulmányok;0;2;0;F;2;0
+SGYMMET289XXX;Végeselemes modellezés (AXIS VM);2;0;0;F;3;0
+SGYMLEK292XXX;Wie gut ist "Made in Germany"?;0;0;2;V;2;0
+SGYMLEK286XXX;World Architecture and Lifestyle;0;0;2;V;2;0

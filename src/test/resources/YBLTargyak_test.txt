@@ -1,0 +1,6 @@
+KOTELEZO
+SGYMASZ2021XA;Ábrázoló geometria;1;2;0;F;4;1
+GEOTECHNIKAI
+SGYMTUB2317XA;A katasztrófavédelem alapjai;2;1;0;V;3;7
+TELEPULESI
+SGYMTUB2317XA;A katasztrófavédelem alapjai;2;1;0;V;3;7

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/dataSetSchema" xmlns:tns="http://www.example.org/dataSetSchema"
+	elementFormDefault="qualified">
+
+	<xsd:element name="dataset">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="tns:subject" minOccurs="1" maxOccurs="unbounded" />
+				<xsd:element ref="tns:specialization" minOccurs="1"
+					maxOccurs="unbounded" />
+				<xsd:element ref="tns:dependency" minOccurs="1"
+					maxOccurs="unbounded" />
+				<xsd:element ref="tns:subject_specialization" minOccurs="1"
+					maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="subject">
+		<xsd:complexType>
+			<xsd:attribute name="id" type="xsd:string" use="required"/>
+			<xsd:attribute name="credit" type="xsd:string" use="required"/>
+			<xsd:attribute name="description" type="xsd:string"
+				use="required"/>
+			<xsd:attribute name="labor" type="xsd:string" use="required"/>
+			<xsd:attribute name="name" type="xsd:string" use="required"/>
+			<xsd:attribute name="offeredSemester" type="xsd:string"
+				use="required"/>
+			<xsd:attribute name="practical" type="xsd:string" use="required"/>
+			<xsd:attribute name="semesterClosing" type="xsd:string"
+				use="required"/>
+			<xsd:attribute name="theoretical" type="xsd:string"
+				use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="specialization">
+		<xsd:complexType>
+			<xsd:attribute name="id" type="xsd:string" use="required"/>
+			<xsd:attribute name="name" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="dependency">
+		<xsd:complexType>
+			<xsd:attribute name="Id" type="xsd:string" use="required"/>
+			<xsd:attribute name="onlyRegistration" type="xsd:string"
+				use="required"/>
+			<xsd:attribute name="dependencySubject" type="xsd:string"
+				use="required"/>
+			<xsd:attribute name="specialization_id" type="xsd:string"
+				use="required"/>
+			<xsd:attribute name="subject_id" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="subject_specialization">
+		<xsd:complexType>
+			<xsd:attribute name="subject_id" type="xsd:string"
+				use="required"/>
+			<xsd:attribute name="specialization_id" type="xsd:string"
+				use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>

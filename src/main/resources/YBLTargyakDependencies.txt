@@ -1,0 +1,196 @@
+KOTELEZO
+SGYMASZ2021XA;nincs
+SGYMASZ206XXX;nincs
+SGYMMAT201XXX;nincs
+SGYMMAT202XXX;Matematika I.
+SGYMMET201XXX;nincs
+SGYMMET202XXX;Mechanika I. (Statika),Mérnökfizika és a méretezés alapjai
+SGYMMET203XXX;Mechanika II. (Szilárdságtan)
+SGYMMET2011XA;nincs
+SGYMASZ2011XA;nincs
+SGYMASZ202XXX;Műszaki informatika I.
+SGYMKOM215XXX;Jogi ismeretek I.
+SGYMMEN203XXX;nincs
+SGYMMEN204XXX;Jogi ismeretek I.
+SGYMMEN2012XA;nincs
+SGYMMEN2023XA;Közgazdaságtan I. (Makroökonómia)
+SGYMALT202XXX;Építőanyagok és termékek
+SGYMTUB2016XA;nincs
+SGYMMEN2034XA;Közgazdaságtan I. (Makroökonómia)
+SGYMALT212XXX;Geodézia II. felvétele
+SGYMKOM281XXX;nincs
+SGYMMEN207XXX;Építőanyagok és kémia,Magasépítés I.
+SGYMMEN2046XA;Építésszervezés I.
+SGYMALT2012XA;nincs
+SGYMALT2023XA;Építőanyagok és kémia
+SGYMMET206XXX;Mechanika III. (Tartók statikája)
+SGYMALT207XXX;Ábrázoló geometria
+SGYMALT208XXX;Geodézia I.
+SGYMALT928XXX;Geodézia II. felvétele
+SGYMKOM204XXX;Építésföldtan vagy Mérnökgeológia
+SGYMKOM2054XA;Geotechnika I. (Talajmechanika)
+SGYMKOM206XXX;Geotechnika II. (Földművek),Vasbeton szerkezetek I.
+SGYMKOM203XXX;Hidrológia
+SGYMKOM2011XA;nincs
+SGYMKOM2021XA;nincs
+SGYMKOM2043XA;Hidraulika
+SGYMKOM211XXX;Hidraulika
+SGYMMAG201XXX;Építészeti rajz
+SGYMMAG202XXX;Magasépítés I.
+SGYMMAG231XXX;Magasépítés II.
+SGYMMET205XXX;Mechanika III. (Tartók statikája),Építőanyagok és kémia
+SGYMKOM2033XA;Hidraulika
+GEOTECHNIKAI
+SGYMTUB2317XA;nincs
+SGYMKOM241XXX;Geotechnika IV. (Alapozás II.)
+SGYMKOM2356XA;Magasépítés III.
+SGYMKOM2346XA;Geotechnika III. (Alapozás I.),Vasbeton szerkezetek II.
+SGYMKOM2376XA;Geotechnika III. (Alapozás I.)
+SGYMKOM235XXX;Geotechnika III. (Alapozás I.),Műtárgyépítés II. (Alagútépítés)
+SGYMKOM2408XA;Hidrológia,Környezetmérnöki alapismeretek
+SGYMKOM2418XA;nincs
+SGYMKOM213XXX;Geodézia II.,Geotechnika II. (Földművek)
+SGYMKOM2326XA;Közlekedésépítés I. (Útépítés)
+SGYMKOM2315XA;Geotechnika III. (Alapozás I.) felvétele
+SGYMKOM2336XA;Geotechnika IV. (Alapozás II.)
+SGYMKOM2428XA;Műtárgyépítés II. (Alagútépítés)
+SGYMKOM2387XA;Geotechnika IV. (Alapozás II.)
+SGYMKOM2366XA;Geotechnika III. (Alapozás I.)
+SGYMALT232XXX;Építőanyagok és termékek
+SGYMMET231XXX;Mechanika III. (Tartók statikája)
+SGYMTET201XXX;nincs
+SGYMALT2317XA;A térinformatika alapjai
+SGYMMET232XXX;Vasbeton szerkezetek I.
+TELEPULESI
+SGYMTUB2317XA;nincs
+SGYMKOM2356XA;Magasépítés III.
+SGYMKOM2408XA;Hidrológia,Környezetmérnöki alapismeretek
+SGYMKOM2466XA;Építésszervezés II. felvétele,Geodézia I.,Hidraulika
+SGYMKOM213XXX;Geodézia II.,Geotechnika II. (Földművek)
+SGYMKOM2326XA;Közlekedésépítés I. (Útépítés)
+SGYMKOM2446XA;Közlekedésépítés I. (Útépítés)
+SGYMKOM254XXX;Közlekedésépítés III. (Városi közlekedés)
+SGYMKOM249XXX;Közművek I. (Vízi közművek)
+SGYMKOM250XXX;Közművek I. (Vízi közművek)
+SGYMKOM2477XA;Közművek III. (Vízellátás),Közművek IV. (Csatornázás)
+SGYMKOM2498XA;Közművek II. (Energiaközművek I.),Közművek V. (Üzemtan)
+SGYMKOM2315XA;Geotechnika III. (Alapozás I.) felvétele
+SGYMKOM233XXX;Közművek III. (Vízellátás),Közművek IV. (Csatornázás)
+SGYMKOM2508XA;Közművek VI. (Közműépítés) felvétele
+SGYMKOM2487XA;Geodézia I.,Vízkémia biológia,Víz- és szennyvíztisztítás
+SGYMKOM2456XA;Építésszervezés II. felvétele,Geodézia I.,Hidraulika
+SGYMTET201XXX;nincs
+SGYMALT2317XA;A térinformatika alapjai
+SGYMKOM248XXX;Közművek I. (Vízi közművek)
+SGYMKOM2435XA;Közművek I. (Vízi közművek)
+MAGASEPITESI
+SGYMTUB2317XA;nincs
+SGYMKOM2356XA;Magasépítés III.
+SGYMMET2316XA;Fa- és acélszerkezetek I.
+SGYMKOM235XXX;Geotechnika III. (Alapozás I.),Műtárgyépítés III. (Vasbeton hidak tervezése és építése)
+SGYMKOM2408XA;Hidrológia,Környezetmérnöki alapismeretek
+SGYMMET281XXX;Vasbeton szerkezetek I.,Tartók statikája II.
+SGYMKOM213XXX;Geodézia II.,Geotechnika II. (Földművek)
+SGYMKOM2326XA;Közlekedésépítés I. (Útépítés)
+SGYMMET236XXX;Fa- és acélszerkezetek II.
+SGYMMET2327XA;Vasbeton szerkezetek II.
+SGYMKOM2315XA;Geotechnika III. (Alapozás I.) felvétele
+SGYMMET234XXX;Tartók statikája II.,Vasbeton szerkezetek II.
+SGYMMET2348XA;Műtárgyépítés III. (Vasbeton hidak tervezése és építése),Magasépítési vasbeton szerkezetek,Magasépítési acélszerkezetek
+SGYMMET2338XA;Magasépítési vasbeton szerkezetek,Műtárgyépítés III. (Vasbeton hidak tervezése és építése),Magasépítési acélszerkezetek felvétele
+SGYMALT232XXX;Építőanyagok és termékek
+SGYMMET231XXX;Mechanika III. (Tartók statikája)
+SGYMTET201XXX;nincs
+SGYMMET232XXX;Vasbeton szerkezetek I.
+TUZVEDELMI
+SGYMTUB2366XA;Tűzvédelmi kémia (ÉP)
+SGYMTUB2447XA;Tartószerkezetek tűzvédelme (A létesítés és használat tűzvédelme II.)
+SGYMTUB238XXX;nincs
+SGYMTUB239XXX;Égés- és oltáselmélet I.
+SGYMTUB240XXX;Égés- és oltáselmélet II.
+SGYMTUB2488XA;Tűzvédelmi kémia (ÉP)
+SGYMTUB2498XA;A létesítés és használat tűzvédelme III.
+SGYMTUB2396XA;Tűzvédelmi kémia (ÉP)
+SGYMTUB2376XA;Mechanika I. (Statika)
+SGYMTUB2355XA;Tűzvédelmi fizika
+SGYMTUB2427XA;Égés- és oltáselmélet II.
+SGYMTUB2437XA;Tűzvédelmi kémia (ÉP)
+SGYMTUB2407XA;Égés- és oltáselmélet I.
+SGYMTUB2468XA;Tűzvédelmi berendezések tervezése I.
+SGYMTUB2345XA;nincs
+SGYMTUB2478XA;A létesítés és használat tűzvédelme I. (ÉP)
+SGYMTUB2325XA;nincs
+SGYMTUB2417XA;nincs
+SGYMTUB2335XA;nincs
+SGYMTUB2457XA;Veszélyes anyagok és kárelhárításuk II.
+SGYMTUB2386XA;Veszélyes anyagok és ipari katasztrófák I. (ÉP)
+VALASZTHATO
+SGYMKOM298XXX;nincs
+SGYMKOM299XXX;nincs
+SGYMMET288XXX;nincs
+SGYMTUB295XXX;nincs
+SGYMKOM297XXX;nincs
+SGYMMET287XXX;nincs
+SGYMLEK2817XA;nincs
+SGYMLEK2827XA;nincs
+SGYMLEK2897XA;nincs
+SGYMLEK2907XA;nincs
+SGYMLEK2877XA;nincs
+SGYMLEK2887XA;nincs
+SGYMLEK289XXX;nincs
+SGYMMET2828XA;nincs
+SGYMLEK294XXX;nincs
+SGYMLEK288XXX;nincs
+SGYMLEK281XXX;nincs
+SGYMKOM284XXX;nincs
+SGYMMAG281XXX;nincs
+SGYMALT281XXX;nincs
+SGYMASZ282XXX;nincs
+SGYMMET282XXX;nincs
+SGYMTAN201XXX;nincs
+SGYMMEN281XXX;nincs
+SGYMMET2838XA;nincs
+SGYMLEK291XXX;nincs
+SGYMLEK2857XA;nincs
+SGYMLEK2867XA;nincs
+SGYMLEK2858XA;nincs
+SGYMLEK2868XA;nincs
+SGYMLEK2837XA;nincs
+SGYMLEK2847XA;nincs
+SGYMLEK2838XA;nincs
+SGYMLEK2848XA;nincs
+SGYMMEN286XXX;nincs
+SGYMMEN287XXX;nincs
+SGYMTUB2828XA;nincs
+SGYMLEK293XXX;nincs
+SGYMLEK283XXX;nincs
+SGYMLEK284XXX;nincs
+SGYMLEK285XXX;nincs
+SGYMKOM285XXX;nincs
+SGYMTUB2848XA;nincs
+SGYMTET288XXX;nincs
+SGYMKOM286XXX;nincs
+SGYMMEN284XXX;nincs
+SGYMLEK290XXX;nincs
+SGYMMET2818XA;nincs
+SGYMLEK2818XA;nincs
+SGYMLEK2828XA;nincs
+SGYMLEK2898XA;nincs
+SGYMLEK2908XA;nincs
+SGYMLEK2878XA;nincs
+SGYMLEK2888XA;nincs
+SGYMKOM288XXX;nincs
+SGYMMAG286XXX;nincs
+SGYMTUB2858XA;nincs
+SGYMASZ285XXX;nincs
+SGYMASZ284XXX;nincs
+SGYMKOM289XXX;nincs
+SGYMMEN210XXX;nincs
+SGYMKOM290XXX;nincs
+SGYMKOM291XXX;nincs
+SGYMKOM292XXX;nincs
+SGYMTUB2818XA;nincs
+SGYMTUB2838XA;nincs
+SGYMMET289XXX;nincs
+SGYMLEK292XXX;nincs
+SGYMLEK286XXX;nincs
