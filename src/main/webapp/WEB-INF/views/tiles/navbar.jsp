@@ -54,6 +54,11 @@
 								<li onclick="showSubjects('${specialization.id}')"><a href='<c:url value="#"/>'>${specialization.name}</a></li>
 							</c:forEach>
 						</ul></li>
+					<li><a href='#' id="dependencyLink-forward4" class="color-info-text">Előrefüggőség</a></li>
+					<li><a href='#' id="dependencyLink-forward-4" class="color-info-text">Függőség</a></li>
+					<li><a href='#' id="dependencyLink-forward0" class="color-info-text">Kiválaszott</a></li>
+					<li><a href='#' id="dependencyLink-forward-99" class="color-info-text">Csak felvétel szükséges</a></li>
+					<li><a href='#' id="dependencyLink-forward99" class="color-info-text">A tárgyhoz a kijelölt tárgy felvétele szükséges</a></li>
 				</ul>
 			</div>
 		</div>

@@ -169,6 +169,30 @@ h1.pretty {
 	background-color: #ffcccc;
 }
 
+#dependencyLink-forward4 {
+    color: #05ae09;
+}
+
+#dependencyLink-forward-4{
+	color: #ff0000;
+}
+
+#dependencyLink-forward0{
+	color: gray;
+}
+
+#dependencyLink-forward-99{
+	color: yellow;
+}
+
+#dependencyLink-forward99{
+	color: #4c4cff;
+}
+
+.color-info-text{
+	font-size: 12px;
+}
+
 .forKeyki {
 	font-size: 40px;
 	color: pink;
