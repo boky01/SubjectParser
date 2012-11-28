@@ -5,25 +5,7 @@ body {
 }
 
 h1.pretty {
-	color: #ff0000;
 	text-align: center;
-}
-
-.navbar {
-	top: 0; /*Teljesen fent legyen*/
-	left: 0;
-	position: fixed; /*Mindig ott legyen felul*/
-	width: 100%; /*A kepernyo teljes szelessege*/
-	background-color: red;
-	background-image: -moz-linear-gradient(bottom, #ff0000, #000000);
-	/*Ettol lesz atmenet a szinekben Mozillahoz*/
-	background-image: -webkit-linear-gradient(bottom, #ff0000, #000000);
-	/*Ettol lesz atmenet a szinekben Mozillahoz*/
-	background-image: -o-linear-gradient(bottom, #ff0000, #000000);
-	/*Ettol lesz atmenet a szinekben Mozillahoz*/
-	background-image: -ms-linear-gradient(bottom, #ff0000, #000000);
-	/*Ettol lesz atmenet a szinekben Mozillahoz*/
-	min-width: 1000px
 }
 
 .navbarElement {
@@ -48,19 +30,35 @@ h1.pretty {
 
 #content {
 	margin-top: 70px;
-	margin-bottom: 250px;
+	/* 	margin-bottom: 250px; */
 	overflow: auto;
 }
 
 .semester {
 	text-align: center;
-	background: none repeat scroll 0 0 #EFECE6;
 	margin: 5px;
+	display: block;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .semester>* {
 	display: inline-block;
-	margin: 15px 1px 15px 1px; /*top, right, bottom, left*/
+	margin: 15px 1px 15px 1px;
+	top
+	,
+	right,
+	bottom,
+	left
 }
 
 .dependencyBtn {
@@ -81,22 +79,18 @@ h1.pretty {
 }
 
 #description {
-	position: fixed; /*Mindig ott legyen felul*/
-	bottom: 0;
-	float: right;
-	padding: 10px;
-	border: 1px solid gray;
-	background-color: white;
-	overflow: auto;
-	height: 200px;
+	float: left;
 	width: 98%;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .dependencyBtn-forward99 { /*99 is for onlyRegistration dependencies*/
 	background-color: #4c4cff;
 }
 
-.dependencyBtn-forward-99 { /*-99 is for onlyRegistration forward dependencies*/
+.dependencyBtn-forward-99 {
+	/*-99 is for onlyRegistration forward dependencies*/
 	background-color: yellow;
 }
 
@@ -168,6 +162,30 @@ h1.pretty {
 
 .dependencyBtn-forward-8 {
 	background-color: #ffcccc;
+}
+
+#dependencyLink-forward4 {
+	color: #05ae09;
+}
+
+#dependencyLink-forward-4 {
+	color: #ff0000;
+}
+
+#dependencyLink-forward0 {
+	color: gray;
+}
+
+#dependencyLink-forward-99 {
+	color: yellow;
+}
+
+#dependencyLink-forward99 {
+	color: #3399FF;
+}
+
+.color-info-text {
+	font-size: 12px;
 }
 
 .forKeyki {
