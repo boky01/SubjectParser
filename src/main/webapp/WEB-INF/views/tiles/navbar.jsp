@@ -20,7 +20,7 @@
 									href='<c:url value="#"/>'>${specialization.name}</a></li>
 							</c:forEach>
 						</ul></li>
-					<li><a href="<c:url value='/contacts'/>">Contacts</a></li>
+					<li><a href="<c:url value='/contacts'/>">Kapcsolat</a></li>
 					<li><a id="dependencyLink-forward4" class="color-info-text">Előrefüggőség</a></li>
 					<li><a id="dependencyLink-forward-4" class="color-info-text">Függőség</a></li>
 					<li><a id="dependencyLink-forward0" class="color-info-text">Kiválaszott</a></li>
