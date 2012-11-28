@@ -16,15 +16,15 @@ function showDependencies(subjectId, specializationId) {
 				dataType : "json",
 				success : function(response) {
 					// we have the response
-					fillWithDatas(response);
+					fillWithData(response);
 				},
 				error : function(e) {
-					alert('An error happend. Please contact with the administrator (contact page).');
+					alert('An error happened. Please contact with the administrator (contact page).');
 				}
 			});
 }
 
-function fillWithDatas(response) {
+function fillWithData(response) {
 	console.log(response);
 	$(".semester > button").each(function() {
 		var newClass = this.className.replace(/forward-?\d+/, 'standby');
