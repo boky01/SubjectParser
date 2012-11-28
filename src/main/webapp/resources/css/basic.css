@@ -30,7 +30,7 @@ h1.pretty {
 
 #content {
 	margin-top: 70px;
-	margin-bottom: 250px;
+	/* 	margin-bottom: 250px; */
 	overflow: auto;
 }
 
@@ -79,15 +79,10 @@ h1.pretty {
 }
 
 #description {
-	position: fixed; /*Mindig ott legyen felul*/
-	bottom: 0;
-	float: right;
-	padding: 10px;
-	border: 1px solid gray;
-	background-color: white;
-	overflow: auto;
-	height: 200px;
+	float: left;
 	width: 98%;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .dependencyBtn-forward99 { /*99 is for onlyRegistration dependencies*/
@@ -170,26 +165,26 @@ h1.pretty {
 }
 
 #dependencyLink-forward4 {
-    color: #05ae09;
+	color: #05ae09;
 }
 
-#dependencyLink-forward-4{
+#dependencyLink-forward-4 {
 	color: #ff0000;
 }
 
-#dependencyLink-forward0{
+#dependencyLink-forward0 {
 	color: gray;
 }
 
-#dependencyLink-forward-99{
+#dependencyLink-forward-99 {
 	color: yellow;
 }
 
-#dependencyLink-forward99{
-	color: #4c4cff;
+#dependencyLink-forward99 {
+	color: #3399FF;
 }
 
-.color-info-text{
+.color-info-text {
 	font-size: 12px;
 }
 
