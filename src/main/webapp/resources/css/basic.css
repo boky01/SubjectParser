@@ -5,7 +5,6 @@ body {
 }
 
 h1.pretty {
-	color: #ff0000;
 	text-align: center;
 }
 
@@ -37,13 +36,29 @@ h1.pretty {
 
 .semester {
 	text-align: center;
-	background: none repeat scroll 0 0 #EFECE6;
 	margin: 5px;
+	display: block;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .semester>* {
 	display: inline-block;
-	margin: 15px 1px 15px 1px; /*top, right, bottom, left*/
+	margin: 15px 1px 15px 1px;
+	top
+	,
+	right,
+	bottom,
+	left
 }
 
 .dependencyBtn {
@@ -79,7 +94,8 @@ h1.pretty {
 	background-color: #4c4cff;
 }
 
-.dependencyBtn-forward-99 { /*-99 is for onlyRegistration forward dependencies*/
+.dependencyBtn-forward-99 {
+	/*-99 is for onlyRegistration forward dependencies*/
 	background-color: yellow;
 }
 
