@@ -5,8 +5,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" type="text/css" href="/resources/css/basic.css">
-<script src="/resources/javascript/myScripts.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="resources/css/basic.css">
+<script src="resources/javascript/myScripts.js" type="text/javascript"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <title><tiles:insertAttribute name="title" /></title>
 </head>

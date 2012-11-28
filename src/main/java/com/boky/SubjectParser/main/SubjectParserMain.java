@@ -23,6 +23,9 @@ import com.boky.configclasses.ContextConfig;
  * [client]
  * default-character-set=utf8
  * 
+ * default-character-set is deprecated in 5.5. You should use instead:
+ * character-set-server = utf8
+ * 
  * osszes tabla kiuritese: 
  * truncatesubject_specialization; truncate specialization; truncate subject;truncate dependency;
  * 
