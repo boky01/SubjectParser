@@ -2,8 +2,9 @@
 	pageEncoding="utf-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <div id="content">
-	<h1 class="pretty">${actualSpecialization.name} szakirány</h1>
-
+    <div class="page-header">
+      <h1 class="pretty">${actualSpecialization.name} <small>szakirány</small></h1>
+    </div>
 	<div class="semester">
 		<c:forEach var="subject" items="${subjects}" varStatus="loopVariable">
 

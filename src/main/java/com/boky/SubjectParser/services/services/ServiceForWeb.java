@@ -53,7 +53,7 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
     @Autowired
     private Random randomGenerator;
 
-    @Autowired
+    
     private ServletContext servletContext;
 
     /* (non-Javadoc)
