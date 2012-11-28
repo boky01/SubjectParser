@@ -9,23 +9,6 @@ h1.pretty {
 	text-align: center;
 }
 
-.navbar {
-	top: 0; /*Teljesen fent legyen*/
-	left: 0;
-	position: fixed; /*Mindig ott legyen felul*/
-	width: 100%; /*A kepernyo teljes szelessege*/
-	background-color: red;
-	background-image: -moz-linear-gradient(bottom, #ff0000, #000000);
-	/*Ettol lesz atmenet a szinekben Mozillahoz*/
-	background-image: -webkit-linear-gradient(bottom, #ff0000, #000000);
-	/*Ettol lesz atmenet a szinekben Mozillahoz*/
-	background-image: -o-linear-gradient(bottom, #ff0000, #000000);
-	/*Ettol lesz atmenet a szinekben Mozillahoz*/
-	background-image: -ms-linear-gradient(bottom, #ff0000, #000000);
-	/*Ettol lesz atmenet a szinekben Mozillahoz*/
-	min-width: 1000px
-}
-
 .navbarElement {
 	list-style-type: none; /*Pontok eltuntetese a felsorolasbol*/
 	left: 0px; /*Balra igazitas*/

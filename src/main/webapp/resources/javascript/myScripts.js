@@ -1,7 +1,6 @@
 function showSubjects(selectElement) {
-	var page = document.getElementById("specializationSelector").value
-			.toLowerCase();
-	window.location.replace(page);
+	var page = selectElement.toLowerCase();
+	window.location.replace(page);;
 }
 
 function showDependencies(subjectId, specializationId) {
