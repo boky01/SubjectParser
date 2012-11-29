@@ -44,6 +44,12 @@ import com.boky.configclasses.ContextConfig;
  *
  */
 public class SubjectParserMain {
+	// TODO localhost:8080/asd jo oldalt ad, de a localhost:8080/asd/asd mar
+	// nem.
+	// TODO Adatbazisfeltoltest egy kulon modulba.
+	// TODO Lanyok csak naponta valtozzanak.
+	// TODO Kapcsolatok menu.
+
 	final static Logger logger = LoggerFactory
 			.getLogger(SubjectParserMain.class);
 	private static DatabaseBuilderService databaseBuilder;
