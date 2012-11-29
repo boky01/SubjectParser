@@ -1,5 +1,5 @@
 <div id="content">
-	<h1 class="pretty">Contacts</h1>
+	<h1 class="pretty">Kapcsolatok</h1>
 	<div>
 		<p>
 			Itt lesznek a kontakt adatok!!!!!!!!!!!!!!!!!!!

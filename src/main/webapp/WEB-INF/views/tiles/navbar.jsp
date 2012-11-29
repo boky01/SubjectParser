@@ -16,7 +16,7 @@
 					</c:choose>
 				</c:forEach>
 		</select></li>
-		<li class="navbarElement"><a href="#">Average calculator</a></li>
+		<li class="navbarElement"><a href="#">Átlag számító</a></li>
 		<li class="navbarElement"><button
 				class="dependencyBtn dependencyBtn-forward4">Előrefüggőség</button></li>
 		<li class="navbarElement"><button
@@ -30,6 +30,6 @@
 		<li class="navbarElement"><button
 				class="dependencyBtn dependencyBtn-forward99">A tárgyhoz
 				a kijelölt tárgy felvétele szükséges</button></li>
-		<li class="navbarElement right"><a href="/contacts">Contacts</a></li>
+		<li class="navbarElement right"><a href="/contacts">Kapcsolat</a></li>
 	</ul>
 </div>

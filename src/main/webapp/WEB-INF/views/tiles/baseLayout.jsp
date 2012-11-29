@@ -6,6 +6,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" type="text/css" href="resources/css/basic.css">
+<link rel="shortcut icon" href="resources/icon/favicon.ico">
+
 <script src="resources/javascript/myScripts.js" type="text/javascript"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <title><tiles:insertAttribute name="title" /></title>

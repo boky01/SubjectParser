@@ -1,11 +1,10 @@
 <div id="content">
-	<span class="forKeyki">Good try Dear Keyki BUT I knew this will
-		be the first think you try out</span> <br />
+	<span class="forKeyki">Hiba történt!</span> <br />
 	<p class="errorMsg">
-		The page:
+		A kért oldal:
 		<script type="text/javascript">
 			document.write(document.URL)
 		</script>
-		is not found.
+		nem található.
 	</p>
 </div>

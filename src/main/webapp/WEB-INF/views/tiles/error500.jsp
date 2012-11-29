@@ -1,7 +1,6 @@
 <div id="content">
-	<span class="forKeyki">Hiba történt! Jelezd az adminisztrátornak</span> <br />
+	<span class="forKeyki">Ismeretlen hiba történt!</span> <br />
 	<p class="errorMsg">
-		The page:
 		<script type="text/javascript">
 			document.write(document.URL)
 		</script>
