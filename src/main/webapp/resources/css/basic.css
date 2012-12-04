@@ -69,6 +69,7 @@ h1.pretty {
 	border: 1px solid gray;
 	padding: 4px 8px;
 	font-size: 12px;
+	box-shadow: 0 8px 10px Gray;
 }
 
 .dependencyBtn-standby {
