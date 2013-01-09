@@ -6,7 +6,8 @@
 			<label>${semesterWithRomanNums[i-1]}. félév</label>
 			<c:forEach var="subject" items="${subjects }">
 				<c:if test="${subject.offeredSemester eq i}">
-					<button id="${subject.id}" class="dependencyBtn dependencyBtn-standby"
+					<button id="${subject.id}"
+						class="dependencyBtn dependencyBtn-standby"
 						onclick="showDependencies(this.id,'${actualSpecialization.id}')">${subject.name}</button>
 				</c:if>
 			</c:forEach>

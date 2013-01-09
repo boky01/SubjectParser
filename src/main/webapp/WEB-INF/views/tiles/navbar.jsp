@@ -28,8 +28,8 @@
 				class="dependencyBtn dependencyBtn-forward-99">Csak
 				felvétel szükséges</button></li>
 		<li class="navbarElement"><button
-				class="dependencyBtn dependencyBtn-forward99">A tárgyhoz
-				a kijelölt tárgy felvétele szükséges</button></li>
+				class="dependencyBtn dependencyBtn-forward99">A tárgyhoz a
+				kijelölt tárgy felvétele szükséges</button></li>
 		<li class="navbarElement right"><a href="/contacts">Kapcsolat</a></li>
 	</ul>
 </div>

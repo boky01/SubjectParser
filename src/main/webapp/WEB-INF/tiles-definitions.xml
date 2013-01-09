@@ -11,7 +11,6 @@
 		<put-attribute name="body" value=""></put-attribute>
 	</definition>
 	<definition name="initialize" extends="baseLayout">
-		<put-attribute name="title" value="/WEB-INF/views/tiles/titleWithSpecializationName.jsp"/>
 		<put-attribute name="body" value="/WEB-INF/views/tiles/initialize.jsp"/>
 	</definition>
 	<definition name="initializeForValaszthatoSpecialization" extends="initialize">

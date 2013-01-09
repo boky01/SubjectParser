@@ -303,7 +303,7 @@ public class TestServiceForWeb {
 				"src/test/resources/images");
 		String imageName = serviceForWeb
 				.getImageName("src/test/resources/images");
-		Assert.assertEquals("Third.jpg", imageName);
+		Assert.assertEquals("src/test/resources/images/Third.jpg", imageName);
 	}
 
 	/**
@@ -318,7 +318,7 @@ public class TestServiceForWeb {
 				"src/test/resources/images");
 		String imageName = serviceForWeb
 				.getImageName("src/test/resources/images");
-		Assert.assertEquals("Second.jpg", imageName);
+		Assert.assertEquals("src/test/resources/images/Second.jpg", imageName);
 	}
 
 	private String createExceptedDescription() {

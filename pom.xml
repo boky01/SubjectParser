@@ -20,6 +20,7 @@
 		<slf4j-version>1.6.6</slf4j-version>
 		<powermock.version>1.4.12</powermock.version>
 		<tiles.version>2.2.2</tiles.version>
+		<spring-social-facebook.version>1.0.2.RELEASE</spring-social-facebook.version>
 	</properties>
 
 	<dependencies>
@@ -203,6 +204,11 @@
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.6.12</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-facebook</artifactId>
+			<version>${spring-social-facebook.version}</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>

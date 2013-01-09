@@ -4,6 +4,8 @@
 package com.boky.SubjectParser.services.services;
 
 import java.io.File;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -38,7 +40,7 @@ import com.boky.SubjectParser.services.dto.SubjectWithCodeAndNameAndSemesterDTO;
 @Service
 @Transactional
 public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
-	final Logger logger = LoggerFactory.getLogger(ServiceForWeb.class);
+	final Logger LOGGER = LoggerFactory.getLogger(ServiceForWeb.class);
 	private ApplicationContext applicationContext;
 
 	@Autowired
@@ -145,34 +147,11 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 				subject.getId(), actualLevel, isForward)) {
 			if (isOnlyRegistration) {
 				if (levelIsOneOrMinusOne(actualLevel)) {
-					subjectDepths.put(subject.getId(), isForward ? 99 : -99); // 99
-																				// means
-																				// it
-																				// is
-																				// an
-																				// onlyRegistration
-																				// dependency
+					subjectDepths.put(subject.getId(), isForward ? 99 : -99); // 99 means it is an onlyRegistration dependency
 				} else {
 					subjectDepths.put(subject.getId(), actualLevel);
 				}
-				actualLevel = isForward ? (actualLevel - 1) : (actualLevel + 1); // The
-																					// student
-																					// learn
-																					// this
-																					// subject
-																					// at
-																					// the
-																					// same
-																					// time
-																					// so
-																					// there
-																					// is
-																					// no
-																					// needed
-																					// to
-																					// increase
-																					// the
-																					// level
+				actualLevel = isForward ? (actualLevel - 1) : (actualLevel + 1); // The student learn this subject at the same time so there is no needed to increase the level
 			} else {
 				subjectDepths.put(subject.getId(), actualLevel);
 			}
@@ -234,8 +213,7 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 		File[] images = imageDirectory.listFiles();
 		String imageName = images[randomGenerator.nextInt(images.length)]
 				.getName();
-
-		return imageName;
+		return imageFolder + "/" + imageName;
 	}
 
 	@Override
@@ -243,6 +221,16 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 			throws BeansException {
 		this.applicationContext = applicationContext;
 
+	}
+
+	@Override
+	public String getDailyImageName(String imageFolder) {
+		int day = new GregorianCalendar().get(Calendar.DAY_OF_YEAR);
+		File imageDirectory = new File(servletContext.getRealPath(imageFolder));
+		File[] images = imageDirectory.listFiles();
+		String imageName = images[day - images.length * (day / images.length)]
+				.getName();
+		return imageFolder + "/" + imageName;
 	}
 
 }

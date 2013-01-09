@@ -90,7 +90,7 @@ public class WebController {
 	public String prettyGirl(Model model) {
 		model.addAttribute("specializations",
 				facade.getAllSpecializationWithNameAndId());
-		model.addAttribute("imageName", facade.getImageName());
+		model.addAttribute("imageName", facade.getDalyImageName());
 		return "prettyGirl";
 	}
 

@@ -15,47 +15,61 @@ import com.boky.SubjectParser.services.services.IServiceForWeb;
 
 /**
  * @author Andras_Bokor
- *
+ * 
  */
 @Component
 public class Facade implements IFacade {
 
-    @Autowired
-    IServiceForWeb serviceForWeb;
+	@Autowired
+	IServiceForWeb serviceForWeb;
 
-    /* (non-Javadoc)
-     * @see com.boky.SubjectParser.services.facade.IFacade#getInitializedData(java.lang.String)
-     */
-    @Override
-    public InitializationDataForWebDTO getInitializedData(String specialization) {
-        return serviceForWeb.getInitializedData(specialization);
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * com.boky.SubjectParser.services.facade.IFacade#getInitializedData(java
+	 * .lang.String)
+	 */
+	@Override
+	public InitializationDataForWebDTO getInitializedData(String specialization) {
+		return serviceForWeb.getInitializedData(specialization);
 
-    }
+	}
 
-    @Override
-    public List<SpecializationWithNameAndCodeDTO> getAllSpecializationWithNameAndId() {
-        return serviceForWeb.getAllSpecializationWithNameAndId();
-    }
+	@Override
+	public List<SpecializationWithNameAndCodeDTO> getAllSpecializationWithNameAndId() {
+		return serviceForWeb.getAllSpecializationWithNameAndId();
+	}
 
-    /* (non-Javadoc)
-     * @see com.boky.SubjectParser.services.facade.IFacade#getDependencyDepthAndDescription(java.lang.String, java.lang.String)
-     */
-    @Override
-    public DependencyDepthAndDescriptionDTO getDependencyDepthAndDescription(String subjectId, String specialization) {
-        return serviceForWeb.getDependencyDepthAndDescription(subjectId, specialization);
-    }
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see com.boky.SubjectParser.services.facade.IFacade#
+	 * getDependencyDepthAndDescription(java.lang.String, java.lang.String)
+	 */
+	@Override
+	public DependencyDepthAndDescriptionDTO getDependencyDepthAndDescription(
+			String subjectId, String specialization) {
+		return serviceForWeb.getDependencyDepthAndDescription(subjectId,
+				specialization);
+	}
 
-    @Override
-    public String getImageName() {
-        return serviceForWeb.getImageName("resources/image");
-    }
+	@Override
+	public String getImageName() {
+		return serviceForWeb.getImageName("resources/image/girls");
+	}
 
-    public IServiceForWeb getServiceForWeb() {
-        return serviceForWeb;
-    }
+	public IServiceForWeb getServiceForWeb() {
+		return serviceForWeb;
+	}
 
-    public void setServiceForWeb(IServiceForWeb serviceForWeb) {
-        this.serviceForWeb = serviceForWeb;
-    }
+	public void setServiceForWeb(IServiceForWeb serviceForWeb) {
+		this.serviceForWeb = serviceForWeb;
+	}
+
+	@Override
+	public String getDalyImageName() {
+		return serviceForWeb.getDailyImageName("resources/image/girls");
+	}
 
 }

@@ -44,11 +44,11 @@ import com.boky.configclasses.ContextConfig;
  *
  */
 public class SubjectParserMain {
-	// TODO localhost:8080/asd jo oldalt ad, de a localhost:8080/asd/asd mar
-	// nem.
-	// TODO Adatbazisfeltoltest egy kulon modulba.
-	// TODO Lanyok csak naponta valtozzanak.
+
 	// TODO Kapcsolatok menu.
+	// TODO DB connection pool Tomcat
+	// TODO Desktop GUI
+	// TODO Telefon optimalizacio
 
 	final static Logger logger = LoggerFactory
 			.getLogger(SubjectParserMain.class);
@@ -58,25 +58,12 @@ public class SubjectParserMain {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// ApplicationContext context = new
-		// ClassPathXmlApplicationContext("context.xml");
 		ApplicationContext context = new AnnotationConfigApplicationContext(
 				ContextConfig.class);
 
 		databaseBuilder = context.getBean(DatabaseBuilderService.class);
 		databaseBuilder.buildDatabaseFromFiles();
 
-		// UseDatabaseSerivce uds = context.getBean(UseDatabaseSerivce.class);
-		// logger.info("++++++++++++++++++++++++++++++++++++");
-
-		// uds.testAMethod();
-		// uds.testAMethod2();
-
-		// MyController myController = context.getBean(MyController.class);
-		// myController.tryController();
-		//
-		// logger.info("++++++++++++++++++++++++++++++++++++");
-		// logger.info("Finish");
 		System.out.println("finish");
 	}
 
