@@ -18,7 +18,7 @@
 	</definition>
 	
 	<definition name="error404" extends="baseLayout">
-		<put-attribute name="title" value="404 error - Page not found"/>
+		<put-attribute name="title" value="404 error - Oldal nem található"/>
 		<put-attribute name="body" value="/WEB-INF/views/tiles/error404.jsp"/>
 		<put-attribute name="footer" value=""/>
 	</definition>
@@ -28,12 +28,12 @@
 		<put-attribute name="footer" value=""/>
 	</definition>
 	<definition name="prettyGirl" extends="baseLayout">
-		<put-attribute name="title" value="Ybl-Miklos Foiskola - Pretty Girls"/>
+		<put-attribute name="title" value="Ybl-Miklós Főiskola - Pretty Girls"/>
 		<put-attribute name="body" value="/WEB-INF/views/tiles/prettyGirl.jsp"/>
 		<put-attribute name="footer" value=""/>
 	</definition>
 	<definition name="contacts" extends="baseLayout">
-		<put-attribute name="title" value="Ybl-Miklos Foiskola - Contacts"/>
+		<put-attribute name="title" value="Ybl-Miklós Főiskola - Kapcsolatok"/>
 		<put-attribute name="body" value="/WEB-INF/views/tiles/contacts.jsp"/>
 		<put-attribute name="footer" value=""/>
 	</definition>
