@@ -7,7 +7,7 @@
 	<div class="semester">
 		<c:forEach var="subject" items="${subjects}" varStatus="loopVariable">
 
-			<button id="${subject.id}" class="dependencyBtn dependencyBtn-standby"
+			<button id="${subject.id}" class="btn dependencyBtn dependencyBtn-standby"
 				onclick="showDependencies(this.id,'${actualSpecialization.id}')">${subject.name}</button>
 			<c:if test="${loopVariable.count % 9 == 0}">
 	</div>

@@ -1,0 +1,907 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML lang="hu">
+<HEAD>
+<title>Tárgy függőségek</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+<a href="http://www.mystat.hu/query.php?id=84565" target="_blank"><script language="JavaScript" type="text/javascript" src="http://stat.mystat.hu/stat.php?h=1&amp;id=84565"></script></a><noscript><a href="http://www.mystat.hu/query.php?id=84565" target="_blank"><img src="http://stat.mystat.hu/collect.php?id=84565&amp;h=1" alt="mystat" border="0"></a></noscript>
+
+<style type="text/css" media=screen>
+
+	body {background:#000000; margin:0px; font-family:arial,sans-serif; overflow:auto; cursor:default}
+	table {border:1px solid #dfe1e4; width:100%; background:#dfe1e4; padding-bottom: 0px}
+	td { font-family:arial,sans-serif; overflow:auto; cursor:default; FONT-SIZE: 10px; text-align:center;}
+	table.frame {border-style:none; background:#000000}
+	th {border:outset #003300; border:1px; background:#7191a8; padding:0px; font-family:serif; font-size:medium}
+	a {font-size:medium; padding:0px; padding-bottom: 0px}
+	a.d {color:#0000ff; font-size: small; padding-bottom: 0px}
+	a.r {color:#ff0000; font-size: small; padding-bottom: 0px}
+	a.ftl {color:#ffff00; font-size: small; padding-bottom: 0px}
+	a.k {color:#00ff00; font-size: small; padding-bottom: 0px}
+	a.cook {color:#7191a8;; font-size: small; padding-bottom: 0px}
+	a.cook2 {color:#7191a8; font-size: small; padding-bottom: 0px}
+	div { text-align:center}
+	a.uj {color:#ffffff; font-size: small; padding-bottom: 0px }
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18710552-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script language="JavaScript" type="text/javascript" src="dd.js"></script>
+<script language="JavaScript" type="text/javascript" src="md5.js"></script>
+<script language="JavaScript" type="text/javascript" src="ajax.js"></script>
+<style type="text/css" media=screen>
+.DragContainer {
+	BORDER-RIGHT: #669999 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #669999 0px solid; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #669999 0px solid; WIDTH: 98%; PADDING-TOP: 0px; BORDER-BOTTOM: #669999 0px solid; height: 100%;  
+}
+.OverDragContainer {
+	BORDER-RIGHT: #669999 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #669999 0px solid; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #669999 0px solid; WIDTH: 98%; PADDING-TOP: 0px; BORDER-BOTTOM: #669999 0px solid; height: 100%; 
+}
+.OverDragContainer {
+	BACKGROUND-COLOR: #eee
+}
+.DragBox {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #000 1px solid; Width:95%; CURSOR: pointer; PADDING-TOP: 2px; BORDER-BOTTOM: #000 1px solid; font-family:arial,sans-serif; border:1px groove #555555
+}
+.OverDragBox {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #000 1px solid; Width:95%; CURSOR: pointer; PADDING-TOP: 2px; BORDER-BOTTOM: #000 1px solid; font-family:arial,sans-serif; border:1px groove #555555
+}
+.DragDragBox {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #000 1px solid; Width:95%; CURSOR: pointer; PADDING-TOP: 2px; BORDER-BOTTOM: #000 1px solid; font-family:arial,sans-serif; border:1px groove #555555
+}
+.miniDragBox {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #000 1px solid; Width:95%; CURSOR: pointer; PADDING-TOP: 2px; BORDER-BOTTOM: #000 1px solid; font-family:arial,sans-serif; border:1px groove #555555
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; Border: 0px
+}
+</STYLE>
+
+<script language="javascript" type="text/javascript">
+<!-- 
+	var TARGYSZAM = 100;
+	var db = new Array()
+		db[1] = new Array(0,0,0)
+		db[2] = new Array(1,0,0)
+		db[3] = new Array(1,0,0)
+		db[4] = new Array(1,0,0)
+		db[5] = new Array(2,0,0)
+		db[6] = new Array(0,0,0)
+		db[7] = new Array(1,6,0)
+		db[8] = new Array(1,6,0)
+		db[9] = new Array(0,0,0)
+		db[10] = new Array(0,0,0)
+		db[11] = new Array(9,0,0)
+		db[12] = new Array(9,10,0)
+		db[13] = new Array(0,0,0)
+		db[14] = new Array(0,0,0)
+		db[15] = new Array(14,0,0)
+		db[16] = new Array(15,0,0)
+		db[17] = new Array(0,0,0)
+		db[18] = new Array(15,17,0)
+		db[19] = new Array(16,18,0)
+		db[20] = new Array(14,0,0)
+		db[21] = new Array(0,0,0)
+		db[22] = new Array(21,0,0)
+		db[23] = new Array(15,22,0)
+		db[24] = new Array(23,3,0)
+		db[25] = new Array(8,0,0)
+		db[26] = new Array(20,0,0)
+		db[27] = new Array(26,0,0)
+		db[28] = new Array(26,0,0)
+		db[29] = new Array(28,0,0)
+		db[30] = new Array(24,0,0)
+		db[31] = new Array(25,29,30)
+		db[32] = new Array(29,0,0)
+		db[33] = new Array(19,30,0)
+		db[34] = new Array(33,0,0)
+		db[35] = new Array(26,16,0)
+		db[36] = new Array(16,24,0)
+		db[37] = new Array(36,0,0)
+		db[38] = new Array(7,22,0)
+		db[39] = new Array(38,0,0)
+		db[40] = new Array(38,0,0)
+		db[41] = new Array(18,0,0)
+		db[42] = new Array(81,0,0)
+		db[43] = new Array(16,0,0)
+		db[44] = new Array(26,0,0)
+		db[45] = new Array(16,0,0)
+		db[46] = new Array(16,0,0)
+		db[47] = new Array(3,16,0)
+		db[48] = new Array(82,0,0)
+		db[49] = new Array(4,26,0)
+		db[50] = new Array(19,0,0)
+		db[51] = new Array(23,0,0)
+		db[52] = new Array(4,0,0)
+		db[53] = new Array(21,22,25)
+		db[54] = new Array(16,0,0)
+		db[55] = new Array(16,26,0)
+		db[56] = new Array(0,0,0)
+		db[57] = new Array(56,0,0)
+		db[58] = new Array(0,0,0)
+		db[59] = new Array(0,0,0)
+		db[60] = new Array(1,15,0)
+		db[61] = new Array(0,0,0)
+		db[62] = new Array(0,0,0)
+		db[63] = new Array(0,0,0)
+		db[64] = new Array(0,0,0)
+		db[65] = new Array(2,16,0)
+		db[66] = new Array(0,0,0)
+		db[67] = new Array(0,0,0)
+		db[68] = new Array(0,0,0)
+		db[69] = new Array(2,0,0)
+		db[70] = new Array(7,0,0)
+		db[71] = new Array(23,0,0)
+		db[72] = new Array(4,15,0)
+		db[73] = new Array(72,0,0)
+		db[74] = new Array(3,0,0)
+		db[75] = new Array(16,0,0)
+        db[76] = new Array(44,0,0)
+        db[77] = new Array(19,0,0) 
+       	db[78] = new Array(77,0,0)	
+       	db[79] = new Array(16,0,0) 
+       	db[80] = new Array(19,0,0)	
+       	db[81] = new Array(5,0,0) 
+       	db[82] = new Array(3,0,0)
+		db[83] = new Array(0,0,0)			
+		db[84] = new Array(24,0,0)
+		db[85] = new Array(0,0,0)
+		db[86] = new Array(0,0,0)
+		db[87] = new Array(0,0,0) 
+       	db[88] = new Array(0,0,0)	
+       	db[89] = new Array(0,0,0) 
+       	db[90] = new Array(0,0,0)	
+       	db[91] = new Array(0,0,0) 
+       	db[92] = new Array(91,0,0)
+		db[93] = new Array(0,0,0)			
+		db[94] = new Array(0,0,0)
+		db[95] = new Array(0,0,0)
+		db[96] = new Array(10,0,0)
+		db[97] = new Array(0,0,0)	
+       	db[98] = new Array(55,0,0) 
+       	db[99] = new Array(55,24,0)
+		db[100] = new Array(0,0,0)			
+
+
+	var adat = new Array ()
+		adat[1] = " Analízis - NGB_MA001_1 - kredit: 6"
+		adat[2] = " Lineáris algebra - NGB_MA001_2 - kredit: 4"
+		adat[3] = " Diszkrét matematika és kódelmélet - NGB_MA007_1 - kredit: 5"
+		adat[4] = " Valószínűségszámítás és matematikai statisztika - NGB_MA001_3 - kredit: 5"
+		adat[5] = " Optimumszámítás - NGB_MA006_1 - kredit: 4"
+		adat[6] = " Villamosságtan - NGB_TA001_1 - kredit: 4"
+		adat[7] = " Fizika - NGB_FI001_1 - kredit: 4"
+		adat[8] = " Jelek és rendszerek - NGB_TA002_1 - kredit: 4"
+		adat[9] = " Közgazdaságtan - NGB_AK001_1 - kredit: 4"
+		adat[10] = " Jogi ismeretek - NGB_JE001_1 - kredit: 4"
+		adat[11] = " Vállalati gazdaságtan - NGB_SV001_1 - kredit: 4"
+		adat[12] = " Üzleti és Informatikai jog - NGB_KJ001_1 - kredit: 4"
+		adat[13] = " Termelésmenedzsment - NGB_SV002_1 - kredit: 4"
+		adat[14] = " Programozás I. - NGB_IN001_1 - kredit: 5"
+		adat[15] = " Programozás II. - NGB_IN001_2 - kredit: 4"
+		adat[16] = " Programozás III. - NGB_IN001_3 - kredit: 6"
+		adat[17] = " Szoftver-technológia I. - NGB_IN002_1 - kredit: 5"
+		adat[18] = " Szoftver-technológia II. - NGB_IN002_2 - kredit: 5"
+		adat[19] = " Szoftver-minőségbiztosítás - NGB_IN003_1 - kredit: 4"
+		adat[20] = " Algoritmusok és adatstruktúrák - NGB_SZ001_1 - kredit: 3"
+		adat[21] = " Digitális hálózatok - NGB_AU001_1 - kredit: 6"
+		adat[22] = " Számítógép-architectúrák - NGB_IN004_1 - kredit: 4"
+		adat[23] = " Operációs rendszerek - NGB_IN005_1 - kredit: 6"
+		adat[24] = " Számítógép-hálózatok - NGB_IN006_1 - kredit: 6"
+		adat[25] = " Szabályozástechnika - NGB_IN007_1 - kredit: 4"
+		adat[26] = " Adatbáziskezelés - NGB_IN008_1 - kredit: 5"
+		adat[27] = " Szakértői rendszerek - NGB_IN009_1 - kredit: 3"
+		adat[28] = " Vállalati információs rendszerek I. - NGB_IN010_1 - kredit: 3"
+		adat[29] = " Vállalati információs rendszerek II. - NGB_IN010_2 - kredit: 4"
+		adat[30] = " Számítógépes adatbiztonság - NGB_IN011_1 - kredit: 3"
+		adat[31] = " Rendszerintegrálás - NGB_IN012_1 - kredit: 4"
+		adat[32] = " Vezetői információs rendszerek - NGB_IN013_1 - kredit: 4"
+		adat[82] = " Formális nyelvek és automaták - NGB_SZ005_1 - kredit: 4"
+		adat[81] = " Döntéselőkészítés - NGB_IN021_1 - kredit: 4"
+		adat[35] = " Beágyazott szoftverek - NGB_IN022_1 - kredit: 4"
+		adat[36] = " Webtechnológia I. - NGB_IN023_1 - kredit: 4"
+		adat[37] = " Webtechnológia II. - NGB_IN023_2 - kredit: 4"
+		adat[38] = " Számítógépes grafika - NGB_IN024_1 - kredit: 4"
+		adat[39] = " Multimédia - NGB_IN025_1 - kredit: 4"
+		adat[40] = " Grafikus modellezés - NGB_IN026_1 - kredit: 4"
+		adat[41] = " CASE technológia - NGB_IN027_1 - kredit: 4"
+		adat[42] = " Döntéselőkészító rendszerek - NGB_IN028_1 - kredit: 4"
+		adat[43] = " Párhuzamos programozás - NGB_SZ007_1 - kredit: 4"
+		adat[44] = " Vizuális adatbáziskezelés I. - NGB_IN029_1 - kredit: 4"
+		adat[45] = " Vizuális alkalmazásfejlesztés I. - NGB_SZ009_1 - kredit: 4"
+		adat[46] = " Vizuális alkalmazásfejlesztés II. - NGB_SZ009_2 - kredit: 4"
+		adat[47] = " Algoritmusok tervezése - NGB_SZ011_1 - kredit: 4"
+		adat[48] = " Programozáselmélet - NGB_SZ012_1 - kredit: 4"
+		adat[49] = " Statisztikai alkalmazások - NGB_SZ013_1 - kredit: 4"
+		adat[50] = " Objektumorientált technológia - NGB_IN030_1 - kredit: 4"
+		adat[51] = " Számítógépek felépítése és üzemeltetése - NGB_IN031_1 - kredit: 4"
+		adat[52] = " Minőség és megbízhatóság - NGB_AU017_1 - kredit: 4"
+		adat[53] = " Reaktív rendszerek fejlesztése - NGB_AU018_1 - kredit: 4"
+		adat[54] = " Programozási nyelvek és paradigmák - NGB_SZ014_1 - kredit: 4"
+		adat[55] = " Programozás dotNET-ben - NGB_IN036_1 - kredit: 4"
+		adat[56] = " Angol műszaki nyelv I. - NGB_IT003_1 - kredit: 2"
+		adat[57] = " Angol műszaki nyelv II. - NGB_IT003_2 - kredit: 2"
+		adat[58] = " Kommunikációs ismeretek - NGB_SV003_1 - kredit: 2"
+		adat[59] = " Marketing - NGB_SV004_1 - kredit: 2"
+		adat[60] = " Interaktív 3D környezetek - NGB_MA014_1 - kredit: 4"
+		adat[61] = " EU-tanulmányok - 	NGB_AK004_1 - kredit: 2"
+		adat[62] = " Globalizáció és magyar társadalom I. - NGB_TT001_1 - kredit: 2"
+		adat[63] = " Globalizáció és magyar társadalom II. - NGB_TT001_2 - kredit: 2"
+		adat[64] = " Politológia - 	NGB_TT003_1 - kredit: 2"
+		adat[65] = " Interaktív multimédia alkalmazások - NGB_MA020_1 - kredit: 4"
+		adat[66] = " Szociológia - NGB_TT005_1 - kredit: 2"
+		adat[67] = " Fizikatörténet - NGB_FI005_1 - kredit: 2"
+		adat[68] = " Műszaki dok. és szabványism. - NGB_AG012_1 - kredit: 4"
+		adat[69] = " Numerikus módszerek - NGB_MA008_1 - kredit: 4"
+		adat[70] = " Prezentációs grafika - NGB_IN041_1 - kredit: 4"
+		adat[71] = " Irodaautomatizálási rendszerek - ? - kredit: 2"
+		adat[72] = " Szimuláció módszertana és alkalmazása I. - NGB_AU016_1 - kredit: 3"
+		adat[73] = " Szimuláció módszertana és alkalmazása II. - NGB_AU016_2 - kredit: 3"
+		adat[74] = " Intelligens rendszerek - NGB_TA011_1 - kredit: 4"
+		adat[75] = " Speciális programfejlesztő eszközök - NGB_SZ015_1 - kredit: 4"
+		adat[76] = " Vizuális adatbáziskezelés II. - NGB_IN029_2 - kredit: 4"
+		adat[77] = " UML-alapú fejlesztés I. - NGB_IN032_1 - kredit: 4"
+		adat[78] = " UML-alapú fejlesztés II. - NGB_IN032_2 - kredit: 4"
+		adat[79] = " Projektvezetés - 	NGB_IN033_1 - kredit: 4"
+		adat[80] = " Programozás C++ nyelven - NGB_IN034_1 - kredit: 4"
+		adat[34] = " Diplomatervezés II. - NGB_IN091_2 - kredit: 16"
+		adat[33] = " Diplomatervezés I. - NGB_IN091_1 - kredit: 4"
+		adat[83] = " Tudatos karriertervezés, munkaerőpiaci ismeretek - NGB_SV050_1 - kredit: 2"
+		adat[84] = " Internet alkalmazások - NGB_IN035_1 - kredit: 4"
+		adat[85] = " Az információs társadalom - NGB_TT007_1 - kredit: 2"
+		adat[86] = " Informatikatörténet - NGB_IN043_1 - kredit: 2"
+		adat[87] = " Munkavédelem - NGB_AG008_1 - kredit: 2"
+		adat[88] = " A modern társadalmak - NGB_TT006_1 - kredit: 2"
+		adat[89] = " Neveléstörténet és neveléstan - NGB_MT001_1 - kredit: 2"
+		adat[90] = " Önkéntes segítő gyakorlat - NGB_SM044_1 - kredit: 4"
+		adat[91] = " Pszichológia és személyiségfejl. - NGB_MT002_1 - kredit: 3"
+		adat[92] = " Pszichológia és személyiségfejl. - NGB_MT002_2 - kredit: 3"
+		adat[93] = " Szociális gyakorlat - NGB_SM001_1 - kredit: 2"
+		adat[94] = " Szoc. gyak.-ot követő szeminárium - NGB_SM001_2 - kredit: 2"
+		adat[95] = " Tanári kommunikáció - NGB_MT005_1 - kredit: 2"
+		adat[96] = " Üzleti és iparjogvédelem - NGB_KA001_1 - kredit: 2"
+		adat[97] = " Banki Informatika - NGB_IN080_1 - kredit: 3"
+		adat[98] = " Grafikus fejlesztés dotNET-ben - NGB_IN037_1 - kredit: 4"
+		adat[99] = " Portálfejlesztés dotNET-ben - NGB_IN006_1 - kredit: 4"
+		adat[100] = ""
+		adat[101] = ""
+
+	var d;
+	var cdb = new Array(); //color index
+	for (d=1; d<100; d++){
+		cdb[d]=0;
+	}
+	var color = new Array("#dfe1e4","#0000aa","#3333ff","#7777ff","#aaaaff","#ccccff","#ffffff");
+	var color_r = new Array("#dfe1e4","#aa0000","#ff3333","#ff7777","#ffaaaa","#ffcccc","#ffffff");
+	
+	var r3,r1,r2;
+	var r3=r1=r2=1;
+	d=0; //rek. melyseg
+	
+	function isset(variable){  
+    if (variable == undefined || variable == null || variable == "undefined" || variable == "null"){  
+    return false;  
+    }  
+   return true;  
+   }  
+   
+	function tint(sid){
+					if (r1) tint_d(sid);
+					if (r2) tint_r(sid);
+					kreditoszlop();
+					if(r3) {
+						document.getElementById('info').innerHTML="" + adat[sid] + "<br><br>"; }		
+
+	}
+	function tint_d(sid){
+		var i=0;
+		d++;
+		while (db[sid][i] && i<3){
+			var BG = cdb[db[sid][i]];
+			if (BG==0 || BG>d){
+				document.getElementById(db[sid][i]).style.background=color[d];
+				cdb[db[sid][i]]=d;
+			}
+			if (d==1) document.getElementById(db[sid][i]).style.color="#ffffff";
+			tint_d(db[sid][i]);
+			i++; 
+		}	
+		d--;
+	}
+	function tint_r(sid){
+		var i,j;
+		var i=j=0;
+		d++;
+		for (i=1; i<TARGYSZAM; i++)
+			for (j=0; j<3; j++)
+				if (db[i][j]==sid){
+					var BG = cdb[i];
+					if (BG==0 || BG>d){
+						document.getElementById(i).style.background=color_r[d];
+						if (d==1) document.getElementById(i).style.color="#ffffff";
+						cdb[i]=d;
+					}
+					tint_r(i);
+				}
+		d--;
+	}
+	
+
+	
+	function clr(sid){
+		var i=0;
+		for (i=1; i<TARGYSZAM; i++){
+			document.getElementById(i).style.background=color_r[0];
+			cdb[i]=0;
+			document.getElementById(i).style.color="#000000";
+		}
+		if(r3) {
+		document.getElementById('info').innerHTML="Teljesítendő:210 =Kötelező:160 + Diff.: 40 + Szabadon v.:10"; }
+
+	}
+		function felvehetotorol()
+		{
+			document.getElementById('kreditsum2').innerHTML = 0;
+		}
+		
+		function felveheto()
+		{
+		var i2=0;
+		for (i2=1; i2<TARGYSZAM; i2++) {
+		var cc="t"+i2;
+	if(isset(document.getElementById(cc))) 
+			if (document.getElementById(cc).checked )
+					document.getElementById(i2).style.background="#00aa00";
+						
+		var cc2="t"+db[i2][0];
+		var cc3="t"+db[i2][1];
+		var cc4="t"+db[i2][2];
+			
+				if(isset(document.getElementById(cc)) && isset(document.getElementById(cc2)) && isset(document.getElementById(cc3)) && isset(document.getElementById(cc4)))
+				if ((db[i2][0]==0 && db[i2][1]==0 && db[i2][2]==0)  || (document.getElementById(cc2).checked && document.getElementById(cc3).checked && document.getElementById(cc4).checked)){ 
+					if(!document.getElementById(cc).checked)
+					{
+					document.getElementById(i2).style.background="#ffff55";
+					
+					var a = parseInt(document.getElementById('kreditsum2').innerHTML);
+					var b=cc.split("t");
+					var kredit=adat[parseInt(b[1])].length-1;
+					var ertek=parseInt(adat[parseInt(b[1])][kredit]);
+					
+						a=a+ertek;
+					
+					document.getElementById('kreditsum2').innerHTML = a;
+				
+				
+					}
+					}
+
+
+					} //for
+		} //function
+		
+		function pozicio() {
+		var s="";
+			for(var i=1;i<TARGYSZAM;i++)
+				{
+					var s;
+					if(isset(document.getElementById("t"+i)))
+					if(document.getElementById("t"+i).checked == true)
+					var mentesseged = 1;
+					else
+					var mentesseged = 0; 
+					
+					s +="" + document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length);
+					if(i!=(TARGYSZAM - 1))  s+= "|";
+									}
+			xchange('s',s);
+			
+		}
+		
+		function trim(s){
+		return s.replace(/^\s\s*/, "").replace(/\s\s*$/, "");
+		}
+
+		function load(str)
+		{
+		
+		
+		var k="";
+		var s=str.split("|");
+		
+		for(ia=1;ia<TARGYSZAM;ia+=1) {
+		s[0]=s[0].replace(/\uFEFF/g, "");
+		if((ia == 60 || ia==65) && s[ia] > 22)
+		szulo="DragContainer21";
+		else if(ia==55 || ia==98 || ia==99)
+		szulo="DragContainer22";
+		else
+		szulo="DragContainer"+s[ia-1];
+		//alert(document.getElementById(ia).parentNode.id==szulo);
+		if (document.getElementById(ia).parentNode.id != (szulo))
+			{
+			
+			ittvolteddig = document.getElementById(ia).parentNode;
+			regichild = document.getElementById(ia);
+			ujgyerek= regichild.cloneNode(true);
+			
+			document.getElementById(szulo).appendChild(ujgyerek);
+			
+			document.getElementById(ittvolteddig.id).removeChild(regichild);
+			if(document.getElementById("DragContainer"+s[ia-1]).parentNode.style.display=="none")
+						{ 
+						document.getElementById("DragContainer"+s[ia-1]).parentNode.style.display="";
+						document.getElementById("zz"+s[ia-1]).style.display="";
+						document.getElementById("kr"+s[ia-1]).style.display="";
+						}
+				
+			}
+		
+
+		}
+		tablarendez();	
+		}
+
+	function checkfelev(id)
+	{
+	if(document.getElementById(id).checked)
+	{
+	var s = "DragContain" +id;
+		for(var i=1;i<TARGYSZAM;i++)
+			{
+			var box = "t"+i; 
+			if(isset(document.getElementById(box)))
+			if((document.getElementById(i).parentNode.id == s) &&   document.getElementById(box).checked==false) {  document.getElementById(box).checked = true; kreditsum(box); }
+			}
+	}
+	else
+	{
+		var s = "DragContain" +id;
+			for(var i=1;i<TARGYSZAM;i++)
+			{
+			var box = "t"+i;
+			if(isset(document.getElementById(box)))
+			if((document.getElementById(i).parentNode.id == s) &&   document.getElementById(box).checked==true)  {   document.getElementById(box).checked = false;   kreditsum(box);  }
+			}
+	}
+	}
+	
+	function kreditsum(id) 	{
+	var a = parseInt(document.getElementById('kreditsum').innerHTML);
+	var b=id.split("t");
+
+	var kredit=parseInt(adat[parseInt(b[1])].length-1);
+	var ertek=parseInt(adat[parseInt(b[1])].slice(kredit,adat[parseInt(b[1])].length));
+		if(document.getElementById(id).checked)
+			a=a+ertek;
+		else
+			a=a-ertek;
+	document.getElementById('kreditsum').innerHTML = ""+a;
+	
+	
+	}
+	
+	function repozicio(mit,honnan)
+	{
+
+	for(var i=1;i<35;i++)
+			{
+		for(var z=0;z<3;z++)
+		{
+			if(db[i][z] == mit.id) 
+				{
+					if(parseInt(document.getElementById(mit.id).parentNode.id.slice(13,document.getElementById(mit.id).parentNode.id.length)) >= parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length)))
+				
+					{
+						var ittvolteddig = document.getElementById(i).parentNode;
+						
+						var maxi = 0;
+						for(var h=1;h<3;h++)
+						if(isset(document.getElementById(db[i][h])))
+						if(parseInt(document.getElementById(db[i][h]).parentNode.id.slice(13,document.getElementById(db[i][h]).parentNode.id.length)) > parseInt(document.getElementById(db[i][maxi]).parentNode.id.slice(13,document.getElementById(db[i][maxi]).parentNode.id.length)))
+						maxi=h;
+						
+						if(parseInt(document.getElementById(db[i][maxi]).parentNode.id.slice(13,document.getElementById(db[i][maxi]).parentNode.id.length)) % 2 == parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length))%2)
+						var plusz=2;
+						else
+						var plusz=1;
+						var hovamegy = parseInt(document.getElementById(db[i][maxi]).parentNode.id.slice(13,document.getElementById(db[i][maxi]).parentNode.id.length))+plusz;
+						document.getElementById("DragContainer"+hovamegy).appendChild(document.getElementById(i).cloneNode(true));
+						document.getElementById(ittvolteddig.id).removeChild(document.getElementById(i));	
+						if(document.getElementById("DragContainer"+hovamegy).parentNode.style.display=="none")
+						{ 
+						document.getElementById("DragContainer"+hovamegy).parentNode.style.display="";
+						document.getElementById("zz"+hovamegy).style.display="";
+						document.getElementById("kr"+hovamegy).style.display="";
+						}
+						repozicio(document.getElementById(i),ittvolteddig);	
+					
+					}	
+									
+				}
+		}
+			
+			}
+		
+	}
+	function tablarendez()
+	{
+
+	var maxx = 7;
+		for(var i=1;i<TARGYSZAM;i++)
+		{
+		if(parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length))>maxx)
+		if(parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length))<20)
+		{
+		maxx=parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length));
+		
+		}
+		
+		}
+			if(maxx>7)
+			{
+			for(i=8;i<=maxx;i++)
+			{
+			document.getElementById("DragContainer"+i).parentNode.style.display="";
+						document.getElementById("zz"+i).style.display="";
+						document.getElementById("kr"+i).style.display="";
+			
+			}
+			}	
+			for(i=maxx+1;i<20;i++)
+			{
+						document.getElementById("DragContainer"+i).parentNode.style.display="none";
+						document.getElementById("zz"+i).style.display="none";	
+						document.getElementById("kr"+i).style.display="none";
+							
+			}
+	}
+	
+	function kreditoszlop() {
+		var kroszl = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+		var kreredm = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+			for(var i=1;i<TARGYSZAM;i++){
+				if(isset(document.getElementById(i))){
+				if(parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length))<20){
+				
+				if(i!=34)
+					kroszl[parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length))] += parseInt(adat[i].slice(adat[i].length-1,adat[i].length));
+				else
+					kroszl[parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length))] += 16;
+				if(isset(document.getElementById("t"+i)))
+				if(document.getElementById("t"+i).checked == true)
+				if(i!=34)
+					kreredm[parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length))] += parseInt(adat[i].slice(adat[i].length-1,adat[i].length));
+				else
+					kreredm[parseInt(document.getElementById(i).parentNode.id.slice(13,document.getElementById(i).parentNode.id.length))] += 16;
+					
+					}
+				}
+			}	
+		for(var i=1;i<19;i++)				
+					if(document.getElementById("DragContainer"+i).parentNode.style.display!="none")
+					document.getElementById("kr"+i).innerHTML =kroszl[i] + "/" + kreredm[i];
+					
+		}
+		
+		function ujdonsag() {
+		var newsbox = document.createElement("div");
+		newsbox.setAttribute("id", "newsbox");
+
+	newsbox.innerHTML = '<div id="box3" style="position:absolute; right:10px; bottom:10px; width:700px; z-index:100; overflow: hidden; height: 30px; font-size: 8pt; font-weight: bold; border: 3px solid white; background-color: #aa0000; color: #000000;"><font color="white">Újdonság:</font> a mentés és a betöltés SQL alapokon működik, tehát mindenhonnan eléritek a saját adatokat.&nbsp;&nbsp;&nbsp;<a onclick="document.body.removeChild(document.getElementById(\'newsbox\'));">Bezárás</a> ' + '<p id="eredmeny"></p></div>';
+
+//document.body.appendChild(newsbox);
+var news=setTimeout("document.body.removeChild(document.getElementById('newsbox'))",4000);
+}
+//ujdonsag();
+		
+		-->
+
+</script>
+
+</HEAD><body>
+<form method="post" STYLE="margin: 0px; padding: 1px;">
+	<input type="checkbox" checked="true" onClick="r1=!r1">
+	<a class="d">Függőségek</a>
+	<input type="checkbox" checked="true" onClick="r2=!r2">
+	<a class="r">Fordított függőségek</a>
+    <input type="checkbox" checked="true" onClick="r3=!r3">
+	<a class="k">Kredit </a>
+  <input type="checkbox" onChange=kreditsum(id) id="t0" checked>
+    <a class="ftl" onMouseOver="felveheto();" onMouseOut="clr(id);felvehetotorol();">Felvehető tárgyak </a><a class="cook" onClick="pozicio();">Mentés</a>
+    <a class="cook2" onClick="xchange('l','');">Betöltés</a>
+  	<a class="uj" href=fuggoseg.html>Régi</a>     
+
+</form>
+<FIELDSET id="Demo0">
+<table cellspacing="2px"  id="fuggos1">
+	<tr id="szamoz">
+		<th id="zz1">I.<input type=checkbox  id="er1" onChange="javascript:checkfelev(id);" ></th>
+		<th id="zz2">II.<input type=checkbox id="er2" onChange="javascript:checkfelev(id);" ></th>
+		<th id="zz3">III.<input type=checkbox id="er3" onChange="javascript:checkfelev(id);" ></th>
+		<th id="zz4">IV.<input type=checkbox id="er4" onChange="javascript:checkfelev(id);" ></th>
+		<th id="zz5">V.<input type=checkbox id="er5" onChange="javascript:checkfelev(id);" ></th>
+		<th id="zz6">VI.<input type=checkbox id="er6" onChange="javascript:checkfelev(id);" ></th>
+		<th id="zz7">VII.<input type=checkbox id="er7" onChange="javascript:checkfelev(id);" ></th>
+        <th id="zz8" style="display:none">VIII.<input type=checkbox id='er8' onChange="javascript:checkfelev(id);kreditsum(id)"></th>
+        <th id="zz9" style="display:none">IX.<input type=checkbox  id='er9' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz10" style="display:none">X.<input type=checkbox  id='er10' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz11" style="display:none">XI.<input type=checkbox  id='er11' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz12" style="display:none">XII.<input type=checkbox  id='er12' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz13" style="display:none">XIII.<input type=checkbox  id='er13' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz14" style="display:none">XIV.<input type=checkbox  id='er14' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz15" style="display:none">XV.<input type=checkbox  id='er15' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz16" style="display:none">XVI.<input type=checkbox  id='er16' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz17" style="display:none">XVII.<input type=checkbox  id='er17' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz18" style="display:none">XVIII.<input type=checkbox id='er18' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+        <th id="zz19" style="display:none">XIX.<input type=checkbox  id='er19' onChange="javascript:checkfelev(id);kreditsum(id)" ></th>
+	</tr><tr id="felevek"><td valign="top" height="100%">
+   <DIV class=DragContainer id="DragContainer1" overClass="OverDragContainer">
+		<div class=DragBox id="1" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Analízis<input type=checkbox onChange=kreditsum(id) id="t1"></div>
+        <div class=DragBox id="6" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Villamosságtan<input type=checkbox onChange=kreditsum(id) id="t6"></div>
+        <div class=DragBox id="9" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Közgazdaságtan<input type=checkbox onChange=kreditsum(id) id="t9"></div>
+        <div class=DragBox id="14" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Programozás I.<input type=checkbox onChange=kreditsum(id) id="t14"></div>
+        <div class=DragBox id="21" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Digitális hálózatok<input type=checkbox onChange=kreditsum(id) id="t21"></div>
+    </DIV>
+	</td><td valign=top height="100%">
+    <DIV class=DragContainer id="DragContainer2" overClass="OverDragContainer">
+		<div class=DragBox id="2" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Lineáris algebra<input type=checkbox onChange=kreditsum(id) id="t2"></div>
+        <div class=DragBox id="7" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Fizika<input type=checkbox onChange=kreditsum(id) id="t7"></div>
+		<div class=DragBox id="10" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Jogi ismeretek<input type=checkbox onChange=kreditsum(id) id="t10"></div>
+		<div class=DragBox id="15" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Programozás II.<input type=checkbox onChange=kreditsum(id) id="t15"></div>
+		<div class=DragBox id="20" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Algoritmusok és adatstr.<input type=checkbox onChange=kreditsum(id) id="t20"></div>
+		<div class=DragBox id="22" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Számítógép-architektúrák<input type=checkbox onChange=kreditsum(id) id="t22"></div>
+		<div class=DragBox id="17" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szoftver-technológia I.<input type=checkbox onChange=kreditsum(id) id="t17"></div>
+		
+        
+	</DIV>
+	</td><td valign=top>
+    <DIV class=DragContainer id=DragContainer3 overClass="OverDragContainer">    
+		<div class=DragBox id="3" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Diszkrét matematika<input type=checkbox onChange=kreditsum(id) id="t3"></div>
+        <div class=DragBox id="8" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Jelek és rendszerek<input type=checkbox onChange=kreditsum(id) id="t8"></div>
+		<div class=DragBox id="16" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Programozás III.<input type=checkbox onChange=kreditsum(id) id="t16"></div>
+		<div class=DragBox id="18" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szoftver-technológia II.<input type=checkbox onChange=kreditsum(id) id="t18"></div>
+		<div class=DragBox id="23" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Operációs rendszerek<input type=checkbox onChange=kreditsum(id) id="t23"></div>
+		<div class=DragBox id="26" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Adatbáziskezelés<input type=checkbox onChange=kreditsum(id) id="t26"></div>
+		
+        </DIV>
+	</td><td valign=top>
+    <DIV class=DragContainer id=DragContainer4 overClass="OverDragContainer">  
+		<div class=DragBox id="4" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Valószínűségszámítás<input type=checkbox onChange=kreditsum(id) id="t4"></div>
+		<div class=DragBox id="11" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Vállalat-gazdaságtan<input type=checkbox onChange=kreditsum(id) id="t11"></div>
+
+		<div class=DragBox id="19" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szoftver-minőségbiztosítás<input type=checkbox onChange=kreditsum(id) id="t19"></div>
+		<div class=DragBox id="25" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szabályozástechnika<input type=checkbox onChange=kreditsum(id) id="t25"></div>
+		<div class=DragBox id="24" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Számítógép-hálózatok<input type=checkbox onChange=kreditsum(id) id="t24"></div>
+
+		<div class=DragBox id="27" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szakértői rendszerek<input type=checkbox onChange=kreditsum(id) id="t27"></div>
+		<div class=DragBox id="28" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Vállalati inf. rendszerek I.<input type=checkbox onChange=kreditsum(id) id="t28"></div>
+
+         </DIV>
+	</td><td valign=top>
+    <DIV class=DragContainer id=DragContainer5 overClass="OverDragContainer">  
+		<div class=DragBox id="5" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Optimumszámítás<input type=checkbox onChange=kreditsum(id) id="t5"></div>
+ 		<div class=DragBox id="12" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Üzleti és Informatikai jog<input type=checkbox onChange=kreditsum(id) id="t12"></div>
+		<div class=DragBox id="29" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Vállalati inf. rendszerek II.<input type=checkbox onChange=kreditsum(id) id="t29"></div>
+		<div class=DragBox id="30" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Számítógépes adatbiztonság<input type=checkbox onChange=kreditsum(id) id="t30"></div>
+
+       </DIV>
+	</td><td valign=top>
+    <DIV class=DragContainer id=DragContainer6 overClass="OverDragContainer">  
+		<div class=DragBox id="13" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Termelésmenedzsment<input type=checkbox onChange=kreditsum(id) id="t13"></div>
+		<div class=DragBox id="31" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Rendszerintegrálás<input type=checkbox onChange=kreditsum(id) id="t31"></div>
+		<div class=DragBox id="33" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Diplomatervezés I.</div>
+        </DIV>
+	</td><td valign=top>
+    <DIV class=DragContainer id=DragContainer7 overClass="OverDragContainer">  
+		<div class=DragBox id="32" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Vezetői inf. rendszerek<input type=checkbox onChange=kreditsum(id) id="t32"></div>
+		<div class=DragBox id="34" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Diplomatervezés II.</div>
+       </DIV>
+	</td>
+       <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer8 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer9 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer10 overClass="OverDragContainer">  
+		
+       </DIV>
+    </td>	<td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer11 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer12 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer13 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer14 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer15 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer16 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none" >
+    <DIV class=DragContainer id=DragContainer17 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer18 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>   <td valign=top style="display:none">
+    <DIV class=DragContainer id=DragContainer19 overClass="OverDragContainer">  
+		
+       </DIV>
+	</td>
+
+    </tr>
+<tr><td valign=top id="kr1">
+    <div>1</div></td>
+    <td valign=top id="kr2">
+    <div>2</div></td>
+    <td valign=top id="kr3">
+    <div>3</div></td>
+    <td valign=top id="kr4">
+    <div>4</div></td>
+    <td valign=top id="kr5">
+    <div>5</div></td>
+    <td valign=top id="kr6">
+    <div>6</div></td>
+    <td valign=top  id="kr7">
+    <div>7</div></td>
+    <td valign=top style="display:none" id="kr8">
+    <div>8</div></td>
+    <td valign=top style="display:none" id="kr9">
+    <div>9</div></td>
+    <td valign=top style="display:none" id="kr10">
+    <div>10</div></td>
+    <td valign=top style="display:none" id="kr11">
+    <div>11</div></td>
+    <td valign=top style="display:none" id="kr12">
+    <div>12</div></td>
+    <td valign=top style="display:none" id="kr13">
+    <div>13</div></td>
+    <td valign=top style="display:none" id="kr14">
+    <div>14</div></td>
+    <td valign=top style="display:none" id="kr15">
+    <div>15</div></td>
+    <td valign=top style="display:none" id="kr16">
+    <div>16</div></td>
+    <td valign=top style="display:none" id="kr17">
+    <div>17</div></td>
+    <td valign=top style="display:none" id="kr18">
+    <div>18</div></td>
+    <td valign=top style="display:none" id="kr19">
+    <div>19</div></td>
+    
+</table>
+<table class="frame"><tr><td class="frame" valign="top">
+<table>
+	<tr>
+    	<th colspan=3>Differenciált szakmai anyag</th>
+	</tr><tr><td valign=top height="100%">
+		<DIV class=DragContainer id=DragContainer20 overClass="OverDragContainer">  
+		<div class=DragBox id="82" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Form. nyelvek és automaták<input type=checkbox onChange=kreditsum(id) id="t82"></div>
+		<div class=DragBox id="81" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Döntéselőkészítés<input type=checkbox onChange=kreditsum(id) id="t81"></div>
+		<div class=DragBox id="35" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Beágyazott szoftverek<input type=checkbox onChange=kreditsum(id) id="t35"></div>
+		<div class=DragBox id="36" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Web-technológia I.<input type=checkbox onChange=kreditsum(id) id="t36"></div>
+		<div class=DragBox id="37" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Web-technológia II.<input type=checkbox onChange=kreditsum(id) id="t37"></div>
+		<div class=DragBox id="38" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Számítógépes grafika<input type=checkbox onChange=kreditsum(id) id="t38"></div>
+		<div class=DragBox id="39" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Multimédia<input type=checkbox onChange=kreditsum(id) id="t39"></div>
+		<div class=DragBox id="40" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Grafikus modellezés<input type=checkbox onChange=kreditsum(id) id="t40"></div>
+        <div class=DragBox id="41" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>CASE-technológia<input type=checkbox onChange=kreditsum(id) id="t41"></div>
+        <div class=DragBox id="84" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Internet alkalmazások<input type=checkbox onChange=kreditsum(id) id="t84"></div>
+		</DIV>
+	</td><td valign=top>
+		<DIV class=DragContainer id=DragContainer21 overClass="OverDragContainer"> 		
+ 
+		<div class=DragBox id="42" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Döntéselőkészítő rendszerek<input type=checkbox onChange=kreditsum(id) id="t42"></div>
+		<div class=DragBox id="43" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Párhuzamos programozás<input type=checkbox onChange=kreditsum(id) id="t43"></div>
+		<div class=DragBox id="44" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Vizuális adatbáziskezelés I.<input type=checkbox onChange=kreditsum(id) id="t44"></div>
+		<div class=DragBox id="45" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Vizuális alkalmazásfejlesztés I.<input type=checkbox onChange=kreditsum(id) id="t45"></div>
+		<div class=DragBox id="46" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Vizuális alkalmazásfejlesztés II.<input type=checkbox onChange=kreditsum(id) id="t46"></div>
+		<div class=DragBox id="47" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Algoritmusok tervezése<input type=checkbox onChange=kreditsum(id) id="t47"></div>
+		<div class=DragBox id="48" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Programozáselmélet<input type=checkbox onChange=kreditsum(id) id="t48"></div>
+		<div class=DragBox id="49" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Statisztikai alkalmazások<input type=checkbox onChange=kreditsum(id) id="t49"></div>
+		<div class=DragBox id="50" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Objektum-orientált technológia<input type=checkbox onChange=kreditsum(id) id="t50"></div>
+        <div class=DragBox id="60" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Interaktív 3D környezetek<input type=checkbox onChange=kreditsum(id) id="t60"></div>
+        <div class=DragBox id="65" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Interaktív multimédia alkalmazások<input type=checkbox onChange=kreditsum(id) id="t65"></div>
+        		</DIV>
+	</td><td valign=top>
+		<DIV class=DragContainer id=DragContainer22 overClass="OverDragContainer"> 
+
+		<div class=DragBox id="51" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Számítógépek felépítése és üzemeltetése<input type=checkbox onChange=kreditsum(id) id="t51"></div>
+		<div class=DragBox id="52" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Minőség és megbízhatóság<input type=checkbox onChange=kreditsum(id) id="t52"></div>
+		<div class=DragBox id="53" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Reaktív rendszerek fejlesztése<input type=checkbox onChange=kreditsum(id) id="t53"></div>
+		<div class=DragBox id="54" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Programozási nyelvek és paradigmák<input type=checkbox onChange=kreditsum(id) id="t54"></div>
+		<div class=DragBox id="80" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Programozás C++ nyelven<input type=checkbox onChange=kreditsum(id) id="t80"></div>
+        <div class=DragBox id="76" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Vizuális adatbáziskezelés II.<input type=checkbox onChange=kreditsum(id) id="t76"></div>
+		<div class=DragBox id="77" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>UML-alapú fejlesztés I. <input type=checkbox onChange=kreditsum(id) id="t77"></div>
+	    <div class=DragBox id="78" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>UML-alapú fejlesztés II.<input type=checkbox onChange=kreditsum(id) id="t78"></div>
+		<div class=DragBox id="79" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Projektvezetés<input type=checkbox onChange=kreditsum(id) id="t79"></div>
+        <div class=DragBox id="55" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Programozás dotNET-ben<input type=checkbox onChange=kreditsum(id) id="t55"></div>
+        <div class=DragBox id="98" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Grafikus fejlesztés dotNET-ben<input type=checkbox onChange=kreditsum(id) id="t98"></div>
+        <div class=DragBox id="99" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Portálfejlesztés dotNET-ben<input type=checkbox onChange=kreditsum(id) id="t99"></div>
+
+        </DIV>
+	</td></tr>
+</table>
+</td><td class="frame"  valign="top">
+<table>
+	<tr>
+    	<th colspan=3>Szabadon választható tananyag</th>
+	</tr><tr><td valign=top height="100%" width="25%">
+ 		<DIV class=DragContainer id=DragContainer23 overClass="OverDragContainer">  
+		<div class=DragBox id="56" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Angol műszaki nyelv I.</div>
+		<div class=DragBox id="57" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Angol műszaki nyelv II.</div>
+		<div class=DragBox id="58" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Kommunikációs ismeretek</div>
+		<div class=DragBox id="59" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Marketing</div>
+		<div class=DragBox id="62" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Globalizáció és magyar társ. I.</div>
+		<div class=DragBox id="63" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Globalizáció és magyar társ.II.</div>
+		<div class=DragBox id="87" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Munkavédelem</div>    
+        <div class=DragBox id="89" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Neveléstörténet és neveléstan</div>   
+        <div class=DragBox id="93" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szociális gyakorlat</div>  
+		<div class=DragBox id="94" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szoc. gyak.-ot követő szeminárium</div>  
+
+        		</DIV>	
+
+	</td><td valign=top width="25%">
+		<DIV class=DragContainer id=DragContainer24 overClass="OverDragContainer">  
+		<div class=DragBox id="61" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>EU-tanulmányok</div>
+		<div class=DragBox id="64" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Politilógia</div>
+		<div class=DragBox id="66" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szociológia</div>
+		<div class=DragBox id="67" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Fizikatörténet</div>
+		<div class=DragBox id="68" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Műszaki dokumentáció és szabványismeret</div>
+		<div class=DragBox id="69" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Numerikus módszerek</div>
+		<div class=DragBox id="85" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Az információs társadalom</div>
+        <div class=DragBox id="91" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Pszichológia és személyiségfejl. I.</div>
+        <div class=DragBox id="92" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Pszichológia és személyiségfejl. II.</div>
+        <div class=DragBox id="90" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Önkéntes segítő gyakorlat</div>  
+        <div class=DragBox id="97" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Banki informatika</div>  
+        		</DIV>	
+
+	</td><td valign=top width="25%">
+		<DIV class=DragContainer id=DragContainer25 overClass="OverDragContainer">          
+		<div class=DragBox id="70" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Prezentációs grafika</div>
+		<div class=DragBox id="71" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Irodaautomatizálási rendszerek</div>
+		<div class=DragBox id="72" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szimuláció módszertana és alk. I.</div>
+		<div class=DragBox id="73" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Szimuláció módszertana és alk. II.</div>
+		<div class=DragBox id="74" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Intelligens rendszerek</div>
+    	<div class=DragBox id="75" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Speciális programfejlesztő eszközök</div>
+		<div class=DragBox id="83" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Tudatos karriertervezés</div>
+		<div class=DragBox id="86" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Informatikatörténet</div>
+        <div class=DragBox id="88" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>A modern társadalmak</div>
+        <div class=DragBox id="95" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Tanári kommunikáció</div>  
+		<div class=DragBox id="96" overClass="OverDragBox" dragClass="DragDragBox" onmouseover=tint(id) onmouseout=clr(id)>Üzleti és iparjogvédelem</div>  
+        </DIV>
+
+    </td></tr></table>
+<table><tr><th width="70%">Tárgy információk</th><th  width="15%">kr.</th><th width="15%">felvehető kr.</th></tr><tr><td valign=top><div id="info">Teljesítendő:210 =Kötelező:160 + Diff.: 40 + Szabadon v.:10</div></td><td valign=top><div id="kreditsum">0</div></td>
+<td valign=top><div id="kreditsum2">0</div></td></tr></table>   
+     
+</tr></table>
+</FIELDSET>

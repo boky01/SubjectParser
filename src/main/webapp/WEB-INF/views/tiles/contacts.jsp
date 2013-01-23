@@ -7,6 +7,6 @@
 			Elérhetőségek:</br>
 			<a href="mailto:boky01@freemail.com">boky01@freemail.hu</a></br>
 			<a href="http://www.facebook.com/bokor.a" target="_blank">www.facebook.com/bokor.a</a><br/>
-			Ha hibát találsz vagy észrevételed kérdésed van, írj a fenti elérhetőségeken.
+			Ha hibát találsz vagy észrevételed, kérdésed van, írj a fenti elérhetőségek valamelyikén!
 	</div>
 </div>

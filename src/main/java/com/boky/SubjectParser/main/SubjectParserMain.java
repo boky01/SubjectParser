@@ -45,10 +45,9 @@ import com.boky.configclasses.ContextConfig;
  */
 public class SubjectParserMain {
 
-	// TODO Kapcsolatok menu.
-	// TODO DB connection pool Tomcat
 	// TODO Desktop GUI
-	// TODO Telefon optimalizacio
+	// TODO Database connection pool
+	// TODO Spring 3.2
 
 	final static Logger logger = LoggerFactory
 			.getLogger(SubjectParserMain.class);

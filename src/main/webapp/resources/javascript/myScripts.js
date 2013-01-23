@@ -1,5 +1,5 @@
-function showSubjects(selectElement) {
-	var page = document.getElementById("specializationSelector").value
+function showSubjects(specialization) {
+	var page = specialization
 			.toLowerCase();
 	window.location.replace(page);
 }
@@ -39,4 +39,14 @@ function fillWithData(response) {
 
 	$("#description > p").html(response.description.replace(/\n/g, "<br/>"));
 
+}
+
+function breakLines(){
+	$('.semester > .dependencyBtn').each(function() {
+	    if($(this).html().indexOf("(") !== -1){
+	        var newText=$(this).html().replace("(","<br/>(");
+	        $(this).html(newText);
+	    }
+	    
+	});
 }
