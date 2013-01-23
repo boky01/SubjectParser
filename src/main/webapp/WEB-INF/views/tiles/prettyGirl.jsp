@@ -1,6 +1,6 @@
 <div id="content">
-	<h1 class="pretty">Daily girl</h1>
+	<h1 class="pretty">Nap lánya</h1>
 	<div class="semester">
-		<img src="${imageName}" alt="Hoops! Valamiért nem jelenik meg a kép!">
+		<img class="img-polaroid" src="${imageName}" alt="Hoops! Valamiért nem jelenik meg a kép!">
 	</div>
 </div>
