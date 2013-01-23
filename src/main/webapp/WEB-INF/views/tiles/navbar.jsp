@@ -38,8 +38,7 @@
 				<ul class="dropdown-menu">
 					<li class="socials"><g:plusone annotation="inline" width="150"></g:plusone></li>
 					<li class="socials">
-						<div class="fb-like" data-send="true" data-width="150"
-							data-show-faces="true"></div>
+						<fb:like send="false" width="450" show_faces="true" action="recommend" ></fb:like>
 					</li>
 					<li class="socials"><a href="https://twitter.com/share"
 						class="twitter-share-button">Tweet</a> <script>
