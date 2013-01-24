@@ -3,7 +3,7 @@
 	pageEncoding="utf-8"%>
 <div id="navbar" class="navbar">
 	<div class="navbar-inner">
-		<ul class="nav nav-pills">
+		<ul class="nav">
 			<li>
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Szakirányok
 						<span class="caret"></span>
