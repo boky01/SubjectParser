@@ -19,7 +19,7 @@ function showDependencies(subjectId, specializationId) {
 					fillWithData(response);
 				},
 				error : function(e) {
-					alert('An error happened. Please contact with the administrator (contact page).');
+					$('#500errorAlert').modal();
 				}
 			});
 }
@@ -50,3 +50,4 @@ function breakLines(){
 	    
 	});
 }
+

@@ -1,6 +1,6 @@
 <div id="content">
-	<span class="forKeyki">Hiba történt!</span> <br />
 	<p class="errorMsg">
+	Hiba történt!<br />
 		A kért oldal:
 		<script type="text/javascript">
 			document.write(document.URL)

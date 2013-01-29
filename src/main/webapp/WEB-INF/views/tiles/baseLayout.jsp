@@ -34,6 +34,8 @@
 	<tiles:insertAttribute name="navbar" />
 	<tiles:insertAttribute name="body" />
 	<tiles:insertAttribute name="footer" />
+	<tiles:insertAttribute name="errorWindows" />
+	
 	<script src="${resources}/javascript/myScripts.js"
 		type="text/javascript"></script>
 	<script

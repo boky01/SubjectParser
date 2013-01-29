@@ -5,38 +5,45 @@
 
 <tiles-definitions>
 	<definition name="baseLayout" template="/WEB-INF/views/tiles/baseLayout.jsp">
-		<put-attribute name="title" value="/WEB-INF/views/tiles/titleWithSpecializationName.jsp"/>
-		<put-attribute name="navbar" value="/WEB-INF/views/tiles/navbar.jsp"/>
-		<put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp"/>
+		<put-attribute name="title"
+			value="/WEB-INF/views/tiles/titleWithSpecializationName.jsp" />
+		<put-attribute name="navbar" value="/WEB-INF/views/tiles/navbar.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp" />
 		<put-attribute name="body" value=""></put-attribute>
+		<put-attribute name="errorWindows" value="/WEB-INF/views/tiles/errorWindows.jsp"/>
 	</definition>
 	<definition name="initialize" extends="baseLayout">
-		<put-attribute name="body" value="/WEB-INF/views/tiles/initialize.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/tiles/initialize.jsp" />
 	</definition>
-	<definition name="initializeForValaszthatoSpecialization" extends="initialize">
-		<put-attribute name="body" value="/WEB-INF/views/tiles/initializeForValaszthatoSpecialization.jsp"/>
+	<definition name="initializeForValaszthatoSpecialization"
+		extends="initialize">
+		<put-attribute name="body"
+			value="/WEB-INF/views/tiles/initializeForValaszthatoSpecialization.jsp" />
 	</definition>
-	
+
 	<definition name="error404" extends="baseLayout">
-		<put-attribute name="title" value="404 error - Oldal nem található"/>
-		<put-attribute name="body" value="/WEB-INF/views/tiles/error404.jsp"/>
-		<put-attribute name="footer" value=""/>
+		<put-attribute name="title" value="404 error - Oldal nem található" />
+		<put-attribute name="body" value="/WEB-INF/views/tiles/error404.jsp" />
+		<put-attribute name="footer" value="" />
 	</definition>
 	<definition name="error500" extends="baseLayout">
-		<put-attribute name="title" value="500 error - Ismeretlen hiba történt"/>
-		<put-attribute name="body" value="/WEB-INF/views/tiles/error500.jsp"/>
-		<put-attribute name="footer" value=""/>
+		<put-attribute name="title"
+			value="500 error - Ismeretlen hiba történt" />
+		<put-attribute name="body" value="/WEB-INF/views/tiles/error500.jsp" />
+		<put-attribute name="footer" value="" />
 	</definition>
 	<definition name="prettyGirl" extends="baseLayout">
-		<put-attribute name="title" value="Ybl-Miklós Főiskola - Pretty Girls"/>
-		<put-attribute name="body" value="/WEB-INF/views/tiles/prettyGirl.jsp"/>
-		<put-attribute name="footer" value=""/>
+		<put-attribute name="title" value="Ybl-Miklós Főiskola - Pretty Girls" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/tiles/prettyGirl.jsp" />
+		<put-attribute name="footer" value="" />
 	</definition>
 	<definition name="contacts" extends="baseLayout">
-		<put-attribute name="title" value="Ybl-Miklós Főiskola - Kapcsolatok"/>
-		<put-attribute name="body" value="/WEB-INF/views/tiles/contacts.jsp"/>
-		<put-attribute name="footer" value=""/>
+		<put-attribute name="title" value="Ybl-Miklós Főiskola - Kapcsolatok" />
+		<put-attribute name="body" value="/WEB-INF/views/tiles/contacts.jsp" />
+		<put-attribute name="footer" value="" />
 	</definition>
-	
-	
+
+
 </tiles-definitions>

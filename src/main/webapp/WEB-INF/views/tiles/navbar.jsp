@@ -4,23 +4,21 @@
 <div id="navbar" class="navbar">
 	<div class="navbar-inner">
 		<ul class="nav">
-			<li>
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Szakirányok
-						<span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu">
-						<c:forEach var="specialization" items="${specializations}">
-							<c:choose>
-								<c:when test="${specialization.id == actualSpecialization.id}">
-								</c:when>
-								<c:otherwise>
-									<li onclick="showSubjects('${specialization.id}')"><a
-										href="#">${specialization.name}</a></li>
-								</c:otherwise>
-							</c:choose>
-						</c:forEach>
-					</ul>
-			</li>
+			<li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Szakirányok
+					<span class="caret"></span>
+			</a>
+				<ul class="dropdown-menu">
+					<c:forEach var="specialization" items="${specializations}">
+						<c:choose>
+							<c:when test="${specialization.id == actualSpecialization.id}">
+							</c:when>
+							<c:otherwise>
+								<li onclick="showSubjects('${specialization.id}')"><a
+									href="#">${specialization.name}</a></li>
+							</c:otherwise>
+						</c:choose>
+					</c:forEach>
+				</ul></li>
 			<li><a href="#">Átlag számító</a></li>
 			<li><button class="btn dependencyBtn dependencyBtn-forward4">Előrefüggőség</button></li>
 			<li><button class="btn dependencyBtn dependencyBtn-forward-4">Függőség</button></li>
@@ -32,30 +30,11 @@
 					tárgyhoz a kijelölt tárgy felvétele szükséges</button></li>
 		</ul>
 		<ul class="nav pull-right">
-			<li class="dropdown"><a href="#" class="dropdown-toggle"
-				data-toggle="dropdown"> Social <b class="caret"></b>
-			</a>
-				<ul class="dropdown-menu">
-					<li class="socials"><g:plusone annotation="inline" width="150"></g:plusone></li>
-					<li class="socials">
-						<fb:like send="false" width="450" show_faces="true" action="recommend" ></fb:like>
-					</li>
-					<li class="socials"><a href="https://twitter.com/share"
-						class="twitter-share-button">Tweet</a> <script>
-							!function(d, s, id) {
-								var js, fjs = d.getElementsByTagName(s)[0];
-								if (!d.getElementById(id)) {
-									js = d.createElement(s);
-									js.id = id;
-									js.src = "//platform.twitter.com/widgets.js";
-									fjs.parentNode.insertBefore(js, fjs);
-								}
-							}(document, "script", "twitter-wjs");
-						</script></li>
-				</ul></li>
-		</ul>
-		<ul class="nav pull-right">
 			<li><a href="/contacts">Kapcsolat</a></li>
+			<li>
+			<fb:like send="false" width="450" show_faces="true"
+				action="recommend" href="/"></fb:like>
+				</li>
 		</ul>
 	</div>
 </div>

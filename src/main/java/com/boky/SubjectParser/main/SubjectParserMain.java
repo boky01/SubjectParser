@@ -46,8 +46,8 @@ import com.boky.configclasses.ContextConfig;
 public class SubjectParserMain {
 
 	// TODO Desktop GUI
-	// TODO Database connection pool
 	// TODO Spring 3.2
+	// TODO lanyokat kulon lehessen lajokolni, a fooldal pedig mindig a kotelezot ajanlja
 
 	final static Logger logger = LoggerFactory
 			.getLogger(SubjectParserMain.class);
