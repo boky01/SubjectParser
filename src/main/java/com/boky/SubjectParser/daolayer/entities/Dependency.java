@@ -15,6 +15,10 @@ import javax.persistence.PreRemove;
 
 @Entity
 public class Dependency implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7594616030676086621L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long Id;

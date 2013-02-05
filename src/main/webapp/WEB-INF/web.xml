@@ -9,11 +9,6 @@
 		<location>/error404</location>
 	</error-page>
 
-	<error-page>
-		<error-code>500</error-code>
-		<location>/error500</location>
-	</error-page>
-	
 	<resource-ref>
       <description>DB Connection for subject depencies</description>
       <res-ref-name>jdbc/SubjectDependencies</res-ref-name>
