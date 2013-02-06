@@ -3,14 +3,7 @@
  */
 package com.boky.SubjectParser.view.configuration;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
-
-import org.springframework.web.WebApplicationInitializer;
-import org.springframework.web.context.ContextLoaderListener;
-import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
-import org.springframework.web.servlet.DispatcherServlet;
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import com.boky.configclasses.ContextConfig;
 
@@ -18,26 +11,26 @@ import com.boky.configclasses.ContextConfig;
  * @author Andras_Bokor
  * 
  */
-public class WebXml implements WebApplicationInitializer {
+public class WebXml extends
+		AbstractAnnotationConfigDispatcherServletInitializer {
 
-    @Override
-    public void onStartup(ServletContext servletContext) throws ServletException {
+	@Override
+	protected Class<?>[] getRootConfigClasses() {
+		return new Class<?>[] { ContextConfig.class };
+	}
 
-        AnnotationConfigWebApplicationContext applicationContext = new AnnotationConfigWebApplicationContext();
-        applicationContext.register(ServletContextConfig.class);
-        //        applicationContext.refresh();
+	@Override
+	protected Class<?>[] getServletConfigClasses() {
+		return new Class<?>[] { ServletContextConfig.class };
+	}
 
-        AnnotationConfigWebApplicationContext rootContext = new AnnotationConfigWebApplicationContext();
-        rootContext.register(ContextConfig.class);
-        //        rootContext.refresh();
+	@Override
+	protected String[] getServletMappings() {
+		return new String[] { "/" };
+	}
 
-        servletContext.addListener(new ContextLoaderListener(rootContext));
-
-        System.out.println("pina");
-
-        ServletRegistration.Dynamic dispatcherServlet = servletContext.addServlet("dispatherServlet", new DispatcherServlet(applicationContext));
-        dispatcherServlet.setLoadOnStartup(1);
-        dispatcherServlet.addMapping("/");
-
-    }
+	@Override
+	protected boolean isAsyncSupported() {
+		return false;
+	}
 }

@@ -1,9 +1,11 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<c:url var="resources" value="/resources" />
 <div id="navbar" class="navbar">
 	<div class="navbar-inner">
 		<ul class="nav">
+			<li><a class="brand" href="/">FÜGGŐSÉGEK</a></li>
 			<li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Szakirányok
 					<span class="caret"></span>
 			</a>
@@ -31,10 +33,8 @@
 		</ul>
 		<ul class="nav pull-right">
 			<li><a href="/contacts">Kapcsolat</a></li>
-			<li>
-			<fb:like send="false" width="450" show_faces="true"
-				action="recommend" href="/"></fb:like>
-				</li>
+			<li><fb:like send="false" width="450" show_faces="true"
+					action="recommend" href="/"></fb:like></li>
 		</ul>
 	</div>
 </div>
