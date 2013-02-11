@@ -2,13 +2,14 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <c:url var="resources" value="/resources" />
-<div id="navbar" class="navbar">
+<div id="navigationbar" class="navbar">
 	<div class="navbar-inner">
 		<ul class="nav">
-			<li><a class="brand" href="/">FÜGGŐSÉGEK</a></li>
-			<li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Szakirányok
+			<li class="active"><a class="brand" href="/">FÜGGŐSÉGEK</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Szakirányok
 					<span class="caret"></span>
-			</a>
+				</a>
 				<ul class="dropdown-menu">
 					<c:forEach var="specialization" items="${specializations}">
 						<c:choose>
@@ -20,8 +21,10 @@
 							</c:otherwise>
 						</c:choose>
 					</c:forEach>
-				</ul></li>
+				</ul>
+			</li>
 			<li><a href="#">Átlag számító</a></li>
+			 <li class="divider-vertical"></li>
 			<li><button class="btn dependencyBtn dependencyBtn-forward4">Előrefüggőség</button></li>
 			<li><button class="btn dependencyBtn dependencyBtn-forward-4">Függőség</button></li>
 			<li><button class="btn dependencyBtn dependencyBtn-forward0">Kiválaszott
@@ -30,6 +33,7 @@
 					felvétel szükséges</button></li>
 			<li><button class="btn dependencyBtn dependencyBtn-forward99">A
 					tárgyhoz a kijelölt tárgy felvétele szükséges</button></li>
+			<li class="divider-vertical"></li>
 		</ul>
 		<ul class="nav pull-right">
 			<li><a href="/contacts">Kapcsolat</a></li>

@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css"
-	href="${resources}/bootstrap/css/bootstrap.css">
+	href="${resources}/bootstrap/css/bootstrap2.css">
 <link rel="stylesheet" type="text/css" href="${resources}/css/basic.css">
 <!-- <link rel="stylesheet" type="text/css" -->
 <%-- 	href="${resources}/bootstrap/css/bootstrap-responsive.css"> --%>
@@ -28,7 +28,6 @@
 			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
-	</script>
 	</script>
 	<!-- Use the /surprise link -->
 	<tiles:insertAttribute name="navbar" />

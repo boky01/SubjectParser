@@ -1,7 +1,7 @@
 
 <div id="500errorAlert" class="modal alert-error hide fade in">
 	<div class="modal-header">
-		<a class="close" data-dismiss="modal">Close</a>
+		<a class="close" data-dismiss="modal">Bezár</a>
 		<h3>Hiba!</h3>
 	</div>
 	<div class="modal-body">
