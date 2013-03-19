@@ -68,6 +68,9 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 	@Override
 	public InitializationDataForWebDTO getInitializedData(
 			String specializationId) {
+		if (specializationDao.getById(specializationId) == null) {
+			throw new NoSuchSpecializationException(specializationId);
+		}
 		List<SubjectWithCodeAndNameAndSemesterDTO> subjectWithCodeAndNameAndSemesterDTOs = DTOTransformatorUtil
 				.convertSubjectListToSubjectWithCodeAndNameAndSemesterDTOList(subjectDao
 						.getSubjectsBySpecializationId(specializationId));

@@ -6,7 +6,11 @@
 
 	<error-page>
 		<error-code>404</error-code>
-		<location>/error404</location>
+		<location>/errorpages/error404</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/errorpages/error500</location>
 	</error-page>
 
 	<resource-ref>

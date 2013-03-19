@@ -4,11 +4,11 @@ function showSubjects(specialization) {
 	window.location.replace(page);
 }
 
-function showDependencies(subjectId, specializationId) {
+function showDependencies(subjectId, specializationId,url) {
 	$
 			.ajax({
 				type : "GET",
-				url : "/showDependencies",
+				url : url + "/fuggosegek/showDependencies",
 				data : {
 					subjectId : subjectId,
 					specializationId : specializationId
