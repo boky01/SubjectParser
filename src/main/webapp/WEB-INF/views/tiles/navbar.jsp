@@ -6,7 +6,7 @@
 <div id="navigationbar" class="navbar">
 	<div class="navbar-inner">
 		<ul class="nav">
-			<li class="active"><a class="brand" href="${ rootContext }">FÜGGŐSÉGEK</a></li>
+			<li class="active"><a class="brand" href="${rootContext}/">FÜGGŐSÉGEK</a></li>
 			<li class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Szakirányok
 					<span class="caret"></span>
