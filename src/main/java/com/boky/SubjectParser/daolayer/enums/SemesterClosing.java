@@ -3,14 +3,14 @@ package com.boky.SubjectParser.daolayer.enums;
 public enum SemesterClosing {
     FELEVKOZI("Félévközi"), VIZSGA("Vizsga"), ALAIRAS("Aláírás"), UNKNOW("Ismeretlen");
 
-    private String name;
+    private String value;
 
     private SemesterClosing(String name) {
-        this.name = name;
+        this.value = name;
     }
 
-    public String getName() {
-        return name;
+    public String getValue() {
+        return value;
     }
 
 }

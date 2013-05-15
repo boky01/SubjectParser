@@ -1,4 +1,4 @@
-package com.boky.SubjectParser.services.services;
+package com.boky.SubjectParser.services.services.error;
 
 public class NoSuchSpecializationException extends RuntimeException {
 

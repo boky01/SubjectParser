@@ -34,6 +34,9 @@ xsi:schemaLocation="http://www.example.org/dataSetSchema dataSetSchema.xsd">
 		specialization_id="KOTELEZO" subject_id="SGYMMET203XXX" />
 	<dependency Id="3" onlyRegistration="0" dependencySubject="SGYMMET203XXX"
 		specialization_id="KOTELEZO" subject_id="SGYMMET205XXX" />
+		
+	<dependency Id="8" onlyRegistration="0" dependencySubject="SGYMMET201XXX"
+	specialization_id="KOTELEZO" subject_id="SGYMMET206XXX" />
 	<!-- <dependency Id="4" onlyRegistration="0" dependencySubject="SGYMMET203XXX" -->
 	<!-- specialization_id="KOTELEZO" subject_id="SGYMMET206XXX" /> -->
 	<!-- <dependency Id="5" onlyRegistration="1" dependencySubject="SGYMTUB2317XA" -->

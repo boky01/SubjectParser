@@ -27,7 +27,7 @@ import com.boky.configclasses.ContextConfig;
  * character-set-server = utf8
  * 
  * osszes tabla kiuritese: 
- * truncatesubject_specialization; truncate specialization; truncate subject;truncate dependency;
+ * truncate subject_specialization; truncate specialization; truncate subject;truncate dependency;
  * 
  * Ha a tomcat nem talalna a WebApplicationInitializer implementaciot jobb gomb
  * a projektre -> properties, deployment assembly -> add -> es ott a java build
@@ -36,10 +36,13 @@ import com.boky.configclasses.ContextConfig;
  * Integration for WTP. Install new software: m2eclipse-wtp updates -
  * http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/
  * 
-
-
- /**
- * With this class you are able to fill up the database with data. 
+ * With this class you are able to fill up the database with data.
+ * To run:
+ * 1. Comment the autowired above servletContext in ServiceForWeb
+ * 2. In DaoConfig use dataSourceWithoutJNDI in emf
+ * 3. Commnet @Bean annotation above dataSource
+ * 4. Set create-drop for jpaProperties
+ *  
  * @author bokor
  *
  */
@@ -49,16 +52,14 @@ public class SubjectParserMain {
 	// TODO Spring 3.2
 	// TODO lanyokat kulon lehessen lajokolni, a fooldal pedig mindig a kotelezot ajanlja
 
-	final static Logger logger = LoggerFactory
-			.getLogger(SubjectParserMain.class);
+	final static Logger logger = LoggerFactory.getLogger(SubjectParserMain.class);
 	private static DatabaseBuilderService databaseBuilder;
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		ApplicationContext context = new AnnotationConfigApplicationContext(
-				ContextConfig.class);
+		ApplicationContext context = new AnnotationConfigApplicationContext(ContextConfig.class);
 
 		databaseBuilder = context.getBean(DatabaseBuilderService.class);
 		databaseBuilder.buildDatabaseFromFiles();

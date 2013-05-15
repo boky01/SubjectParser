@@ -32,6 +32,7 @@ import com.boky.SubjectParser.services.dto.DependencyDepthAndDescriptionDTO;
 import com.boky.SubjectParser.services.dto.InitializationDataForWebDTO;
 import com.boky.SubjectParser.services.dto.SpecializationWithNameAndCodeDTO;
 import com.boky.SubjectParser.services.dto.SubjectWithCodeAndNameAndSemesterDTO;
+import com.boky.SubjectParser.services.services.error.NoSuchSpecializationException;
 
 /**
  * @author Andras_Bokor
@@ -66,34 +67,24 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 	 * (java.lang.String)
 	 */
 	@Override
-	public InitializationDataForWebDTO getInitializedData(
-			String specializationId) {
+	public InitializationDataForWebDTO getInitializedData(String specializationId) {
 		if (specializationDao.getById(specializationId) == null) {
 			throw new NoSuchSpecializationException(specializationId);
 		}
 		List<SubjectWithCodeAndNameAndSemesterDTO> subjectWithCodeAndNameAndSemesterDTOs = DTOTransformatorUtil
-				.convertSubjectListToSubjectWithCodeAndNameAndSemesterDTOList(subjectDao
-						.getSubjectsBySpecializationId(specializationId));
-		if (!specializationId.equals("KOTELEZO")
-				&& !specializationId.equals("VALASZTHATO")) {
-			subjectWithCodeAndNameAndSemesterDTOs
-					.addAll(DTOTransformatorUtil
-							.convertSubjectListToSubjectWithCodeAndNameAndSemesterDTOList(subjectDao
-									.getSubjectsBySpecializationId("KOTELEZO")));
+				.convertSubjectListToSubjectWithCodeAndNameAndSemesterDTOList(subjectDao.getSubjectsBySpecializationId(specializationId));
+		if (!specializationId.equals("KOTELEZO") && !specializationId.equals("VALASZTHATO")) {
+			subjectWithCodeAndNameAndSemesterDTOs.addAll(DTOTransformatorUtil.convertSubjectListToSubjectWithCodeAndNameAndSemesterDTOList(subjectDao
+					.getSubjectsBySpecializationId("KOTELEZO")));
 		}
 
 		List<SpecializationWithNameAndCodeDTO> specializationWithNameAndCodeDTOs = DTOTransformatorUtil
-				.convertSpecializatonListToSpecializationWithNameAndCodeDTOList(specializationDao
-						.getAllEntity());
-		Integer numberOfSemester = applicationContext.getBean(
-				"numberOfSemester", Integer.class);
-		SpecializationWithNameAndCodeDTO actualSpecialization = DTOTransformatorUtil
-				.convertSpecializatonToSpecializationWithNameAndCodeDTO(specializationDao
-						.getById(specializationId));
-		InitializationDataForWebDTO initializationData = new InitializationDataForWebDTO(
-				specializationWithNameAndCodeDTOs,
-				subjectWithCodeAndNameAndSemesterDTOs, actualSpecialization,
-				numberOfSemester);
+				.convertSpecializatonListToSpecializationWithNameAndCodeDTOList(specializationDao.getAllEntity());
+		Integer numberOfSemester = applicationContext.getBean("numberOfSemester", Integer.class);
+		SpecializationWithNameAndCodeDTO actualSpecialization = DTOTransformatorUtil.convertSpecializatonToSpecializationWithNameAndCodeDTO(specializationDao
+				.getById(specializationId));
+		InitializationDataForWebDTO initializationData = new InitializationDataForWebDTO(specializationWithNameAndCodeDTOs, subjectWithCodeAndNameAndSemesterDTOs,
+				actualSpecialization, numberOfSemester);
 
 		return initializationData;
 	}
@@ -105,14 +96,12 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 	 * getDependencyDepthAndDescription(java.lang.String, java.lang.String)
 	 */
 	@Override
-	public DependencyDepthAndDescriptionDTO getDependencyDepthAndDescription(
-			String subjectId, String specialization) {
+	public DependencyDepthAndDescriptionDTO getDependencyDepthAndDescription(String subjectId, String specialization) {
 		Subject subject = subjectDao.getById(subjectId);
 		Map<String, Integer> subjectDepths = new HashMap<>();
-		buildDependencyDepthHashMap(subject, specialization, 0, false, false,
-				subjectDepths); // backward
-		buildDependencyDepthHashMap(subject, specialization, 0, false, true,
-				subjectDepths); // forward
+		subjectDepths.put(subjectId, 0);
+		buildDependencyBackwardDepthHashMap(subject, specialization, -1, subjectDepths); // backward
+		buildDependencyForwardDepthHashMap(subject, specialization, 1, subjectDepths);
 
 		DependencyDepthAndDescriptionDTO resultDTO = new DependencyDepthAndDescriptionDTO();
 		resultDTO.setDependencyDepths(subjectDepths);
@@ -123,56 +112,59 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 	@Override
 	public List<SpecializationWithNameAndCodeDTO> getAllSpecializationWithNameAndId() {
 		List<SpecializationWithNameAndCodeDTO> specializationWithNameAndCodeDTOs = DTOTransformatorUtil
-				.convertSpecializatonListToSpecializationWithNameAndCodeDTOList(specializationDao
-						.getAllEntity());
+				.convertSpecializatonListToSpecializationWithNameAndCodeDTOList(specializationDao.getAllEntity());
 		return specializationWithNameAndCodeDTOs;
 	}
 
 	private String createDescriptionFromSubject(Subject subject) {
-		List<SpecializationWithNameAndCodeDTO> specializations = DTOTransformatorUtil
-				.convertSpecializatonListToSpecializationWithNameAndCodeDTOList(subject
-						.getSpecializations());
-		return "Azonosító: " + subject.getId() + "\nNév: " + subject.getName()
-				+ "\nE/GY/L/FZ: " + subject.getTheoretical() + "/"
-				+ subject.getPractical() + "/" + subject.getLabor() + "/"
-				+ subject.getSemesterClosing().getName() + "\nKredit: "
-				+ subject.getCredit() + "\nAjánlott félév: "
-				+ subject.getOfferedSemester() + "\nSzakirányok: "
-				+ specializations + "\nLeírás: " + subject.getDescription()
-				+ "\n\n";
+		List<SpecializationWithNameAndCodeDTO> specializations = DTOTransformatorUtil.convertSpecializatonListToSpecializationWithNameAndCodeDTOList(subject.getSpecializations());
+		return "Azonosító: " + subject.getId() + "\nNév: " + subject.getName() + "\nE/GY/L/FZ: " + subject.getTheoretical() + "/" + subject.getPractical() + "/"
+				+ subject.getLabor() + "/" + subject.getSemesterClosing().getValue() + "\nKredit: " + subject.getCredit() + "\nAjánlott félév: " + subject.getOfferedSemester()
+				+ "\nSzakirányok: " + specializations + "\nLeírás: " + subject.getDescription() + "\n\n";
 	}
 
-	private void buildDependencyDepthHashMap(Subject subject,
-			String specialization, int level, boolean isOnlyRegistration,
-			boolean isForward, Map<String, Integer> subjectDepths) {
-		int actualLevel = level;
-		if (!subjectDepthsContainsADeeperDependency(subjectDepths,
-				subject.getId(), actualLevel, isForward)) {
-			if (isOnlyRegistration) {
-				if (levelIsOneOrMinusOne(actualLevel)) {
-					subjectDepths.put(subject.getId(), isForward ? 99 : -99); // 99 means it is an onlyRegistration dependency
-				} else {
-					subjectDepths.put(subject.getId(), actualLevel);
+	private void buildDependencyBackwardDepthHashMap(Subject subject, String specialization, int level, Map<String, Integer> subjectDepths) {
+
+		for (Dependency dependency : subject.getDependencies()) {
+			if (dependency.getSpecialization().getId().equals(specialization) || dependency.getSpecialization().getId().equals("KOTELEZO")) {
+				buildDependencyBackwardDepthHashMap(dependency.getDependencySubject(), specialization, (level - 1), subjectDepths);
+				if (!subjectDepthsContainsADeeperDependency(subjectDepths, subject.getId(), level, false)) {
+					if (dependency.isOnlyRegistration()) {
+						if (level == -1) {
+							subjectDepths.put(dependency.getDependencySubject().getId(), -99); // 99 means it is an onlyRegistration dependency
+						} else {
+							subjectDepths.put(dependency.getDependencySubject().getId(), level);
+						}
+					} else {
+						subjectDepths.put(dependency.getDependencySubject().getId(), level);
+					}
 				}
-				actualLevel = isForward ? (actualLevel - 1) : (actualLevel + 1); // The student learn this subject at the same time so there is no needed to increase the level
-			} else {
-				subjectDepths.put(subject.getId(), actualLevel);
-			}
-		}
-		for (Dependency dependency : isForward ? subject
-				.getForwardDependencies() : subject.getDependencies()) {
-			if (dependency.getSpecialization().getId().equals(specialization)
-					|| dependency.getSpecialization().getId()
-							.equals("KOTELEZO")) {
-				buildDependencyDepthHashMap(isForward ? dependency.getSubject()
-						: dependency.getDependencySubject(), specialization,
-						isForward ? (actualLevel + 1) : (actualLevel - 1),
-						dependency.isOnlyRegistration(), isForward,
-						subjectDepths);
 
 			}
 		}
 
+	}
+
+	private void buildDependencyForwardDepthHashMap(Subject subject, String specialization, int level, Map<String, Integer> subjectDepths) {
+
+		List<Dependency> dependencies = dependencyDao.getForwardDependenciesOfASubject(subject.getId());
+		for (Dependency dependency : dependencies) {
+			String specializationOfDependency = dependency.getSpecialization().getId();
+			if (specializationOfDependency.equals(specialization) || specializationOfDependency.equals("KOTELEZO")) {
+				buildDependencyForwardDepthHashMap(dependency.getSubject(), specialization, level + 1, subjectDepths);
+				if (!subjectDepthsContainsADeeperDependency(subjectDepths, dependency.getSubject().getId(), level, false)) {
+					if (dependency.isOnlyRegistration()) {
+						if (level == 1) {
+							subjectDepths.put(dependency.getSubject().getId(), 99);
+						} else {
+							subjectDepths.put(dependency.getSubject().getId(), level);
+						}
+					} else {
+						subjectDepths.put(dependency.getSubject().getId(), level);
+					}
+				}
+			}
+		}
 	}
 
 	private boolean levelIsOneOrMinusOne(int level) {
@@ -193,9 +185,7 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 	 *            level number.
 	 * @return true or false
 	 */
-	private boolean subjectDepthsContainsADeeperDependency(
-			Map<String, Integer> subjectDepths, String id, int level,
-			boolean isForward) {
+	private boolean subjectDepthsContainsADeeperDependency(Map<String, Integer> subjectDepths, String id, int level, boolean isForward) {
 		if (subjectDepths.containsKey(id)) {
 			if (isForward) {
 				if (subjectDepths.get(id) >= level) {
@@ -214,14 +204,12 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 	public String getImageName(String imageFolder) {
 		File imageDirectory = new File(servletContext.getRealPath(imageFolder));
 		File[] images = imageDirectory.listFiles();
-		String imageName = images[randomGenerator.nextInt(images.length)]
-				.getName();
+		String imageName = images[randomGenerator.nextInt(images.length)].getName();
 		return imageFolder + "/" + imageName;
 	}
 
 	@Override
-	public void setApplicationContext(ApplicationContext applicationContext)
-			throws BeansException {
+	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
 		this.applicationContext = applicationContext;
 
 	}
@@ -231,8 +219,7 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 		int day = new GregorianCalendar().get(Calendar.DAY_OF_YEAR);
 		File imageDirectory = new File(servletContext.getRealPath(imageFolder));
 		File[] images = imageDirectory.listFiles();
-		String imageName = images[day - images.length * (day / images.length)]
-				.getName();
+		String imageName = images[day - images.length * (day / images.length)].getName();
 		return imageFolder + "/" + imageName;
 	}
 

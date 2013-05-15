@@ -37,8 +37,7 @@ public class Dependency implements Serializable {
 	public Dependency() {
 	}
 
-	public Dependency(Subject subject, Specialization specialization,
-			boolean onlyRegistration, Subject dependencySubject) {
+	public Dependency(Subject subject, Specialization specialization, boolean onlyRegistration, Subject dependencySubject) {
 		super();
 		this.subject = subject;
 		this.specialization = specialization;
@@ -46,21 +45,9 @@ public class Dependency implements Serializable {
 		this.dependencySubject = dependencySubject;
 	}
 
-	// public Dependency(Long id, Subject subject, Specialization
-	// specialization,
-	// boolean onlyRegistration, Subject dependencySubject) {
-	// super();
-	// Id = id;
-	// this.subject = subject;
-	// this.specialization = specialization;
-	// this.onlyRegistration = onlyRegistration;
-	// this.dependencySubject = dependencySubject;
-	// }
-
 	@PreRemove
 	public void preRemove() {
 		subject.getDependencies().remove(this);
-		dependencySubject.getForwardDependencies().remove(this);
 	}
 
 	public Subject getSubject() {
@@ -111,21 +98,14 @@ public class Dependency implements Serializable {
 		if (Id != null) {
 			result = prime * result + (Id.hashCode());
 		} else {
-			result = prime
-					* result
-					+ ((dependencySubject == null) ? 0 : dependencySubject
-							.getId().hashCode());
+			result = prime * result + ((dependencySubject == null) ? 0 : dependencySubject.getId().hashCode());
 			result = prime * result + (onlyRegistration ? 1231 : 1237);
-			result = prime
-					* result
-					+ ((specialization == null) ? 0 : specialization.hashCode());
-			result = prime * result
-					+ ((subject == null) ? 0 : subject.getId().hashCode());
+			result = prime * result + ((specialization == null) ? 0 : specialization.hashCode());
+			result = prime * result + ((subject == null) ? 0 : subject.getId().hashCode());
 		}
 		return result;
 	}
 
-	// El kene tavolitani a az id-s konstruktort
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj) {
@@ -138,19 +118,16 @@ public class Dependency implements Serializable {
 			return false;
 		}
 		Dependency other = (Dependency) obj;
-		if (Id == null) {
-			if (other.Id != null) {
+		if (Id != null && other.Id != null) {
+			if (!Id.equals(other.Id)) {
 				return false;
 			}
-		} else if (!Id.equals(other.Id)) {
-			return false;
 		}
 		if (dependencySubject == null) {
 			if (other.dependencySubject != null) {
 				return false;
 			}
-		} else if (!dependencySubject.getId().equals(
-				other.dependencySubject.getId())) {
+		} else if (!dependencySubject.getId().equals(other.dependencySubject.getId())) {
 			return false;
 		}
 		if (onlyRegistration != other.onlyRegistration) {
@@ -175,9 +152,7 @@ public class Dependency implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Dependency [Id=" + Id + ", subject.id=" + subject.getId()
-				+ ", specialization=" + specialization + ", onlyRegistration="
-				+ onlyRegistration + ", dependencySubject="
-				+ dependencySubject.getId() + "]";
+		return "Dependency [Id=" + Id + ", subject.id=" + subject.getId() + ", specialization=" + specialization + ", onlyRegistration=" + onlyRegistration
+				+ ", dependencySubject=" + dependencySubject.getId() + "]";
 	}
 }

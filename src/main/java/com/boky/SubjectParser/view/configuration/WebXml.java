@@ -11,8 +11,7 @@ import com.boky.configclasses.ContextConfig;
  * @author Andras_Bokor
  * 
  */
-public class WebXml extends
-		AbstractAnnotationConfigDispatcherServletInitializer {
+public class WebXml extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
@@ -33,4 +32,5 @@ public class WebXml extends
 	protected boolean isAsyncSupported() {
 		return false;
 	}
+
 }

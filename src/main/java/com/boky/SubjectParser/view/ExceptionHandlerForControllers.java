@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.boky.SubjectParser.services.services.NoSuchSpecializationException;
+import com.boky.SubjectParser.services.services.error.NoSuchSpecializationException;
 
 @ControllerAdvice
 public class ExceptionHandlerForControllers {

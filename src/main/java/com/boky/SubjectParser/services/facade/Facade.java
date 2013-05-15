@@ -48,10 +48,8 @@ public class Facade implements IFacade {
 	 * getDependencyDepthAndDescription(java.lang.String, java.lang.String)
 	 */
 	@Override
-	public DependencyDepthAndDescriptionDTO getDependencyDepthAndDescription(
-			String subjectId, String specialization) {
-		return serviceForWeb.getDependencyDepthAndDescription(subjectId,
-				specialization);
+	public DependencyDepthAndDescriptionDTO getDependencyDepthAndDescription(String subjectId, String specialization) {
+		return serviceForWeb.getDependencyDepthAndDescription(subjectId, specialization);
 	}
 
 	@Override

@@ -12,7 +12,25 @@
 		<error-code>500</error-code>
 		<location>/errorpages/error500</location>
 	</error-page>
-
+	
+	 <listener>
+        <listener-class>
+                com.sun.xml.ws.transport.http.servlet.WSServletContextListener
+        </listener-class>
+    </listener>
+  
+   <servlet>
+        <servlet-name>WebService</servlet-name>
+        <servlet-class>
+        	com.sun.xml.ws.transport.http.servlet.WSServlet
+        </servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WebService</servlet-name>
+        <url-pattern>/services</url-pattern>
+    </servlet-mapping>
+  
 	<resource-ref>
       <description>DB Connection for subject depencies</description>
       <res-ref-name>jdbc/SubjectDependencies</res-ref-name>

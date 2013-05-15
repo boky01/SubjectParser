@@ -1,7 +1,6 @@
 package com.boky.SubjectParser.daolayer.entities;
 
 import java.io.Serializable;
-import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
@@ -14,6 +13,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
+import javax.persistence.PreRemove;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
@@ -51,17 +51,12 @@ public class Subject implements Serializable {
 	private Set<Specialization> specializations;
 	@Column(nullable = false, length = 256)
 	private String description;
-	@OneToMany(cascade = { CascadeType.ALL }, mappedBy = "dependencySubject", fetch = FetchType.EAGER, orphanRemoval = true)
-	private Set<Dependency> forwardDependencies;
 
 	public Subject() {
 	}
 
-	public Subject(String subjectId, String name, Integer theoretical,
-			Integer practical, Integer labor, SemesterClosing semesterClosing,
-			Integer credit, Integer offeredSemester,
-			Set<Dependency> dependencies, Set<Specialization> specializations,
-			String description) {
+	public Subject(String subjectId, String name, Integer theoretical, Integer practical, Integer labor, SemesterClosing semesterClosing, Integer credit, Integer offeredSemester,
+			Set<Dependency> dependencies, Set<Specialization> specializations, String description) {
 		super();
 		this.id = subjectId;
 		this.name = name;
@@ -74,7 +69,11 @@ public class Subject implements Serializable {
 		this.dependencies = dependencies;
 		this.specializations = specializations;
 		this.description = description;
-		this.forwardDependencies = new HashSet<Dependency>();
+	}
+
+	@PreRemove
+	public void preRemove() {
+		dependencies.clear();
 	}
 
 	public String getId() {
@@ -174,14 +173,6 @@ public class Subject implements Serializable {
 		this.semesterClosing = semesterClosing;
 	}
 
-	public Set<Dependency> getForwardDependencies() {
-		return forwardDependencies;
-	}
-
-	public void setForwardDependencies(Set<Dependency> forwardDependencies) {
-		this.forwardDependencies = forwardDependencies;
-	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -214,12 +205,9 @@ public class Subject implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Subject [id=" + id + ", name=" + name + ", theoretical="
-				+ theoretical + ", practical=" + practical + ", labor=" + labor
-				+ ", semeseterClosing=" + semesterClosing + ", credit="
-				+ credit + ", offeredSemester=" + offeredSemester
-				+ ", dependencies=" + dependencies + ", specializations="
-				+ specializations + ", description=" + description + "]";
+		return "Subject [id=" + id + ", name=" + name + ", theoretical=" + theoretical + ", practical=" + practical + ", labor=" + labor + ", semeseterClosing=" + semesterClosing
+				+ ", credit=" + credit + ", offeredSemester=" + offeredSemester + ", dependencies=" + dependencies + ", specializations=" + specializations + ", description="
+				+ description + "]";
 	}
 
 }

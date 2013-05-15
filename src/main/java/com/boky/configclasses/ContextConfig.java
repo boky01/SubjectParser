@@ -14,9 +14,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import com.boky.SubjectParser.daolayer.entities.Specialization;
 
 @Configuration
-@ComponentScan(basePackages = {"com.boky.SubjectParser.daolayer", "com.boky.SubjectParser.services", "com.boky.configclasses"})
+@ComponentScan(basePackages = { "com.boky.SubjectParser.daolayer", "com.boky.SubjectParser.services", "com.boky.configclasses" })
 @EnableTransactionManagement
-@Import({DaoConfig.class})
+@Import({ DaoConfig.class })
 @EnableAspectJAutoProxy
 public class ContextConfig {
 
