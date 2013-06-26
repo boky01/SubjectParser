@@ -2,11 +2,10 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <c:url var="resources" value="/resources" />
-<c:set var="rootContext" value="${pageContext.request.contextPath}"/>
 <div id="navigationbar" class="navbar">
 	<div class="navbar-inner">
 		<ul class="nav">
-			<li class="active"><a class="brand" href="${rootContext}/">FÜGGŐSÉGEK</a></li>
+			<li class="active"><a class="brand" href="<c:url value="/"/>">FÜGGŐSÉGEK</a></li>
 			<li class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Szakirányok
 					<span class="caret"></span>
@@ -17,7 +16,7 @@
 							<c:when test="${specialization.id == actualSpecialization.id}">
 							</c:when>
 							<c:otherwise>
-								<c:set var="redirectUrl" value="${rootContext}/fuggosegek/${specialization.id}" />
+								<c:url var="redirectUrl" value="/fuggosegek/${specialization.id}" />
 								<li onclick="showSubjects('${redirectUrl}')"><a
 									href="#">${specialization.name}</a></li>
 							</c:otherwise>
@@ -38,7 +37,7 @@
 			<li class="divider-vertical"></li>
 		</ul>
 		<ul class="nav pull-right">
-			<li><a href="${rootContext}/contacts">Kapcsolat</a></li>
+			<li><a href="<c:url value="/fuggosegek"/>/contacts">Kapcsolat</a></li>
 			<li><fb:like send="false" width="450" show_faces="true"
 					action="recommend" href="/"></fb:like></li>
 		</ul>

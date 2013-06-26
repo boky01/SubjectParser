@@ -22,9 +22,7 @@ public class WebControllerForFuggosegek {
 	@Autowired
 	IFacade facade;
 
-	private String[] semesterWithRomanNums = { "I", "II", "III", "VI", "V",
-			"VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV",
-			"XVI" };
+	private String[] semesterWithRomanNums = { "I", "II", "III", "VI", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI" };
 
 	@RequestMapping(value = { "/", "" })
 	public String rootPath(HttpServletRequest request) {
@@ -32,40 +30,29 @@ public class WebControllerForFuggosegek {
 	}
 
 	@RequestMapping(value = "/{specialization}")
-	public String getInitializationDatas(@PathVariable String specialization,
-			Model model) {
-		InitializationDataForWebDTO initializedData = facade
-				.getInitializedData(specialization.toUpperCase());
-		model.addAttribute("specializations",
-				initializedData.getSpecializations());
+	public String getInitializationDatas(@PathVariable String specialization, Model model) {
+		InitializationDataForWebDTO initializedData = facade.getInitializedData(specialization.toUpperCase());
+		model.addAttribute("specializations", initializedData.getSpecializations());
 		model.addAttribute("subjects", initializedData.getSubjects());
-		model.addAttribute("actualSpecialization",
-				initializedData.getActualSpecialization());
-		model.addAttribute("numberOfSemesters",
-				initializedData.getNumberOfSemesters());
+		model.addAttribute("actualSpecialization", initializedData.getActualSpecialization());
+		model.addAttribute("numberOfSemesters", initializedData.getNumberOfSemesters());
 		model.addAttribute("semesterWithRomanNums", semesterWithRomanNums);
 		return "initialize";
 	}
 
 	@RequestMapping(value = "valaszthato")
 	public String getInitializationDatasForValaszthatoSpecialization(Model model) {
-		InitializationDataForWebDTO initializedData = facade
-				.getInitializedData("VALASZTHATO");
-		model.addAttribute("specializations",
-				initializedData.getSpecializations());
+		InitializationDataForWebDTO initializedData = facade.getInitializedData("VALASZTHATO");
+		model.addAttribute("specializations", initializedData.getSpecializations());
 		model.addAttribute("subjects", initializedData.getSubjects());
-		model.addAttribute("actualSpecialization",
-				initializedData.getActualSpecialization());
+		model.addAttribute("actualSpecialization", initializedData.getActualSpecialization());
 		return "initializeForValaszthatoSpecialization";
 	}
 
 	@RequestMapping(value = "showDependencies", method = RequestMethod.GET)
 	@ResponseBody
-	public DependencyDepthAndDescriptionDTO showDependencies(
-			@RequestParam String subjectId,
-			@RequestParam String specializationId) {
-		DependencyDepthAndDescriptionDTO dto = facade
-				.getDependencyDepthAndDescription(subjectId, specializationId);
+	public DependencyDepthAndDescriptionDTO showDependencies(@RequestParam String subjectId, @RequestParam String specializationId) {
+		DependencyDepthAndDescriptionDTO dto = facade.getDependencyDepthAndDescription(subjectId, specializationId);
 		return dto;
 	}
 }
