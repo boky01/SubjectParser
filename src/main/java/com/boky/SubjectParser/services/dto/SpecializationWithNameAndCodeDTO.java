@@ -1,7 +1,14 @@
 package com.boky.SubjectParser.services.dto;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class SpecializationWithNameAndCodeDTO {
+	@XmlElement(required = true, type = String.class)
 	private String id;
+	@XmlElement(required = true, type = String.class)
 	private String name;
 
 	public SpecializationWithNameAndCodeDTO(String id, String name) {

@@ -23,6 +23,8 @@ import com.boky.SubjectParser.daolayer.interfaces.SpecializationDao;
 import com.boky.SubjectParser.daolayer.interfaces.SubjectDao;
 import com.boky.SubjectParser.services.dto.DTOTransformatorUtil;
 import com.boky.SubjectParser.services.dto.DependencyForEditDTO;
+import com.boky.SubjectParser.services.dto.SpecializationWithNameAndCodeDTO;
+import com.boky.SubjectParser.services.dto.SpecializationsForEditDTO;
 import com.boky.SubjectParser.services.dto.SubjectForEditDTO;
 import com.boky.SubjectParser.services.services.error.EditServiceException;
 
@@ -45,6 +47,8 @@ public class EditServiceHelper extends SpringBeanAutowiringSupport {
 	@Autowired
 	private EntityManagerFactory factory;
 
+	private EntityManager em;
+
 	public EditServiceHelper() {
 		super();
 		subjectDao = new SubjectDaoJPA();
@@ -54,12 +58,11 @@ public class EditServiceHelper extends SpringBeanAutowiringSupport {
 
 	public SubjectForEditDTO getSubjectById(String id) {
 		SubjectForEditDTO result = null;
-		EntityManager em = factory.createEntityManager();
-		startTransaction(em);
+		startTransaction();
 
 		Subject subjectFromDb = subjectDao.getById(id);
 
-		closeTransaction(em);
+		closeTransaction();
 
 		if (subjectFromDb != null) {
 			result = DTOTransformatorUtil.convertSubjectToSubjectForEditDTO(subjectFromDb);
@@ -69,8 +72,7 @@ public class EditServiceHelper extends SpringBeanAutowiringSupport {
 	}
 
 	public void updateSubject(SubjectForEditDTO paramSubject) throws EditServiceException {
-		EntityManager em = factory.createEntityManager();
-		startTransaction(em);
+		startTransaction();
 
 		Subject subjectForUpdate = subjectDao.getById(paramSubject.getId());
 		if (subjectForUpdate == null) {
@@ -78,9 +80,13 @@ public class EditServiceHelper extends SpringBeanAutowiringSupport {
 		}
 		updateSubjectData(paramSubject, subjectForUpdate);
 
-		subjectDao.saveOrUpdate(subjectForUpdate);
-
-		closeTransaction(em);
+		try {
+			subjectDao.saveOrUpdate(subjectForUpdate);
+		} catch (Exception e) {
+			closeTransactionInCaseOfException();
+			throw e;
+		}
+		closeTransaction();
 	}
 
 	private void updateSubjectData(SubjectForEditDTO paramSubject, Subject subjectForUpdate) {
@@ -146,14 +152,13 @@ public class EditServiceHelper extends SpringBeanAutowiringSupport {
 
 		// End of handle specializations
 
-		//		if (!paramSubject.getDescription().equals(subjectForUpdate.getDescription())) {
-		//			subjectForUpdate.setDescription(paramSubject.getDescription());
-		//		}
+		if (!paramSubject.getDescription().equals(subjectForUpdate.getDescription())) {
+			subjectForUpdate.setDescription(paramSubject.getDescription());
+		}
 	}
 
 	public void saveSubject(SubjectForEditDTO subject) throws EditServiceException {
-		EntityManager em = factory.createEntityManager();
-		startTransaction(em);
+		startTransaction();
 
 		if (subjectDao.getById(subject.getId()) != null) {
 			throw new EditServiceException("A subject already exists with id: " + subject.getId());
@@ -165,9 +170,20 @@ public class EditServiceHelper extends SpringBeanAutowiringSupport {
 				subject.getCredit(), subject.getOfferedSemester(), new HashSet<Dependency>(), specializations, subject.getDescription());
 		Set<Dependency> dependencies = fillupDependenciesForSave(subject, subjectToSave);
 		subjectToSave.getDependencies().addAll(dependencies);
-		subjectDao.saveOrUpdate(subjectToSave);
+		try {
+			subjectDao.saveOrUpdate(subjectToSave);
+		} catch (Exception e) {
+			closeTransactionInCaseOfException();
+			throw e;
+		}
 
-		closeTransaction(em);
+		closeTransaction();
+	}
+
+	private void closeTransactionInCaseOfException() {
+		em.getTransaction().rollback();
+		em.close();
+
 	}
 
 	private Set<Specialization> fillupSpeciailzationsForSave(SubjectForEditDTO subject) {
@@ -189,23 +205,39 @@ public class EditServiceHelper extends SpringBeanAutowiringSupport {
 	}
 
 	public void deleteSubject(String id) {
-		EntityManager em = factory.createEntityManager();
-		startTransaction(em);
+		startTransaction();
+		try {
+			subjectDao.deleteById(id);
+		} catch (Exception e) {
+			closeTransactionInCaseOfException();
+			throw e;
+		}
 
-		subjectDao.deleteById(id);
-
-		closeTransaction(em);
+		closeTransaction();
 	}
 
-	private void closeTransaction(EntityManager em) {
+	private void closeTransaction() {
 		em.getTransaction().commit();
 		em.close();
 	}
 
-	private void startTransaction(EntityManager em) {
+	private void startTransaction() {
+		em = factory.createEntityManager();
 		em.getTransaction().begin();
 		subjectDao.setEntityManager(em);
 		specializationDao.setEntityManager(em);
 		dependencyDao.setEntityManager(em);
+	}
+
+	public SpecializationsForEditDTO getSpecializationsWithCodeAndName() {
+		startTransaction();
+		List<Specialization> allEntity = specializationDao.getAllEntity();
+		SpecializationsForEditDTO result = new SpecializationsForEditDTO();
+		for (Specialization specialization : allEntity) {
+			result.getSpecialization().add(new SpecializationWithNameAndCodeDTO(specialization.getId(), specialization.getName()));
+		}
+		closeTransaction();
+
+		return result;
 	}
 }

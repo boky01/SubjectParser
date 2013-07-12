@@ -62,9 +62,7 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see
-	 * com.boky.SubjectParser.services.services.IServiceForWeb#getInitializedData
-	 * (java.lang.String)
+	 * @see com.boky.SubjectParser.services.services.IServiceForWeb#getInitializedData (java.lang.String)
 	 */
 	@Override
 	public InitializationDataForWebDTO getInitializedData(String specializationId) {
@@ -92,8 +90,7 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.boky.SubjectParser.services.services.IServiceForWeb#
-	 * getDependencyDepthAndDescription(java.lang.String, java.lang.String)
+	 * @see com.boky.SubjectParser.services.services.IServiceForWeb# getDependencyDepthAndDescription(java.lang.String, java.lang.String)
 	 */
 	@Override
 	public DependencyDepthAndDescriptionDTO getDependencyDepthAndDescription(String subjectId, String specialization) {
@@ -167,22 +164,13 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 		}
 	}
 
-	private boolean levelIsOneOrMinusOne(int level) {
-		return level == 1 || level == -1;
-	}
-
 	/**
-	 * It is needed because one subject is reachable in more path. It will be
-	 * kept only the deepest level.
+	 * It is needed because one subject is reachable in more path. It will be kept only the deepest level.
 	 * 
-	 * @param subjectDepths
-	 *            The subjectDepths map.
-	 * @param id
-	 *            Id of subject.
+	 * @param subjectDepths The subjectDepths map.
+	 * @param id Id of subject.
 	 * @param level
-	 * @param isForward
-	 *            It will decide if we are seeking the highes or the lowest
-	 *            level number.
+	 * @param isForward It will decide if we are seeking the highes or the lowest level number.
 	 * @return true or false
 	 */
 	private boolean subjectDepthsContainsADeeperDependency(Map<String, Integer> subjectDepths, String id, int level, boolean isForward) {
