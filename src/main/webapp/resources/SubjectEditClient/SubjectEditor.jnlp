@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="1.0+" codebase="http://localhost:8080/subjectparser/resources/SubjectEditClient" href="SubjectEditor.jnlp">
+	<information>
+		<title>Tantárgy Módosító alkalmazás</title>
+		<vendor>Andras Bokor</vendor>
+		<homepage href="http://localhost:8080/subjectparser/resources/SubjectEditClient" />
+		<description>Tantárgy Módosító alkalmazás</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.7" />
+		<jar href="SubjectEditor.jar" />
+	</resources>
+	<application-desc main-class="com.boky.client.components.LoginDialog" />
+</jnlp>
