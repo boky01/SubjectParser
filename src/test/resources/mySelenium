@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/subjectparser/fuggosegek/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/subjectparser/fuggosegek</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=h1.pretty:contains(&quot;Kötelező szakirány&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Szakirányok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>link=Kötelező</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Geotechnikai</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>link=Geotechnikai</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=h1.pretty:contains(&quot;Geotechnikai szakirány&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Szakirányok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Kötelező</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>link=Kötelező</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=h1.pretty:contains(&quot;Kötelező szakirány&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Szakirányok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Magasépítési</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>link=Magasépítési</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=h1.pretty:contains(&quot;Magasépítési szakirány&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Szakirányok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Szabadon választható</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>link=Szabadon választható</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=h1.pretty:contains(&quot;Szabadon választható szakirány&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Szakirányok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Települési</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>link=Települési</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=h1.pretty:contains(&quot;Települési szakirány&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Szakirányok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Tűz- és katasztrófavédelmi</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>link=Tűz- és katasztrófavédelmi</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=h1.pretty:contains(&quot;Tűz- és katasztrófavédelmi szakirány&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Kapcsolat</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Kapcsolatok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=FÜGGŐSÉGEK</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>link=Kötelező</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=h1.pretty:contains(&quot;Kötelező szakirány&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#description p:contains(&quot;Kattints egy tárgyra&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=SGYMMAT201XXX</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#description p:contains(&quot;SGYMMAT201XXX&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#SGYMMAT201XXX.dependencyBtn-forward0</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
