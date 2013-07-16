@@ -39,7 +39,7 @@
 			<li class="divider-vertical"></li>
 		</ul>
 		<ul class="nav pull-right">
-			<li><a href="<c:url value="/fuggosegek"/>/contacts">Kapcsolat</a></li>
+			<li><a href="<c:url value="/"/>/contacts">Kapcsolat</a></li>
 			<li><fb:like send="false" width="450" show_faces="true"
 					action="recommend" href="${pageContext.request.requestURL}"></fb:like></li>
 		</ul>

@@ -166,37 +166,6 @@ public class TestSubjectDaoJPA {
 	 * @throws DatabaseUnitException
 	 */
 	@Test
-	public void testSaveOrUpdateSubjectWhenUpdateAndChangeADependency() throws DatabaseUnitException {
-		Subject subject = subjectDaoJPA.getById("SGYMMET206XXX");
-		Dependency tmp = new Dependency(subjectDaoJPA.getById(subject.getId()), ((Specialization) subject.getSpecializations().toArray()[0]), false,
-				subjectDaoJPA.getById("SGYMMET201XXX"));
-		subject.setName("Updated name");
-		subject.setDependencies(new HashSet<Dependency>());
-
-		Specialization specializationToDelete = null;
-		for (Specialization specialization : subject.getSpecializations()) {
-			if (specialization.getId().equals("GEOTECHNIKAI")) {
-				specializationToDelete = specialization;
-				break;
-			}
-		}
-		subject.getSpecializations().remove(specializationToDelete);
-		subject.getDependencies().add(tmp);
-
-		subjectDaoJPA.saveOrUpdate(subject);
-		subjectDaoJPA.getEntityManager().getTransaction().commit();
-		IDataSet actualDatabaseDataSet = dbUnitInitializer.createActualDataSet();
-		IDataSet expectedDatabaseDataSet = dbUnitInitializer.createExpectedDataSet("expectedDataSetWhenUpdateASubject.xml");
-		Assertion.assertEquals(expectedDatabaseDataSet, actualDatabaseDataSet);
-
-	}
-
-	/**
-	 * Test method for {@link com.boky.SubjectParser.daolayer.implementations.DependencyDaoJPA2#saveOrUpdateSubject(com.boky.SubjectParser.daolayer.entities.Subject)} .
-	 * 
-	 * @throws DatabaseUnitException
-	 */
-	@Test
 	public void testSaveOrUpdateSubjectWhenUpdateAndRemoveASpecialization() throws DatabaseUnitException {
 
 		Subject subject = subjectDaoJPA.getById("SGYMMET202XXX");
@@ -240,6 +209,39 @@ public class TestSubjectDaoJPA {
 
 		assertNotNull(allSubject);
 		assertEquals(allSubject.size(), dbUnitInitializer.getDataSet().getTable("subject").getRowCount());
+
+	}
+
+	/**
+	 * Test method for {@link com.boky.SubjectParser.daolayer.implementations.DependencyDaoJPA2#saveOrUpdateSubject(com.boky.SubjectParser.daolayer.entities.Subject)} .
+	 * 
+	 * @throws DatabaseUnitException
+	 */
+	@Test
+	public void testSaveOrUpdateSubjectWhenUpdateAndChangeADependency() throws DatabaseUnitException {
+		Subject subject = subjectDaoJPA.getById("SGYMMET206XXX");
+		Dependency tmp = new Dependency(subjectDaoJPA.getById(subject.getId()), ((Specialization) subject.getSpecializations().toArray()[0]), false,
+				subjectDaoJPA.getById("SGYMMET201XXX"));
+		subject.setName("Updated name");
+		subject.getDependencies().clear();
+
+		Specialization specializationToDelete = null;
+		for (Specialization specialization : subject.getSpecializations()) {
+			if (specialization.getId().equals("GEOTECHNIKAI")) {
+				specializationToDelete = specialization;
+				break;
+			}
+		}
+		subject.getSpecializations().remove(specializationToDelete);
+		subject.getDependencies().add(tmp);
+
+		subjectDaoJPA.saveOrUpdate(subject);
+		subjectDaoJPA.getEntityManager().getTransaction().commit();
+		IDataSet actualDatabaseDataSet = dbUnitInitializer.createActualDataSet();
+		IDataSet expectedDatabaseDataSet = dbUnitInitializer.createExpectedDataSet("expectedDataSetWhenUpdateASubject.xml");
+		assertEquals(expectedDatabaseDataSet.getTable("dependency").getRowCount(), actualDatabaseDataSet.getTable("Dependency").getRowCount());
+		assertEquals("Updated name", subjectDaoJPA.getById("SGYMMET206XXX").getName());
+		assertEquals(expectedDatabaseDataSet.getTable("subject_specialization").getRowCount(), actualDatabaseDataSet.getTable("subject_specialization").getRowCount());
 
 	}
 }

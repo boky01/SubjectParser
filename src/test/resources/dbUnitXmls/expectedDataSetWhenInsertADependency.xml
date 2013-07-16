@@ -21,13 +21,13 @@
 		practical="6" semesterClosing="1" theoretical="6" />
 
 	<specialization id="GEOTECHNIKAI" name="Geotechnikai" />
-	<specialization id="KOTELEZO" name="Kötelező"/>
+	<specialization id="KOTELEZO" name="Kötelező" />
 	<specialization id="MAGASEPITESI" name="Magasépítési" />
 	<specialization id="TELEPULESI" name="Települési" />
 	<specialization id="TUZVEDELMI" name="Tűz- és katasztrófavédelmi" />
 	<specialization id="VALASZTHATO" name="Szabadon választható" />
 
-	
+
 	<dependency Id="1" onlyRegistration="0" dependencySubject="SGYMMET201XXX"
 		specialization_id="KOTELEZO" subject_id="SGYMMET202XXX" />
 	<dependency Id="2" onlyRegistration="0" dependencySubject="SGYMMET202XXX"
@@ -40,11 +40,11 @@
 		specialization_id="KOTELEZO" subject_id="SGYMMET206XXX" />
 	<dependency Id="6" onlyRegistration="1" dependencySubject="SGYMTUB2317XA"
 		specialization_id="MAGASEPITESI" subject_id="SGYMMET206XXX" />
-		<dependency Id="7" onlyRegistration="0" dependencySubject="SGYMMET201XXX"
+	<dependency Id="7" onlyRegistration="0" dependencySubject="SGYMMET201XXX"
 		specialization_id="GEOTECHNIKAI" subject_id="SGYMTUB2317XA" />
 
 
-<subject_specialization subject_id="SGYMMET206XXX"
+	<subject_specialization subject_id="SGYMMET206XXX"
 		specialization_id="GEOTECHNIKAI" />
 	<subject_specialization subject_id="SGYMTUB2317XA"
 		specialization_id="GEOTECHNIKAI" />
