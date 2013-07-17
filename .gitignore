@@ -7,3 +7,4 @@
 /target/*
 errors.log
 src/main/webapp/resources/bootstrap/css/bootstrap2.css~
+.settings
