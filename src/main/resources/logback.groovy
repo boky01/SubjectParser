@@ -11,18 +11,18 @@ import ch.qos.logback.classic.filter.LevelFilter
 
 def patternExpression = "%date{ISO8601} [%5level] %class - %msg%n"
 
-appender("FILE", FileAppender) {
-  file = "errors.log"
-  filter(LevelFilter) {
-    level = ERROR
-    onMatch = ACCEPT
-    onMismatch = DENY
-  }
-  //append = true
-  encoder(PatternLayoutEncoder) {
-    pattern = patternExpression
-  }
-}
+//appender("FILE", FileAppender) {
+//  file = "errors.log"
+//  filter(LevelFilter) {
+//    level = ERROR
+//    onMatch = ACCEPT
+//    onMismatch = DENY
+//  }
+//  //append = true
+//  encoder(PatternLayoutEncoder) {
+//    pattern = patternExpression
+//  }
+//}
 
 appender("STDERR", ConsoleAppender) {
     filter(EvaluatorFilter) {
@@ -35,7 +35,7 @@ appender("STDERR", ConsoleAppender) {
     encoder(PatternLayoutEncoder) {
       pattern = patternExpression
     }
-    target = "System.err"
+    target = "System.out"
   }
 
 appender("STDOUT", ConsoleAppender) {
@@ -57,4 +57,4 @@ logger("org.hibernate", WARN)
 logger("org.springframework", WARN)
 //logger("com.boky.SubjectParser", TRACE)
 
-root(INFO,["STDERR","STDOUT","FILE"])
+root(INFO,["STDERR","STDOUT"])

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<jnlp spec="1.0+" codebase="http://localhost:8080/subjectparser/resources/SubjectEditClient" href="SubjectEditor.jnlp">
+<jnlp spec="1.0+" codebase="http://subjectparser.boky01.cloudbees.net/resources/SubjectEditClient" href="SubjectEditor.jnlp">
 	<information>
 		<title>Tantárgy Módosító alkalmazás</title>
 		<vendor>Andras Bokor</vendor>
-		<homepage href="http://localhost:8080/subjectparser/resources/SubjectEditClient" />
+		<homepage href="http://subjectparser.boky01.cloudbees.net/resources/SubjectEditClient" />
 		<description>Tantárgy Módosító alkalmazás</description>
 	</information>
 	<security>

@@ -27,12 +27,11 @@
 			<li><a
 				href="<c:url value="/resources/SubjectEditClient/SubjectEditor.jnlp"/>">Tantárgy
 					módosító</a></li>
-			<li class="divider-vertical"></li>
 		</ul>
 		<ul class="nav pull-right">
-			<li><a href="<c:url value="/"/>/contacts">Kapcsolat</a></li>
-			<li style="margin:5px;"><fb:like send="false" width="450" show_faces="true"
-					action="recommend" href="${pageContext.request.requestURL}"></fb:like></li>
+			<li><a href="<c:url value="/"/>contacts">Kapcsolat</a></li>
+			<li style="margin:5px;"><fb:like send="false" width="450" show_faces="false"
+					action="recommend" href="http://subjectparser.boky01.cloudbees.net/fuggosegek/kotelezo"></fb:like></li>
 		</ul>
 	</div>
 </div>

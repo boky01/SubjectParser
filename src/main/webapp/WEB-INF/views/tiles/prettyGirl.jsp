@@ -4,7 +4,8 @@
 	<h5 class="pretty">Nézz vissza holnap is!</h5>
 	<div class="semester">
 		<img class="img-polaroid" src="${imageName}"
-			alt="Hoops! Valamiért nem jelenik meg a kép!"><br />
-		<fb:like send="false" width="450" show_faces="true"	href="${pageContext.request.requestURL}/${imageName}"/>
+			alt="Hoops! Valamiért nem jelenik meg a kép!"><br/>
+		<fb:like send="false" width="450" show_faces="false"
+					action="recommend" href="http://${pageContext.request.serverName}/surprise"></fb:like>
 	</div>
 </div>

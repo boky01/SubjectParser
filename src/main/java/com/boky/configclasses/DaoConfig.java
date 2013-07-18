@@ -87,7 +87,7 @@ public class DaoConfig {
 	@Bean
 	public JndiObjectFactoryBean dataSource() {
 		JndiObjectFactoryBean jndiObjectFactoryBean = new JndiObjectFactoryBean();
-		jndiObjectFactoryBean.setJndiName("java:comp/env/jdbc/SubjectDependencies");
+		jndiObjectFactoryBean.setJndiName("java:comp/env/jdbc/mydb");
 		jndiObjectFactoryBean.setLookupOnStartup(true);
 		jndiObjectFactoryBean.setProxyInterface(DataSource.class);
 		return jndiObjectFactoryBean;

@@ -18,7 +18,9 @@
 
 .btn{
 	text-shadow: none;
-	font-size: 12px;
+	font-size: 11px;
+	line-height: normal;
+	padding: 4px 6px;
 }
 /*bootstrap overrides*/
 
@@ -46,7 +48,8 @@
 }
 
 body{
-	min-width: 1800px;
+	min-width: 1600px;
+	font-size: 12px;
 }
 #content {
 	overflow: auto;
@@ -65,8 +68,8 @@ body{
 .semester>* {
 	display: inline-block;
 	/* 	margin: 10px 1px 10px 1px; top, right, bottom, left */
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .semester > label {
@@ -91,7 +94,7 @@ body{
 }
 
 .semester > .dependencyBtn{
-	height: 50px;
+	height: 40px;
 }
 
 .dependencyBtn-standby {
