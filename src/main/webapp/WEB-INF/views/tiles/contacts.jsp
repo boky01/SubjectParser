@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
 <div id="content">
 	<h1 class="pretty">Kapcsolatok</h1>
 	<div id="contacts">

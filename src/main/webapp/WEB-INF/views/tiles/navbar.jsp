@@ -1,6 +1,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
 <c:url var="resources" value="/resources" />
 <div id="navigationbar" class="navbar" style="margin-bottom: 0px;">
 	<div class="navbar-inner">

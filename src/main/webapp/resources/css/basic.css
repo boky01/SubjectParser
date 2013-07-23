@@ -48,17 +48,29 @@
 }
 
 body{
-	min-width: 1600px;
 	font-size: 12px;
 }
 #content {
 	overflow: auto;
 }
 
+#semesterContainer{
+	float: left;
+	min-width: 100%;
+}
+
 .semester {
-	text-align: center;
 	background: none repeat scroll 0 0 #EFECE6;
 	margin: 5px;
+	white-space: nowrap;
+}
+
+.girlImageContainer {
+	text-align: center;
+}
+
+.girlImageContainer img {
+	max-height: 650px;
 }
 
 .semester.even{
@@ -74,6 +86,7 @@ body{
 
 .semester > label {
 	font-weight: bolder;
+	margin-left: 5px;
 }
 
 .pretty {

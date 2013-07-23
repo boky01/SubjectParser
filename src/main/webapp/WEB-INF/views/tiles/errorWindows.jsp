@@ -1,4 +1,4 @@
-
+<%@ page trimDirectiveWhitespaces="true" %>
 <div id="500errorAlert" class="modal alert-error hide fade in">
 	<div class="modal-header">
 		<a class="close" data-dismiss="modal">Bezár</a>

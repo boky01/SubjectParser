@@ -1,3 +1,4 @@
+<%@ page trimDirectiveWhitespaces="true" %>
 <div id="content">
 	<div class="aler alert-error fade in errorMsg">
 	Hiba történt!<br />

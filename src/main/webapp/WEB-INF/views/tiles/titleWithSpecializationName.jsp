@@ -1,3 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-Ybl-Miklos Foiskola targyfüggőségei - ${actualSpecialization.name} szakirány
+    <%@ page trimDirectiveWhitespaces="true" %>
+Ybl-Miklós Főiskola tárgyfüggőségei - ${actualSpecialization.name} szakirány

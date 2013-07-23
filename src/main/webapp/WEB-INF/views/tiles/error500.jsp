@@ -1,3 +1,4 @@
+<%@ page trimDirectiveWhitespaces="true" %>
 <div id="content">
 	<span class="forKeyki">Ismeretlen hiba történt!</span> <br />
 	<p class="errorMsg">
