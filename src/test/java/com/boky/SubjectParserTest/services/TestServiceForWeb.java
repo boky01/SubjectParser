@@ -251,7 +251,7 @@ public class TestServiceForWeb {
 
 	private String createExceptedDescription() {
 		return "Azonosító: SGYMMET203XXX\n" + "Név: Mechanika III. (Tartók statikája)\nE/GY/L/FZ: 3/4/5/Félévközi\nKredit: 5\nAjánlott félév: 5\nSzakirányok: [Geotechnikai]"
-				+ "\nLeírás: It is a very long description\n\n";
+				+ "\nLeírás: It is a very long description\n";
 	}
 
 	private Map<String, Integer> createExpectedDependencyDepthMap() {

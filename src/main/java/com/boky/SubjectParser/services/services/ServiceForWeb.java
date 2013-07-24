@@ -117,7 +117,7 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 		List<SpecializationWithNameAndCodeDTO> specializations = DTOTransformatorUtil.convertSpecializatonListToSpecializationWithNameAndCodeDTOList(subject.getSpecializations());
 		return "Azonosító: " + subject.getId() + "\nNév: " + subject.getName() + "\nE/GY/L/FZ: " + subject.getTheoretical() + "/" + subject.getPractical() + "/"
 				+ subject.getLabor() + "/" + subject.getSemesterClosing().getValue() + "\nKredit: " + subject.getCredit() + "\nAjánlott félév: " + subject.getOfferedSemester()
-				+ "\nSzakirányok: " + specializations + "\nLeírás: " + subject.getDescription() + "\n\n";
+				+ "\nSzakirányok: " + specializations + "\nLeírás: " + subject.getDescription() + "\n";
 	}
 
 	private void buildDependencyBackwardDepthHashMap(Subject subject, String specialization, int level, Map<String, Integer> subjectDepths) {
@@ -125,7 +125,7 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 		for (Dependency dependency : subject.getDependencies()) {
 			if (dependency.getSpecialization().getId().equals(specialization) || dependency.getSpecialization().getId().equals("KOTELEZO")) {
 				buildDependencyBackwardDepthHashMap(dependency.getDependencySubject(), specialization, (level - 1), subjectDepths);
-				if (!subjectDepthsContainsADeeperDependency(subjectDepths, subject.getId(), level, false)) {
+				if (!subjectDepthsContainsADeeperDependency(subjectDepths, dependency.getDependencySubject().getId(), level, false)) {
 					if (dependency.isOnlyRegistration()) {
 						if (level == -1) {
 							subjectDepths.put(dependency.getDependencySubject().getId(), -99); // 99 means it is an onlyRegistration dependency
@@ -149,7 +149,7 @@ public class ServiceForWeb implements IServiceForWeb, ApplicationContextAware {
 			String specializationOfDependency = dependency.getSpecialization().getId();
 			if (specializationOfDependency.equals(specialization) || specializationOfDependency.equals("KOTELEZO")) {
 				buildDependencyForwardDepthHashMap(dependency.getSubject(), specialization, level + 1, subjectDepths);
-				if (!subjectDepthsContainsADeeperDependency(subjectDepths, dependency.getSubject().getId(), level, false)) {
+				if (!subjectDepthsContainsADeeperDependency(subjectDepths, dependency.getSubject().getId(), level, true)) {
 					if (dependency.isOnlyRegistration()) {
 						if (level == 1) {
 							subjectDepths.put(dependency.getSubject().getId(), 99);
