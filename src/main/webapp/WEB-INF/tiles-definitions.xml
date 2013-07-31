@@ -34,7 +34,7 @@
 		<put-attribute name="footer" value="" />
 	</definition>
 	<definition name="prettyGirl" extends="baseLayout">
-		<put-attribute name="title" value="Ybl-Miklós Főiskola - Pretty Girls" />
+		<put-attribute name="title" value="Nap lánya" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/tiles/prettyGirl.jsp" />
 		<put-attribute name="footer" value="" />
