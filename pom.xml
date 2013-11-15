@@ -32,7 +32,6 @@
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>${hibernate-version}</version>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -129,7 +128,6 @@
 					<groupId>org.slf4j</groupId>
 				</exclusion>
 			</exclusions>
-			<scope>compile</scope>
 		</dependency>
 
 		<!-- Test -->
@@ -210,7 +208,6 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>jcl-over-slf4j</artifactId>
 			<version>${slf4j-version}</version>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
